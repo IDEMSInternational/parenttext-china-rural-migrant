@@ -1,0 +1,476 @@
+[
+  {
+    "SourceText": "Are you a WOMAN or MAN?",
+    "text": "请问您的性别是？",
+    "type": "text",
+    "note": ""
+  },
+  {
+    "SourceText": "Sorry, I don't understand what you mean.",
+    "text": "抱歉，我不明白你的意思。",
+    "type": "text",
+    "note": ""
+  },
+  {
+    "SourceText": "Is @fields.child_nickname a girl or a boy?",
+    "text": " @fields.child_nickname 是女孩还是男孩？",
+    "type": "text",
+    "note": "Strings like @fields.xxx and @results.yyy should not be translated."
+  },
+  {
+    "SourceText": "Is your child a girl or a boy?",
+    "text": "你的孩子是女孩还是男孩？",
+    "type": "text",
+    "note": ""
+  },
+  {
+    "SourceText": "ParentText is easiest to use when you receive content as videos, images and text. However, your data bundle and bandwidth may not support videos. To save on data, you can opt to receive the same content as text and illustrations. How would you like to receive ParentText?",
+    "text": "我们可以通过推送视频或者文字消息，来为你提供育儿知识和技巧。\n\n你希望以何种形式接收信息呢？\n\n两种方式的内容都是一样的。如果你之后想要换种方式，可以随时在主菜单中输入 {MENU} ，进行修改。",
+    "type": "text",
+    "note": ""
+  },
+  {
+    "SourceText": "What is your relationship status?",
+    "text": "请问您家住哪个乡镇？",
+    "type": "text",
+    "note": ""
+  },
+  {
+    "SourceText": "What is your child's name?",
+    "text": "我们怎么称呼你的孩子？（如：轩轩、欣欣）",
+    "type": "text",
+    "note": ""
+  },
+  {
+    "SourceText": "Please type \"N\" if you prefer not to answer.",
+    "text": "如不想回答，请输入“过”。",
+    "type": "text",
+    "note": ""
+  },
+  {
+    "SourceText": "What is your family name (surname)?",
+    "text": "家长您好，请问您的姓名是什么？\n\n答案仅用于制作结业证书。",
+    "type": "text",
+    "note": ""
+  },
+  {
+    "SourceText": "What is your first name?",
+    "text": "请问你们村的村医叫什么名字？",
+    "type": "text",
+    "note": ""
+  },
+  {
+    "SourceText": "This programme works! Did you know that over 200 million parents around the world have used our resources developed by Parenting for Lifelong Health, WHO, and UNICEF?",
+    "text": "这门课程广受家长好评，其有效性也经受住了科学检验！课程内容由家庭养育与终身健康慈善社会组织、世界卫生组织和联合国儿童基金会共同开发，并由北京师范大学社会发展与公共政策学院家庭与儿童研究中心进行深度本土化构建而成。你知道吗？全球有两亿多家长都学过这门课程！",
+    "type": "text",
+    "note": ""
+  },
+  {
+    "SourceText": "✅Participating in ParentText is optional. ",
+    "text": "✅你可以自由选择是否参与“科育时光”。 ",
+    "type": "text",
+    "note": ""
+  },
+  {
+    "SourceText": "✅Your personal information is safe and private. Your name and information will not be public, but your responses will be kept and used by researchers to learn how to support families like yours.  They plan to publish the results. ",
+    "text": "✅ 我们将确保你个人信息的安全。你的姓名和信息不会被公开，但你对一些问题的回答可能会被科研人员使用，目的是了解如何更好地为家长们提供支持。 ",
+    "type": "text",
+    "note": ""
+  },
+  {
+    "SourceText": "❌You can stop when you want. Just type {STOP}",
+    "text": "❌你可以随时输入 {STOP} 来停止学习。",
+    "type": "text",
+    "note": ""
+  },
+  {
+    "SourceText": "❓If you have questions, ask Dr. Jamie Lachman at jamie.lachman@spi.ox.ac.uk; +44(7)840825892",
+    "text": "❓ 如果你有任何疑问，请联系方祖仪博士：fangzuyi@bnu.edu.cn。",
+    "type": "text",
+    "note": "Strings like @fields.xxx and @results.yyy should not be translated."
+  },
+  {
+    "SourceText": "Click here for more information:",
+    "text": "点击获取更多信息：",
+    "type": "text",
+    "note": ""
+  },
+  {
+    "SourceText": "Press YES if you agree with this. Type \"EXIT\" if you do not want to participate. ",
+    "text": "如果你同意以上，请点击“是”继续参与。如果你不想参与，请输入“退出”。 ",
+    "type": "text",
+    "note": ""
+  },
+  {
+    "SourceText": "That is wonderful, thank you so much! ",
+    "text": "太好了，感谢你的参与！ ",
+    "type": "text",
+    "note": ""
+  },
+  {
+    "SourceText": "I am sorry I did not understand. Press YES if you agree with this. Type \"EXIT\" if you do not want to participate.",
+    "text": "对不起，我不太明白你的意思。如果你同意，请点击“是”。如果你不想参加，请输入“退出”。",
+    "type": "text",
+    "note": ""
+  },
+  {
+    "SourceText": "Can you please confirm that you are 18 years old or older?",
+    "text": "请确认你是否年满18岁？",
+    "type": "text",
+    "note": ""
+  },
+  {
+    "SourceText": "Great! Let's begin.",
+    "text": "太棒了！让我们开始吧。",
+    "type": "text",
+    "note": ""
+  },
+  {
+    "SourceText": "Are you sure you do not want to get these messages? If you do not want to receive any more messages, please type {STOP}. If you made a mistake, please press BACK and choose another option.",
+    "text": "你确定不想再收到这些消息吗？如果你不想接收更多信息，请输入 {STOP} 。如果你误选了，请点击“返回”并选择其他选项。",
+    "type": "text",
+    "note": ""
+  },
+  {
+    "SourceText": "If you ever return to participate in the programme, type {START}. ",
+    "text": "如果你想回来继续学习，请输入 {START} 。 ",
+    "type": "text",
+    "note": ""
+  },
+  {
+    "SourceText": "We hope to see you again soon, and we wish you a happy and peaceful day!",
+    "text": "希望很快能再次见到你，祝你度过快乐祥和的一天！",
+    "type": "text",
+    "note": ""
+  },
+  {
+    "SourceText": "Sorry, ParentText is only for people over the age of 18. Do you confirm that you are under the age of 18?",
+    "text": "抱歉，“科育时光” 仅适用于 18 岁以上的家长。你确定你未满 18 岁吗？",
+    "type": "text",
+    "note": ""
+  },
+  {
+    "SourceText": "If you want to experience ParentText, you can always share it with your parents or caregivers.",
+    "text": "如果你想体验“科育时光”，你可以随时发给你的家长。",
+    "type": "text",
+    "note": ""
+  },
+  {
+    "SourceText": "Here is a video that shows how to use ParentText.",
+    "text": "以下视频将为你介绍“科育时光”的使用方法。",
+    "type": "text",
+    "note": ""
+  },
+  {
+    "SourceText": "⏯ Click to watch the video",
+    "text": "⏯ 点击观看视频（先看视频，再点下一步😎）",
+    "type": "text",
+    "note": ""
+  },
+  {
+    "SourceText": "Variables have been reset",
+    "text": "已重置",
+    "type": "text",
+    "note": ""
+  },
+  {
+    "SourceText": "When was @fields.child_nickname born? Enter their date of birth in the following format: YYYY/MM/DD. For example, if your child was born on May 19, 2015, enter 2015/5/19.",
+    "text": "请按以下格式输入 @fields.child_nickname 的出生日期：年/月/日。",
+    "type": "text",
+    "note": "Strings like @fields.xxx and @results.yyy should not be translated."
+  },
+  {
+    "SourceText": "When was your child born? Enter their date of birth in the following format: YYYY/MM/DD. For example, if your child was born on May 19, 2015, enter 2015/5/19.",
+    "text": "例如，如果孩子是2019年5月19日出生的，请输入2019/5/19。",
+    "type": "text",
+    "note": ""
+  },
+  {
+    "SourceText": "Sorry, this date is invalid. Please write your child's date of birth in this way: YYYY/MM/DD. For example, if your child was born on May 19, 2015, write 2015/05/19.",
+    "text": "对不起，输入无效。请按以下方式输入孩子的出生日期：年/月/日。 例如，如果你的孩子出生于2019年5月19日，请输入2019/5/19。",
+    "type": "text",
+    "note": ""
+  },
+  {
+    "SourceText": "The date you entered is in the future. Please write your child's date of birth in this way: YYYY/MM/DD. For example, if your child was born on May 19, 2015, write  2015/05/19.",
+    "text": "日期输入错误。请按以下方式输入孩子的出生日期：年/月/日。 例如，如果你的孩子出生于2019年5月19日，请输入2019/5/19。",
+    "type": "text",
+    "note": ""
+  },
+  {
+    "SourceText": "Let's try again. Please write your child's date of birth in this way: YYYY/MM/DD. For example, if your child was born on May 19, 2015, write  2015/05/19.",
+    "text": "请重新输入。请按以下方式输入孩子的出生日期：年/月/日。 例如，如果你的孩子出生于2019年5月19日，请输入2019/5/19。",
+    "type": "text",
+    "note": ""
+  },
+  {
+    "SourceText": "@fields.child_nickname is @(round_down(datetime_diff(results.date,now(),\"M\")/12)) years old. Is that correct?",
+    "text": "@fields.child_nickname 今年 @(round_down(datetime_diff(results.date,now(),\"M\")/12)) 岁了，是吗？",
+    "type": "text",
+    "note": "Strings like @fields.xxx and @results.yyy should not be translated."
+  },
+  {
+    "SourceText": "Your child is @(round_down(datetime_diff(results.date,now(),\"M\")/12)) years old. Is that correct?",
+    "text": "你的孩子今年 @(round_down(datetime_diff(results.date,now(),\"M\")/12)) 岁，是吗？",
+    "type": "text",
+    "note": "Strings like @fields.xxx and @results.yyy should not be translated."
+  },
+  {
+    "SourceText": "According to the date you gave, @fields.child_nickname would be @(round_down(datetime_diff(results.date,now(),\"M\")/12)) years old. ParentText is only for children aged 2-9. If your child is aged 2-9, please write the date for your child's birth in this way: YYYY/MM/DD. For example, if your child was born on May 19, 2015, write  2015/05/19.",
+    "text": "根据你输入的日期， @fields.child_nickname 今年 @(round_down(datetime_diff(results.date,now(),\"M\")/12)) 岁了。\n\n“科育时光”仅适用于2-9岁儿童。\n\n如果你孩子的年龄在 2-9 岁之间，请按以下方式写下孩子的出生日期：年/月/日。例如，如果你的孩子出生于 2019年5月19日，请输入2019/5/19。",
+    "type": "text",
+    "note": "Strings like @fields.xxx and @results.yyy should not be translated."
+  },
+  {
+    "SourceText": "According to the date you gave, your child would be @(round_down(datetime_diff(results.date,now(),\"M\")/12)) years old. ParentText is only for children aged 2-9. If your child is aged 2-9, please write the date for your child's birth in this way: YYYY/MM/DD. For example, if your child was born on May 19, 2015, write  2015/05/19.",
+    "text": "根据你输入的日期，你的孩子今年 @(round_down(datetime_diff(results.date,now(),\"M\")/12)) 岁了。\n\n“科育时光”仅适用于2-9岁儿童。\n\n如果你孩子的年龄在 2-9 岁之间，请按以下方式写下孩子的出生日期：年/月/日。例如，如果你的孩子出生于 2019年5月19日，请输入2019/5/19。",
+    "type": "text",
+    "note": "Strings like @fields.xxx and @results.yyy should not be translated."
+  },
+  {
+    "SourceText": "According to the date you gave, @fields.child_nickname would be @(round_down(datetime_diff(results.date,now(),\"M\")/12)) years old. ParentText is only for children aged 2-9. If your child is aged 2-9, please write the date for your child's birth in this way: YYYY/MM/DD. For example, if your child was born on May 19, 2015, write 2015/05/19.",
+    "text": "根据你输入的日期， @fields.child_nickname 今年 @(round_down(datetime_diff(results.date,now(),\"M\")/12)) 岁了。\n\n“科育时光”仅适用于2-9岁儿童。\n\n如果你孩子的年龄在 2-9 岁之间，请按以下方式写下孩子的出生日期：年/月/日。例如，如果你的孩子出生于 2019年5月19日，请输入2019/5/19。",
+    "type": "text",
+    "note": "Strings like @fields.xxx and @results.yyy should not be translated."
+  },
+  {
+    "SourceText": "According to the date you gave, your child would be @(round_down(datetime_diff(results.date,now(),\"M\")/12)) years old. ParentText is only for children aged 2-9. If your child is aged 2-9, please write the date for your child's birth in this way: YYYY/MM/DD. For example, if your child was born on May 19, 2015, write 2015/05/19.",
+    "text": "根据你输入的日期，你的孩子今年 @(round_down(datetime_diff(results.date,now(),\"M\")/12)) 岁了。\n\n“科育时光”仅适用于2-9岁儿童。\n\n如果你孩子的年龄在 2-9 岁之间，请按以下方式写下孩子的出生日期：年/月/日。例如，如果你的孩子出生于 2019年5月19日，请输入2019/5/19。",
+    "type": "text",
+    "note": "Strings like @fields.xxx and @results.yyy should not be translated."
+  },
+  {
+    "SourceText": "ParentText will help you with all of the children in your life, but in this programme, we are focusing on just one child at a time.",
+    "text": "你在“科育时光”里学习到的内容，将有益于家里的每个孩子！\n\n但在这次的学习过程中，让我们先重点关注一个孩子。",
+    "type": "text",
+    "note": ""
+  },
+  {
+    "SourceText": "Welcome to ParentText, your partner in parenting. Thank you for being here! Let's get started:",
+    "text": "欢迎使用“科育时光”——你的育儿好帮手。\n我们开始吧！",
+    "type": "text",
+    "note": ""
+  },
+  {
+    "SourceText": "Woman",
+    "text": "女性",
+    "type": "quick_replies",
+    "note": "This is a quick reply and its translation should be uniquely identified by the corresponding argument"
+  },
+  {
+    "SourceText": "Man",
+    "text": "男性",
+    "type": "quick_replies",
+    "note": "This is a quick reply and its translation should be uniquely identified by the corresponding argument"
+  },
+  {
+    "SourceText": "Prefer not to say",
+    "text": "不想回答",
+    "type": "quick_replies",
+    "note": "This is a quick reply and its translation should be uniquely identified by the corresponding argument"
+  },
+  {
+    "SourceText": "Girl",
+    "text": "女孩",
+    "type": "quick_replies",
+    "note": "This is a quick reply and its translation should be uniquely identified by the corresponding argument"
+  },
+  {
+    "SourceText": "Boy",
+    "text": "男孩",
+    "type": "quick_replies",
+    "note": "This is a quick reply and its translation should be uniquely identified by the corresponding argument"
+  },
+  {
+    "SourceText": "Text, Images, and Videos",
+    "text": "视频",
+    "type": "quick_replies",
+    "note": "This is a quick reply and its translation should be uniquely identified by the corresponding argument"
+  },
+  {
+    "SourceText": "Text and Images Only",
+    "text": "文字消息",
+    "type": "quick_replies",
+    "note": "This is a quick reply and its translation should be uniquely identified by the corresponding argument"
+  },
+  {
+    "SourceText": "Single (not in a relationship)",
+    "text": "郭城驿镇",
+    "type": "quick_replies",
+    "note": "This is a quick reply and its translation should be uniquely identified by the corresponding argument"
+  },
+  {
+    "SourceText": "Partnered but not married",
+    "text": "河畔镇",
+    "type": "quick_replies",
+    "note": "This is a quick reply and its translation should be uniquely identified by the corresponding argument"
+  },
+  {
+    "SourceText": "Married",
+    "text": "其他",
+    "type": "quick_replies",
+    "note": "This is a quick reply and its translation should be uniquely identified by the corresponding argument"
+  },
+  {
+    "SourceText": "YES",
+    "text": "是",
+    "type": "quick_replies",
+    "note": "This is a quick reply and its translation should be uniquely identified by the corresponding argument"
+  },
+  {
+    "SourceText": "Yes, I am over 18",
+    "text": "是的，我已经年满18岁了。",
+    "type": "quick_replies",
+    "note": "This is a quick reply and its translation should be uniquely identified by the corresponding argument"
+  },
+  {
+    "SourceText": "No, I am under 18",
+    "text": "不，我未满18岁。",
+    "type": "quick_replies",
+    "note": "This is a quick reply and its translation should be uniquely identified by the corresponding argument"
+  },
+  {
+    "SourceText": "BACK",
+    "text": "返回",
+    "type": "quick_replies",
+    "note": "This is a quick reply and its translation should be uniquely identified by the corresponding argument"
+  },
+  {
+    "SourceText": "Yes",
+    "text": "是",
+    "type": "quick_replies",
+    "note": "This is a quick reply and its translation should be uniquely identified by the corresponding argument"
+  },
+  {
+    "SourceText": "No",
+    "text": "否",
+    "type": "quick_replies",
+    "note": "This is a quick reply and its translation should be uniquely identified by the corresponding argument"
+  },
+  {
+    "SourceText": "NEXT",
+    "text": "下一步",
+    "type": "quick_replies",
+    "note": "This is a quick reply and its translation should be uniquely identified by the corresponding argument"
+  },
+  {
+    "SourceText": "woman",
+    "text": "女性",
+    "type": "arguments",
+    "note": "This is an argument and it may be used to identify a corresponding quick reply"
+  },
+  {
+    "SourceText": "man",
+    "text": "男性",
+    "type": "arguments",
+    "note": "This is an argument and it may be used to identify a corresponding quick reply"
+  },
+  {
+    "SourceText": "prefer not to say",
+    "text": "不想回答",
+    "type": "arguments",
+    "note": "This is an argument and it may be used to identify a corresponding quick reply"
+  },
+  {
+    "SourceText": "girl",
+    "text": "女孩",
+    "type": "arguments",
+    "note": "This is an argument and it may be used to identify a corresponding quick reply"
+  },
+  {
+    "SourceText": "boy",
+    "text": "男孩",
+    "type": "arguments",
+    "note": "This is an argument and it may be used to identify a corresponding quick reply"
+  },
+  {
+    "SourceText": "text, images, and videos",
+    "text": "漫画、视频和简略文本",
+    "type": "arguments",
+    "note": "This is an argument and it may be used to identify a corresponding quick reply"
+  },
+  {
+    "SourceText": "text and images only",
+    "text": "漫画和详细文本",
+    "type": "arguments",
+    "note": "This is an argument and it may be used to identify a corresponding quick reply"
+  },
+  {
+    "SourceText": "single (not in a relationship)",
+    "text": "单身（无伴侣）",
+    "type": "arguments",
+    "note": "This is an argument and it may be used to identify a corresponding quick reply"
+  },
+  {
+    "SourceText": "partnered but not married",
+    "text": "未婚但有伴侣",
+    "type": "arguments",
+    "note": "This is an argument and it may be used to identify a corresponding quick reply"
+  },
+  {
+    "SourceText": "married",
+    "text": "已婚",
+    "type": "arguments",
+    "note": "This is an argument and it may be used to identify a corresponding quick reply"
+  },
+  {
+    "SourceText": "n",
+    "text": "过",
+    "type": "arguments",
+    "note": "This is an argument and it may be used to identify a corresponding quick reply"
+  },
+  {
+    "SourceText": "yes y",
+    "text": "是",
+    "type": "arguments",
+    "note": "This is an argument and it may be used to identify a corresponding quick reply"
+  },
+  {
+    "SourceText": "exit",
+    "text": "退出",
+    "type": "arguments",
+    "note": "This is an argument and it may be used to identify a corresponding quick reply"
+  },
+  {
+    "SourceText": "yes y over",
+    "text": "是",
+    "type": "arguments",
+    "note": "This is an argument and it may be used to identify a corresponding quick reply"
+  },
+  {
+    "SourceText": "no n under",
+    "text": "否",
+    "type": "arguments",
+    "note": "This is an argument and it may be used to identify a corresponding quick reply"
+  },
+  {
+    "SourceText": "stop",
+    "text": "停止",
+    "type": "arguments",
+    "note": "This is an argument and it may be used to identify a corresponding quick reply"
+  },
+  {
+    "SourceText": "back",
+    "text": "返回",
+    "type": "arguments",
+    "note": "This is an argument and it may be used to identify a corresponding quick reply"
+  },
+  {
+    "SourceText": "no n",
+    "text": "否",
+    "type": "arguments",
+    "note": "This is an argument and it may be used to identify a corresponding quick reply"
+  },
+  {
+    "SourceText": "yes y yeah yep",
+    "text": "是",
+    "type": "arguments",
+    "note": "This is an argument and it may be used to identify a corresponding quick reply"
+  },
+  {
+    "SourceText": "no n nope",
+    "text": "否",
+    "type": "arguments",
+    "note": "This is an argument and it may be used to identify a corresponding quick reply"
+  }
+]

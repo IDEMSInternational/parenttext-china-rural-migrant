@@ -1,0 +1,3989 @@
+{
+  "meta": {
+    "version": "0.1.0"
+  },
+  "sheets": {
+    "==content==": [
+      {
+        "flow_type": "flow_editing",
+        "flow_name": "",
+        "sheet_name": "comic_names_eng_additional",
+        "status": "released",
+        "order": "1"
+      },
+      {
+        "flow_type": "translation_editing",
+        "flow_name": "",
+        "sheet_name": "comic_names_transl",
+        "status": "released",
+        "order": "1"
+      },
+      {
+        "flow_type": "flow_editing",
+        "flow_name": "",
+        "sheet_name": "external_references_eng",
+        "status": "released",
+        "order": "1"
+      },
+      {
+        "flow_type": "translation_editing",
+        "flow_name": "",
+        "sheet_name": "external_references_transl",
+        "status": "released",
+        "order": "1"
+      },
+      {
+        "flow_type": "flow_editing",
+        "flow_name": "",
+        "sheet_name": "referrals_eng",
+        "status": "released",
+        "order": "1"
+      },
+      {
+        "flow_type": "translation_editing",
+        "flow_name": "",
+        "sheet_name": "referrals_transl",
+        "status": "released",
+        "order": "1"
+      },
+      {
+        "flow_type": "flow_editing",
+        "flow_name": "",
+        "sheet_name": "triggers_eng",
+        "status": "released",
+        "order": "1"
+      },
+      {
+        "flow_type": "translation_editing",
+        "flow_name": "",
+        "sheet_name": "triggers_transl",
+        "status": "released",
+        "order": "1"
+      },
+      {
+        "flow_type": "flow_editing",
+        "flow_name": "",
+        "sheet_name": "comic_links_eng",
+        "status": "released",
+        "order": "1"
+      },
+      {
+        "flow_type": "translation_editing",
+        "flow_name": "",
+        "sheet_name": "comic_links_transl",
+        "status": "released",
+        "order": "1"
+      },
+      {
+        "flow_type": "flow_editing",
+        "flow_name": "",
+        "sheet_name": "video_links_eng",
+        "status": "released",
+        "order": "1"
+      },
+      {
+        "flow_type": "translation_editing",
+        "flow_name": "",
+        "sheet_name": "video_links_transl",
+        "status": "released",
+        "order": "1"
+      },
+      {
+        "flow_type": "flow_editing",
+        "flow_name": "",
+        "sheet_name": "remove_wa_bold_eng",
+        "status": "released",
+        "order": "1"
+      },
+      {
+        "flow_type": "translation_editing",
+        "flow_name": "",
+        "sheet_name": "remove_wa_bold_transl",
+        "status": "released",
+        "order": "1"
+      },
+      {
+        "flow_type": "flow_editing",
+        "flow_name": "",
+        "sheet_name": "badge_links_eng",
+        "status": "released",
+        "order": "1"
+      },
+      {
+        "flow_type": "translation_editing",
+        "flow_name": "",
+        "sheet_name": "badge_links_transl",
+        "status": "released",
+        "order": "1"
+      }
+    ],
+    "remove_wa_bold_eng": [
+      {
+        "type_of_edit": "replace_bit_of_text",
+        "flow_id": "Regex:.*",
+        "original_row_id": "",
+        "node_identifier": "Regex:.*",
+        "change": "*",
+        "condition_var": "",
+        "category": ""
+      }
+    ],
+    "remove_wa_bold_transl": [
+      {
+        "type_of_edit": "replace_bit_of_text",
+        "flow_id": "Regex:.*",
+        "original_row_id": "",
+        "node_identifier": "Regex:.*",
+        "original": "*",
+        "language": "zho",
+        "replacement": ""
+      }
+    ],
+    "comic_names_eng_additional": [
+      {
+        "type_of_edit": "replace_bit_of_text",
+        "flow_id": "Regex:.*",
+        "original_row_id": "",
+        "node_identifier": "Regex:.*{F3_DAUGTHER_4}.*",
+        "change": "{F3_DAUGTHER_4}",
+        "condition_var": "",
+        "category": "@(parse_json(fields.comic_names_dict_0 &fields.comic_names_dict_1 &fields.comic_names_dict_2 )[\"F3_DAUGHTER_4\"][contact.language])"
+      }
+    ],
+    "comic_links_eng": [
+      {
+        "type_of_edit": "replace_bit_of_text",
+        "flow_id": "module - take_a_pause",
+        "original_row_id": "",
+        "node_identifier": "Regex:.*Click 🔗 to read the comic.*",
+        "change": "Click 🔗 to read the comic",
+        "condition_var": "",
+        "category": "<a href=\"https://mp.weixin.qq.com/s/H5KrT_aGsEGWTIZO6G2XwQ\">Click 🔗 to read the comic</a>"
+      },
+      {
+        "type_of_edit": "replace_bit_of_text",
+        "flow_id": "module - one_on_one_yc",
+        "original_row_id": "",
+        "node_identifier": "Regex:.*Click 🔗 to read the comic.*",
+        "change": "Click 🔗 to read the comic",
+        "condition_var": "",
+        "category": "<a href=\"https://mp.weixin.qq.com/s/X6aGmTOiWTarz9-IQG9vgA\">Click 🔗 to read the comic</a>"
+      },
+      {
+        "type_of_edit": "replace_bit_of_text",
+        "flow_id": "module - kind_to_myself_yc",
+        "original_row_id": "",
+        "node_identifier": "Regex:.*Click 🔗 to read the comic.*",
+        "change": "Click 🔗 to read the comic",
+        "condition_var": "",
+        "category": "<a href=\"https://mp.weixin.qq.com/s/JcKa9gNXs4BNQzxcyP_3rQ\">Click 🔗 to read the comic</a>"
+      },
+      {
+        "type_of_edit": "replace_bit_of_text",
+        "flow_id": "module - give_praise_yc",
+        "original_row_id": "",
+        "node_identifier": "Regex:.*Click 🔗 to read the comic.*",
+        "change": "Click 🔗 to read the comic",
+        "condition_var": "",
+        "category": "<a href=\"https://mp.weixin.qq.com/s/afReF83ZCLwmrx6z7ZCXiw\">Click 🔗 to read the comic</a>"
+      },
+      {
+        "type_of_edit": "replace_bit_of_text",
+        "flow_id": "module - talk_feelings_yc",
+        "original_row_id": "",
+        "node_identifier": "Regex:.*Click 🔗 to read the comic.*",
+        "change": "Click 🔗 to read the comic",
+        "condition_var": "",
+        "category": "<a href=\"https://mp.weixin.qq.com/s/RCn4-9xpPWdCyNqX2_nG3g\">Click 🔗 to read the comic</a>"
+      },
+      {
+        "type_of_edit": "replace_bit_of_text",
+        "flow_id": "module - spirituality_yc",
+        "original_row_id": "",
+        "node_identifier": "Regex:.*Click 🔗 to read the comic.*",
+        "change": "Click 🔗 to read the comic",
+        "condition_var": "",
+        "category": "<a href=\"https://mp.weixin.qq.com/s/mS_pd2XWMohWB5xjQI_xHA\">Click 🔗 to read the comic</a>"
+      },
+      {
+        "type_of_edit": "replace_bit_of_text",
+        "flow_id": "module - play_yc",
+        "original_row_id": "",
+        "node_identifier": "Regex:.*Click 🔗 to read the comic.*",
+        "change": "Click 🔗 to read the comic",
+        "condition_var": "",
+        "category": "<a href=\"https://mp.weixin.qq.com/s/EhH7BA4BMLzQTglY7R7JPw\">Click 🔗 to read the comic</a>"
+      },
+      {
+        "type_of_edit": "replace_bit_of_text",
+        "flow_id": "module - learn_experience_yc",
+        "original_row_id": "",
+        "node_identifier": "Regex:.*Click 🔗 to read the comic.*",
+        "change": "Click 🔗 to read the comic",
+        "condition_var": "",
+        "category": "<a href=\"https://mp.weixin.qq.com/s/56buCdf92VYQiXIw1gb-Pg\">Click 🔗 to read the comic</a>"
+      },
+      {
+        "type_of_edit": "replace_bit_of_text",
+        "flow_id": "module - toddler_change_yc",
+        "original_row_id": "",
+        "node_identifier": "Regex:.*Click 🔗 to read the comic.*",
+        "change": "Click 🔗 to read the comic",
+        "condition_var": "",
+        "category": "<a href=\"https://mp.weixin.qq.com/s/ujg9y54e44AbdK7DBzPfUw\">Click 🔗 to read the comic</a>"
+      },
+      {
+        "type_of_edit": "replace_bit_of_text",
+        "flow_id": "module - young_child_change_yc",
+        "original_row_id": "",
+        "node_identifier": "Regex:.*Click 🔗 to read the comic.*",
+        "change": "Click 🔗 to read the comic",
+        "condition_var": "",
+        "category": "<a href=\"https://mp.weixin.qq.com/s/NaA7PI5cxR14EXTq102T6w\">Click 🔗 to read the comic</a>"
+      },
+      {
+        "type_of_edit": "replace_bit_of_text",
+        "flow_id": "module - child_change_yc",
+        "original_row_id": "",
+        "node_identifier": "Regex:.*Click 🔗 to read the comic.*",
+        "change": "Click 🔗 to read the comic",
+        "condition_var": "",
+        "category": "<a href=\"https://mp.weixin.qq.com/s/f-KyL1J7DOK3CBxpPPrGPw\">Click 🔗 to read the comic</a>"
+      },
+      {
+        "type_of_edit": "replace_bit_of_text",
+        "flow_id": "module - language_yc",
+        "original_row_id": "",
+        "node_identifier": "Regex:.*Click 🔗 to read the comic.*",
+        "change": "Click 🔗 to read the comic",
+        "condition_var": "",
+        "category": "<a href=\"https://mp.weixin.qq.com/s/AKZSEpJpusgt1-xR2xlgTQ\">Click 🔗 to read the comic</a>"
+      },
+      {
+        "type_of_edit": "replace_bit_of_text",
+        "flow_id": "module - reading_2to3_yc",
+        "original_row_id": "",
+        "node_identifier": "Regex:.*Click 🔗 to read the comic.*",
+        "change": "Click 🔗 to read the comic",
+        "condition_var": "",
+        "category": "<a href=\"https://mp.weixin.qq.com/s/cHZZQ7X5PDswZ3JQ-j0EAg\">Click 🔗 to read the comic</a>"
+      },
+      {
+        "type_of_edit": "replace_bit_of_text",
+        "flow_id": "module - reading1_4to6_yc",
+        "original_row_id": "",
+        "node_identifier": "Regex:.*Click 🔗 to read the comic.*",
+        "change": "Click 🔗 to read the comic",
+        "condition_var": "",
+        "category": "<a href=\"https://mp.weixin.qq.com/s/GEzH7pS7B_n5YsHDbRWapQ\">Click 🔗 to read the comic</a>"
+      },
+      {
+        "type_of_edit": "replace_bit_of_text",
+        "flow_id": "module - maths2_4to6_yc",
+        "original_row_id": "",
+        "node_identifier": "Regex:.*Click 🔗 to read the comic.*",
+        "change": "Click 🔗 to read the comic",
+        "condition_var": "",
+        "category": "<a href=\"https://mp.weixin.qq.com/s/u-eW2DuE8_qyy7m-GAcvtw\">Click 🔗 to read the comic</a>"
+      },
+      {
+        "type_of_edit": "replace_bit_of_text",
+        "flow_id": "module - keeping_it_positive_yc",
+        "original_row_id": "",
+        "node_identifier": "Regex:.*Click 🔗 to read the comic.*",
+        "change": "Click 🔗 to read the comic",
+        "condition_var": "",
+        "category": "<a href=\"https://mp.weixin.qq.com/s/uDBMpdINPd0QJDRoAqqtDg\">Click 🔗 to read the comic</a>"
+      },
+      {
+        "type_of_edit": "replace_bit_of_text",
+        "flow_id": "module - create_routines_yc",
+        "original_row_id": "",
+        "node_identifier": "Regex:.*Click 🔗 to read the comic.*",
+        "change": "Click 🔗 to read the comic",
+        "condition_var": "",
+        "category": "<a href=\"https://mp.weixin.qq.com/s/fT8GQqrR6kww0eu1dkV17g\">Click 🔗 to read the comic</a>"
+      },
+      {
+        "type_of_edit": "replace_bit_of_text",
+        "flow_id": "module - create_family_rules_yc",
+        "original_row_id": "",
+        "node_identifier": "Regex:.*Click 🔗 to read the comic.*",
+        "change": "Click 🔗 to read the comic",
+        "condition_var": "",
+        "category": "<a href=\"https://mp.weixin.qq.com/s/Pk-NjlcqINh0vp_sWmZrbw\">Click 🔗 to read the comic</a>"
+      },
+      {
+        "type_of_edit": "replace_bit_of_text",
+        "flow_id": "module - redirect_yc",
+        "original_row_id": "",
+        "node_identifier": "Regex:.*Click 🔗 to read the comic.*",
+        "change": "Click 🔗 to read the comic",
+        "condition_var": "",
+        "category": "<a href=\"https://mp.weixin.qq.com/s/mqnZGhFHotlUaMhjO8UdQw\">Click 🔗 to read the comic</a>"
+      },
+      {
+        "type_of_edit": "replace_bit_of_text",
+        "flow_id": "module - ignore_demanding_yc",
+        "original_row_id": "",
+        "node_identifier": "Regex:.*Click 🔗 to read the comic.*",
+        "change": "Click 🔗 to read the comic",
+        "condition_var": "",
+        "category": "<a href=\"https://mp.weixin.qq.com/s/62jZNVHHVnnG8X75JT41vA\">Click 🔗 to read the comic</a>"
+      },
+      {
+        "type_of_edit": "replace_bit_of_text",
+        "flow_id": "module - managing_anger_yc",
+        "original_row_id": "",
+        "node_identifier": "Regex:.*Click 🔗 to read the comic.*",
+        "change": "Click 🔗 to read the comic",
+        "condition_var": "",
+        "category": "<a href=\"https://mp.weixin.qq.com/s/FE1_v5Lku707y1U-MZ3aSA\">Click 🔗 to read the comic</a>"
+      },
+      {
+        "type_of_edit": "replace_bit_of_text",
+        "flow_id": "module - teach_consequences_yc",
+        "original_row_id": "",
+        "node_identifier": "Regex:.*Click 🔗 to read the comic.*",
+        "change": "Click 🔗 to read the comic",
+        "condition_var": "",
+        "category": "<a href=\"https://mp.weixin.qq.com/s/9C2sIXLI1aFhGYTbuGWTiw\">Click 🔗 to read the comic</a>"
+      },
+      {
+        "type_of_edit": "replace_bit_of_text",
+        "flow_id": "module - solve_problems_yc",
+        "original_row_id": "",
+        "node_identifier": "Regex:.*Click 🔗 to read the comic.*",
+        "change": "Click 🔗 to read the comic",
+        "condition_var": "",
+        "category": "<a href=\"https://mp.weixin.qq.com/s/er7ZpROin6z_cs0SMnUDOg\">Click 🔗 to read the comic</a>"
+      },
+      {
+        "type_of_edit": "replace_bit_of_text",
+        "flow_id": "module - safe_touch_2to5_yc_m",
+        "original_row_id": "",
+        "node_identifier": "Regex:.*Click 🔗 to read the comic.*",
+        "change": "Click 🔗 to read the comic",
+        "condition_var": "",
+        "category": "<a href=\"https://mp.weixin.qq.com/s/PwNX66fzIAePlgrhh-yNoA\">Click 🔗 to read the comic</a>"
+      },
+      {
+        "type_of_edit": "replace_bit_of_text",
+        "flow_id": "module - safe_touch_2to5_yc_f",
+        "original_row_id": "",
+        "node_identifier": "Regex:.*Click 🔗 to read the comic.*",
+        "change": "Click 🔗 to read the comic",
+        "condition_var": "",
+        "category": "<a href=\"https://mp.weixin.qq.com/s/_7k500yOdw25gtTXnu7K8A\">Click 🔗 to read the comic</a>"
+      },
+      {
+        "type_of_edit": "replace_bit_of_text",
+        "flow_id": "module - safe_touch_6to9_yc",
+        "original_row_id": "",
+        "node_identifier": "Regex:.*Click 🔗 to read the comic.*",
+        "change": "Click 🔗 to read the comic",
+        "condition_var": "",
+        "category": "<a href=\"https://mp.weixin.qq.com/s/YuIu9_EoXWFKSyTRdymSOg\">Click 🔗 to read the comic</a>"
+      },
+      {
+        "type_of_edit": "replace_bit_of_text",
+        "flow_id": "module - com_safety_2to4_yc",
+        "original_row_id": "",
+        "node_identifier": "Regex:.*Click 🔗 to read the comic.*",
+        "change": "Click 🔗 to read the comic",
+        "condition_var": "",
+        "category": "<a href=\"https://mp.weixin.qq.com/s/DDxhMNc5m0ZR2mLSmkWSkg\">Click 🔗 to read the comic</a>"
+      },
+      {
+        "type_of_edit": "replace_bit_of_text",
+        "flow_id": "module - com_safety_5to9_yc",
+        "original_row_id": "",
+        "node_identifier": "Regex:.*Click 🔗 to read the comic.*",
+        "change": "Click 🔗 to read the comic",
+        "condition_var": "",
+        "category": "<a href=\"https://mp.weixin.qq.com/s/GmWjm4lDTTDvvx6jlQRx0A\">Click 🔗 to read the comic</a>"
+      },
+      {
+        "type_of_edit": "replace_bit_of_text",
+        "flow_id": "module - crises_2to6_yc",
+        "original_row_id": "",
+        "node_identifier": "Regex:.*Click 🔗 to read the comic.*",
+        "change": "Click 🔗 to read the comic",
+        "condition_var": "",
+        "category": "<a href=\"https://mp.weixin.qq.com/s/rrCSFGgqRhjsT1gLaa4SuA\">Click 🔗 to read the comic</a>"
+      },
+      {
+        "type_of_edit": "replace_bit_of_text",
+        "flow_id": "module - crises_7to9_yc",
+        "original_row_id": "",
+        "node_identifier": "Regex:.*Click 🔗 to read the comic.*",
+        "change": "Click 🔗 to read the comic",
+        "condition_var": "",
+        "category": "<a href=\"https://mp.weixin.qq.com/s/fMNE_Nki5U09s3xW8nTGsQ\">Click 🔗 to read the comic</a>"
+      },
+      {
+        "type_of_edit": "replace_bit_of_text",
+        "flow_id": "module - online_safety_yc",
+        "original_row_id": "",
+        "node_identifier": "Regex:.*Click 🔗 to read the comic.*",
+        "change": "Click 🔗 to read the comic",
+        "condition_var": "",
+        "category": "<a href=\"https://mp.weixin.qq.com/s/C-pkpQmeDEnSLNV2s2NAqw\">Click 🔗 to read the comic</a>"
+      },
+      {
+        "type_of_edit": "replace_bit_of_text",
+        "flow_id": "module - nutrition_health_yc",
+        "original_row_id": "",
+        "node_identifier": "Regex:.*Click 🔗 to read the comic.*",
+        "change": "Click 🔗 to read the comic",
+        "condition_var": "",
+        "category": "<a href=\"https://mp.weixin.qq.com/s/60FYAj1UMfI_QxRl6tZKmw\">Click 🔗 to read the comic</a>"
+      },
+      {
+        "type_of_edit": "replace_bit_of_text",
+        "flow_id": "module - ipv_equals",
+        "original_row_id": "",
+        "node_identifier": "Regex:.*Click 🔗 to read the comic.*",
+        "change": "Click 🔗 to read the comic",
+        "condition_var": "",
+        "category": "<a href=\"https://mp.weixin.qq.com/s/yaJaDLiY4KaemaLWB76RoA\">Click 🔗 to read the comic</a>"
+      },
+      {
+        "type_of_edit": "replace_bit_of_text",
+        "flow_id": "module - ipv_supportive",
+        "original_row_id": "",
+        "node_identifier": "Regex:.*Click 🔗 to read the comic.*",
+        "change": "Click 🔗 to read the comic",
+        "condition_var": "",
+        "category": "<a href=\"https://mp.weixin.qq.com/s/53xBz4ZyzYuuk5W8bPGb5Q\">Click 🔗 to read the comic</a>"
+      },
+      {
+        "type_of_edit": "replace_bit_of_text",
+        "flow_id": "module - ipv_sharing",
+        "original_row_id": "",
+        "node_identifier": "Regex:.*Click 🔗 to read the comic.*",
+        "change": "Click 🔗 to read the comic",
+        "condition_var": "",
+        "category": "<a href=\"https://mp.weixin.qq.com/s/Fok-TqImOSdiG8w8B6LcUw\">Click 🔗 to read the comic</a>"
+      },
+      {
+        "type_of_edit": "replace_bit_of_text",
+        "flow_id": "module - ipv_conflicts",
+        "original_row_id": "",
+        "node_identifier": "Regex:.*Click 🔗 to read the comic.*",
+        "change": "Click 🔗 to read the comic",
+        "condition_var": "",
+        "category": "<a href=\"https://mp.weixin.qq.com/s/gRI-G_NAxuZ66LDUyIJgfw\">Click 🔗 to read the comic</a>"
+      },
+      {
+        "type_of_edit": "replace_bit_of_text",
+        "flow_id": "module - ipv_listen",
+        "original_row_id": "",
+        "node_identifier": "Regex:.*Click 🔗 to read the comic.*",
+        "change": "Click 🔗 to read the comic",
+        "condition_var": "",
+        "category": "<a href=\"https://mp.weixin.qq.com/s/XRot0gdB-ptidQB9YEo4bA\">Click 🔗 to read the comic</a>"
+      },
+      {
+        "type_of_edit": "replace_bit_of_text",
+        "flow_id": "module - budget_expenses_yc",
+        "original_row_id": "",
+        "node_identifier": "Regex:.*Click 🔗 to get started!.*",
+        "change": "Click 🔗 to get started!",
+        "condition_var": "",
+        "category": "<a href=\"https://mp.weixin.qq.com/s/YWU0JFpXI4XSHxlw8kgP-Q\">Click 🔗 to get started!</a>"
+      },
+      {
+        "type_of_edit": "replace_bit_of_text",
+        "flow_id": "module - budget_monthly_yc",
+        "original_row_id": "",
+        "node_identifier": "Regex:.*Click 🔗 to get started!.*",
+        "change": "Click 🔗 to get started!",
+        "condition_var": "",
+        "category": "<a href=\"https://mp.weixin.qq.com/s/dxtUDbXexGE4aVuWVpM0Hg\">Click 🔗 to get started!</a>"
+      },
+      {
+        "type_of_edit": "replace_bit_of_text",
+        "flow_id": "module - budget_savings_yc",
+        "original_row_id": "",
+        "node_identifier": "Regex:.*Click 🔗 to read the comic.*",
+        "change": "Click 🔗 to read the comic",
+        "condition_var": "",
+        "category": "<a href=\"https://mp.weixin.qq.com/s/JciiZM713K_QD1RLoRjBJA\">Click 🔗 to read the comic</a>"
+      },
+      {
+        "type_of_edit": "replace_bit_of_text",
+        "flow_id": "module_review - take_a_pause",
+        "original_row_id": "",
+        "node_identifier": "Regex:.*Click 🔗 to read the comic.*",
+        "change": "Click 🔗 to read the comic",
+        "condition_var": "",
+        "category": "<a href=\"https://mp.weixin.qq.com/s/H5KrT_aGsEGWTIZO6G2XwQ\">Click 🔗 to read the comic</a>"
+      },
+      {
+        "type_of_edit": "replace_bit_of_text",
+        "flow_id": "module_review - one_on_one_yc",
+        "original_row_id": "",
+        "node_identifier": "Regex:.*Click 🔗 to read the comic.*",
+        "change": "Click 🔗 to read the comic",
+        "condition_var": "",
+        "category": "<a href=\"https://mp.weixin.qq.com/s/X6aGmTOiWTarz9-IQG9vgA\">Click 🔗 to read the comic</a>"
+      },
+      {
+        "type_of_edit": "replace_bit_of_text",
+        "flow_id": "module_review - kind_to_myself_yc",
+        "original_row_id": "",
+        "node_identifier": "Regex:.*Click 🔗 to read the comic.*",
+        "change": "Click 🔗 to read the comic",
+        "condition_var": "",
+        "category": "<a href=\"https://mp.weixin.qq.com/s/JcKa9gNXs4BNQzxcyP_3rQ\">Click 🔗 to read the comic</a>"
+      },
+      {
+        "type_of_edit": "replace_bit_of_text",
+        "flow_id": "module_review - give_praise_yc",
+        "original_row_id": "",
+        "node_identifier": "Regex:.*Click 🔗 to read the comic.*",
+        "change": "Click 🔗 to read the comic",
+        "condition_var": "",
+        "category": "<a href=\"https://mp.weixin.qq.com/s/afReF83ZCLwmrx6z7ZCXiw\">Click 🔗 to read the comic</a>"
+      },
+      {
+        "type_of_edit": "replace_bit_of_text",
+        "flow_id": "module_review - talk_feelings_yc",
+        "original_row_id": "",
+        "node_identifier": "Regex:.*Click 🔗 to read the comic.*",
+        "change": "Click 🔗 to read the comic",
+        "condition_var": "",
+        "category": "<a href=\"https://mp.weixin.qq.com/s/RCn4-9xpPWdCyNqX2_nG3g\">Click 🔗 to read the comic</a>"
+      },
+      {
+        "type_of_edit": "replace_bit_of_text",
+        "flow_id": "module_review - spirituality_yc",
+        "original_row_id": "",
+        "node_identifier": "Regex:.*Click 🔗 to read the comic.*",
+        "change": "Click 🔗 to read the comic",
+        "condition_var": "",
+        "category": "<a href=\"https://mp.weixin.qq.com/s/mS_pd2XWMohWB5xjQI_xHA\">Click 🔗 to read the comic</a>"
+      },
+      {
+        "type_of_edit": "replace_bit_of_text",
+        "flow_id": "module_review - play_yc",
+        "original_row_id": "",
+        "node_identifier": "Regex:.*Click 🔗 to read the comic.*",
+        "change": "Click 🔗 to read the comic",
+        "condition_var": "",
+        "category": "<a href=\"https://mp.weixin.qq.com/s/EhH7BA4BMLzQTglY7R7JPw\">Click 🔗 to read the comic</a>"
+      },
+      {
+        "type_of_edit": "replace_bit_of_text",
+        "flow_id": "module_review - learn_experience_yc",
+        "original_row_id": "",
+        "node_identifier": "Regex:.*Click 🔗 to read the comic.*",
+        "change": "Click 🔗 to read the comic",
+        "condition_var": "",
+        "category": "<a href=\"https://mp.weixin.qq.com/s/56buCdf92VYQiXIw1gb-Pg\">Click 🔗 to read the comic</a>"
+      },
+      {
+        "type_of_edit": "replace_bit_of_text",
+        "flow_id": "module_review - toddler_change_yc",
+        "original_row_id": "",
+        "node_identifier": "Regex:.*Click 🔗 to read the comic.*",
+        "change": "Click 🔗 to read the comic",
+        "condition_var": "",
+        "category": "<a href=\"https://mp.weixin.qq.com/s/ujg9y54e44AbdK7DBzPfUw\">Click 🔗 to read the comic</a>"
+      },
+      {
+        "type_of_edit": "replace_bit_of_text",
+        "flow_id": "module_review - young_child_change_yc",
+        "original_row_id": "",
+        "node_identifier": "Regex:.*Click 🔗 to read the comic.*",
+        "change": "Click 🔗 to read the comic",
+        "condition_var": "",
+        "category": "<a href=\"https://mp.weixin.qq.com/s/NaA7PI5cxR14EXTq102T6w\">Click 🔗 to read the comic</a>"
+      },
+      {
+        "type_of_edit": "replace_bit_of_text",
+        "flow_id": "module_review - child_change_yc",
+        "original_row_id": "",
+        "node_identifier": "Regex:.*Click 🔗 to read the comic.*",
+        "change": "Click 🔗 to read the comic",
+        "condition_var": "",
+        "category": "<a href=\"https://mp.weixin.qq.com/s/f-KyL1J7DOK3CBxpPPrGPw\">Click 🔗 to read the comic</a>"
+      },
+      {
+        "type_of_edit": "replace_bit_of_text",
+        "flow_id": "module_review - language_yc",
+        "original_row_id": "",
+        "node_identifier": "Regex:.*Click 🔗 to read the comic.*",
+        "change": "Click 🔗 to read the comic",
+        "condition_var": "",
+        "category": "<a href=\"https://mp.weixin.qq.com/s/AKZSEpJpusgt1-xR2xlgTQ\">Click 🔗 to read the comic</a>"
+      },
+      {
+        "type_of_edit": "replace_bit_of_text",
+        "flow_id": "module_review - reading_2to3_yc",
+        "original_row_id": "",
+        "node_identifier": "Regex:.*Click 🔗 to read the comic.*",
+        "change": "Click 🔗 to read the comic",
+        "condition_var": "",
+        "category": "<a href=\"https://mp.weixin.qq.com/s/cHZZQ7X5PDswZ3JQ-j0EAg\">Click 🔗 to read the comic</a>"
+      },
+      {
+        "type_of_edit": "replace_bit_of_text",
+        "flow_id": "module_review - reading1_4to6_yc",
+        "original_row_id": "",
+        "node_identifier": "Regex:.*Click 🔗 to read the comic.*",
+        "change": "Click 🔗 to read the comic",
+        "condition_var": "",
+        "category": "<a href=\"https://mp.weixin.qq.com/s/GEzH7pS7B_n5YsHDbRWapQ\">Click 🔗 to read the comic</a>"
+      },
+      {
+        "type_of_edit": "replace_bit_of_text",
+        "flow_id": "module_review - maths2_4to6_yc",
+        "original_row_id": "",
+        "node_identifier": "Regex:.*Click 🔗 to read the comic.*",
+        "change": "Click 🔗 to read the comic",
+        "condition_var": "",
+        "category": "<a href=\"https://mp.weixin.qq.com/s/u-eW2DuE8_qyy7m-GAcvtw\">Click 🔗 to read the comic</a>"
+      },
+      {
+        "type_of_edit": "replace_bit_of_text",
+        "flow_id": "module_review - keeping_it_positive_yc",
+        "original_row_id": "",
+        "node_identifier": "Regex:.*Click 🔗 to read the comic.*",
+        "change": "Click 🔗 to read the comic",
+        "condition_var": "",
+        "category": "<a href=\"https://mp.weixin.qq.com/s/uDBMpdINPd0QJDRoAqqtDg\">Click 🔗 to read the comic</a>"
+      },
+      {
+        "type_of_edit": "replace_bit_of_text",
+        "flow_id": "module_review - create_routines_yc",
+        "original_row_id": "",
+        "node_identifier": "Regex:.*Click 🔗 to read the comic.*",
+        "change": "Click 🔗 to read the comic",
+        "condition_var": "",
+        "category": "<a href=\"https://mp.weixin.qq.com/s/fT8GQqrR6kww0eu1dkV17g\">Click 🔗 to read the comic</a>"
+      },
+      {
+        "type_of_edit": "replace_bit_of_text",
+        "flow_id": "module_review - create_family_rules_yc",
+        "original_row_id": "",
+        "node_identifier": "Regex:.*Click 🔗 to read the comic.*",
+        "change": "Click 🔗 to read the comic",
+        "condition_var": "",
+        "category": "<a href=\"https://mp.weixin.qq.com/s/Pk-NjlcqINh0vp_sWmZrbw\">Click 🔗 to read the comic</a>"
+      },
+      {
+        "type_of_edit": "replace_bit_of_text",
+        "flow_id": "module_review - redirect_yc",
+        "original_row_id": "",
+        "node_identifier": "Regex:.*Click 🔗 to read the comic.*",
+        "change": "Click 🔗 to read the comic",
+        "condition_var": "",
+        "category": "<a href=\"https://mp.weixin.qq.com/s/mqnZGhFHotlUaMhjO8UdQw\">Click 🔗 to read the comic</a>"
+      },
+      {
+        "type_of_edit": "replace_bit_of_text",
+        "flow_id": "module_review - ignore_demanding_yc",
+        "original_row_id": "",
+        "node_identifier": "Regex:.*Click 🔗 to read the comic.*",
+        "change": "Click 🔗 to read the comic",
+        "condition_var": "",
+        "category": "<a href=\"https://mp.weixin.qq.com/s/62jZNVHHVnnG8X75JT41vA\">Click 🔗 to read the comic</a>"
+      },
+      {
+        "type_of_edit": "replace_bit_of_text",
+        "flow_id": "module_review - managing_anger_yc",
+        "original_row_id": "",
+        "node_identifier": "Regex:.*Click 🔗 to read the comic.*",
+        "change": "Click 🔗 to read the comic",
+        "condition_var": "",
+        "category": "<a href=\"https://mp.weixin.qq.com/s/FE1_v5Lku707y1U-MZ3aSA\">Click 🔗 to read the comic</a>"
+      },
+      {
+        "type_of_edit": "replace_bit_of_text",
+        "flow_id": "module_review - teach_consequences_yc",
+        "original_row_id": "",
+        "node_identifier": "Regex:.*Click 🔗 to read the comic.*",
+        "change": "Click 🔗 to read the comic",
+        "condition_var": "",
+        "category": "<a href=\"https://mp.weixin.qq.com/s/9C2sIXLI1aFhGYTbuGWTiw\">Click 🔗 to read the comic</a>"
+      },
+      {
+        "type_of_edit": "replace_bit_of_text",
+        "flow_id": "module_review - solve_problems_yc",
+        "original_row_id": "",
+        "node_identifier": "Regex:.*Click 🔗 to read the comic.*",
+        "change": "Click 🔗 to read the comic",
+        "condition_var": "",
+        "category": "<a href=\"https://mp.weixin.qq.com/s/er7ZpROin6z_cs0SMnUDOg\">Click 🔗 to read the comic</a>"
+      },
+      {
+        "type_of_edit": "replace_bit_of_text",
+        "flow_id": "module_review - safe_touch_2to5_yc_m",
+        "original_row_id": "",
+        "node_identifier": "Regex:.*Click 🔗 to read the comic.*",
+        "change": "Click 🔗 to read the comic",
+        "condition_var": "",
+        "category": "<a href=\"https://mp.weixin.qq.com/s/PwNX66fzIAePlgrhh-yNoA\">Click 🔗 to read the comic</a>"
+      },
+      {
+        "type_of_edit": "replace_bit_of_text",
+        "flow_id": "module_review - safe_touch_2to5_yc_f",
+        "original_row_id": "",
+        "node_identifier": "Regex:.*Click 🔗 to read the comic.*",
+        "change": "Click 🔗 to read the comic",
+        "condition_var": "",
+        "category": "<a href=\"https://mp.weixin.qq.com/s/_7k500yOdw25gtTXnu7K8A\">Click 🔗 to read the comic</a>"
+      },
+      {
+        "type_of_edit": "replace_bit_of_text",
+        "flow_id": "module_review - safe_touch_6to9_yc",
+        "original_row_id": "",
+        "node_identifier": "Regex:.*Click 🔗 to read the comic.*",
+        "change": "Click 🔗 to read the comic",
+        "condition_var": "",
+        "category": "<a href=\"https://mp.weixin.qq.com/s/YuIu9_EoXWFKSyTRdymSOg\">Click 🔗 to read the comic</a>"
+      },
+      {
+        "type_of_edit": "replace_bit_of_text",
+        "flow_id": "module_review - com_safety_2to4_yc",
+        "original_row_id": "",
+        "node_identifier": "Regex:.*Click 🔗 to read the comic.*",
+        "change": "Click 🔗 to read the comic",
+        "condition_var": "",
+        "category": "<a href=\"https://mp.weixin.qq.com/s/DDxhMNc5m0ZR2mLSmkWSkg\">Click 🔗 to read the comic</a>"
+      },
+      {
+        "type_of_edit": "replace_bit_of_text",
+        "flow_id": "module_review - com_safety_5to9_yc",
+        "original_row_id": "",
+        "node_identifier": "Regex:.*Click 🔗 to read the comic.*",
+        "change": "Click 🔗 to read the comic",
+        "condition_var": "",
+        "category": "<a href=\"https://mp.weixin.qq.com/s/GmWjm4lDTTDvvx6jlQRx0A\">Click 🔗 to read the comic</a>"
+      },
+      {
+        "type_of_edit": "replace_bit_of_text",
+        "flow_id": "module_review - crises_2to6_yc",
+        "original_row_id": "",
+        "node_identifier": "Regex:.*Click 🔗 to read the comic.*",
+        "change": "Click 🔗 to read the comic",
+        "condition_var": "",
+        "category": "<a href=\"https://mp.weixin.qq.com/s/rrCSFGgqRhjsT1gLaa4SuA\">Click 🔗 to read the comic</a>"
+      },
+      {
+        "type_of_edit": "replace_bit_of_text",
+        "flow_id": "module_review - crises_7to9_yc",
+        "original_row_id": "",
+        "node_identifier": "Regex:.*Click 🔗 to read the comic.*",
+        "change": "Click 🔗 to read the comic",
+        "condition_var": "",
+        "category": "<a href=\"https://mp.weixin.qq.com/s/fMNE_Nki5U09s3xW8nTGsQ\">Click 🔗 to read the comic</a>"
+      },
+      {
+        "type_of_edit": "replace_bit_of_text",
+        "flow_id": "module_review - online_safety_yc",
+        "original_row_id": "",
+        "node_identifier": "Regex:.*Click 🔗 to read the comic.*",
+        "change": "Click 🔗 to read the comic",
+        "condition_var": "",
+        "category": "<a href=\"https://mp.weixin.qq.com/s/C-pkpQmeDEnSLNV2s2NAqw\">Click 🔗 to read the comic</a>"
+      },
+      {
+        "type_of_edit": "replace_bit_of_text",
+        "flow_id": "module_review - nutrition_health_yc",
+        "original_row_id": "",
+        "node_identifier": "Regex:.*Click 🔗 to read the comic.*",
+        "change": "Click 🔗 to read the comic",
+        "condition_var": "",
+        "category": "<a href=\"https://mp.weixin.qq.com/s/60FYAj1UMfI_QxRl6tZKmw\">Click 🔗 to read the comic</a>"
+      },
+      {
+        "type_of_edit": "replace_bit_of_text",
+        "flow_id": "module_review - ipv_equals",
+        "original_row_id": "",
+        "node_identifier": "Regex:.*Click 🔗 to read the comic.*",
+        "change": "Click 🔗 to read the comic",
+        "condition_var": "",
+        "category": "<a href=\"https://mp.weixin.qq.com/s/yaJaDLiY4KaemaLWB76RoA\">Click 🔗 to read the comic</a>"
+      },
+      {
+        "type_of_edit": "replace_bit_of_text",
+        "flow_id": "module_review - ipv_supportive",
+        "original_row_id": "",
+        "node_identifier": "Regex:.*Click 🔗 to read the comic.*",
+        "change": "Click 🔗 to read the comic",
+        "condition_var": "",
+        "category": "<a href=\"https://mp.weixin.qq.com/s/53xBz4ZyzYuuk5W8bPGb5Q\">Click 🔗 to read the comic</a>"
+      },
+      {
+        "type_of_edit": "replace_bit_of_text",
+        "flow_id": "module_review - ipv_sharing",
+        "original_row_id": "",
+        "node_identifier": "Regex:.*Click 🔗 to read the comic.*",
+        "change": "Click 🔗 to read the comic",
+        "condition_var": "",
+        "category": "<a href=\"https://mp.weixin.qq.com/s/Fok-TqImOSdiG8w8B6LcUw\">Click 🔗 to read the comic</a>"
+      },
+      {
+        "type_of_edit": "replace_bit_of_text",
+        "flow_id": "module_review - ipv_conflicts",
+        "original_row_id": "",
+        "node_identifier": "Regex:.*Click 🔗 to read the comic.*",
+        "change": "Click 🔗 to read the comic",
+        "condition_var": "",
+        "category": "<a href=\"https://mp.weixin.qq.com/s/gRI-G_NAxuZ66LDUyIJgfw\">Click 🔗 to read the comic</a>"
+      },
+      {
+        "type_of_edit": "replace_bit_of_text",
+        "flow_id": "module_review - ipv_listen",
+        "original_row_id": "",
+        "node_identifier": "Regex:.*Click 🔗 to read the comic.*",
+        "change": "Click 🔗 to read the comic",
+        "condition_var": "",
+        "category": "<a href=\"https://mp.weixin.qq.com/s/XRot0gdB-ptidQB9YEo4bA\">Click 🔗 to read the comic</a>"
+      },
+      {
+        "type_of_edit": "replace_bit_of_text",
+        "flow_id": "module_review - budget_expenses_yc",
+        "original_row_id": "",
+        "node_identifier": "Regex:.*Click 🔗 to get started!.*",
+        "change": "Click 🔗 to get started!",
+        "condition_var": "",
+        "category": "<a href=\"https://mp.weixin.qq.com/s/YWU0JFpXI4XSHxlw8kgP-Q\">Click 🔗 to get started!</a>"
+      },
+      {
+        "type_of_edit": "replace_bit_of_text",
+        "flow_id": "module_review - budget_monthly_yc",
+        "original_row_id": "",
+        "node_identifier": "Regex:.*Click 🔗 to get started!.*",
+        "change": "Click 🔗 to get started!",
+        "condition_var": "",
+        "category": "<a href=\"https://mp.weixin.qq.com/s/dxtUDbXexGE4aVuWVpM0Hg\">Click 🔗 to get started!</a>"
+      },
+      {
+        "type_of_edit": "replace_bit_of_text",
+        "flow_id": "module_review - budget_savings_yc",
+        "original_row_id": "",
+        "node_identifier": "Regex:.*Click 🔗 to read the comic.*",
+        "change": "Click 🔗 to read the comic",
+        "condition_var": "",
+        "category": "<a href=\"https://mp.weixin.qq.com/s/JciiZM713K_QD1RLoRjBJA\">Click 🔗 to read the comic</a>"
+      },
+      {
+        "type_of_edit": "replace_bit_of_text",
+        "flow_id": "program_overview",
+        "original_row_id": "",
+        "node_identifier": "Click to view all goals and modules",
+        "change": "Click to view all goals and modules",
+        "condition_var": "",
+        "category": "<a href=\"https://mp.weixin.qq.com/s/RHY7MqdTCjAF9axrbpAElQ\">Click to view all goals and modules</a>"
+      }
+    ],
+    "comic_links_transl": [
+      {
+        "type_of_edit": "replace_bit_of_text",
+        "flow_id": "module - take_a_pause",
+        "original_row_id": "",
+        "node_identifier": "Regex:.*Click 🔗 to read the comic.*",
+        "original": "点击查看漫画（先看漫画，再点下一步😎）",
+        "language": "zho",
+        "replacement": "<a href=\"https://mp.weixin.qq.com/s/H5KrT_aGsEGWTIZO6G2XwQ\">点击查看漫画（先看漫画，再点下一步😎）</a>"
+      },
+      {
+        "type_of_edit": "replace_bit_of_text",
+        "flow_id": "module - one_on_one_yc",
+        "original_row_id": "",
+        "node_identifier": "Regex:.*Click 🔗 to read the comic.*",
+        "original": "点击查看漫画（先看漫画，再点下一步😎）",
+        "language": "zho",
+        "replacement": "<a href=\"https://mp.weixin.qq.com/s/X6aGmTOiWTarz9-IQG9vgA\">点击查看漫画（先看漫画，再点下一步😎）</a>"
+      },
+      {
+        "type_of_edit": "replace_bit_of_text",
+        "flow_id": "module - kind_to_myself_yc",
+        "original_row_id": "",
+        "node_identifier": "Regex:.*Click 🔗 to read the comic.*",
+        "original": "点击查看漫画（先看漫画，再点下一步😎）",
+        "language": "zho",
+        "replacement": "<a href=\"https://mp.weixin.qq.com/s/JcKa9gNXs4BNQzxcyP_3rQ\">点击查看漫画（先看漫画，再点下一步😎）</a>"
+      },
+      {
+        "type_of_edit": "replace_bit_of_text",
+        "flow_id": "module - give_praise_yc",
+        "original_row_id": "",
+        "node_identifier": "Regex:.*Click 🔗 to read the comic.*",
+        "original": "点击查看漫画（先看漫画，再点下一步😎）",
+        "language": "zho",
+        "replacement": "<a href=\"https://mp.weixin.qq.com/s/afReF83ZCLwmrx6z7ZCXiw\">点击查看漫画（先看漫画，再点下一步😎）</a>"
+      },
+      {
+        "type_of_edit": "replace_bit_of_text",
+        "flow_id": "module - talk_feelings_yc",
+        "original_row_id": "",
+        "node_identifier": "Regex:.*Click 🔗 to read the comic.*",
+        "original": "点击查看漫画（先看漫画，再点下一步😎）",
+        "language": "zho",
+        "replacement": "<a href=\"https://mp.weixin.qq.com/s/RCn4-9xpPWdCyNqX2_nG3g\">点击查看漫画（先看漫画，再点下一步😎）</a>"
+      },
+      {
+        "type_of_edit": "replace_bit_of_text",
+        "flow_id": "module - spirituality_yc",
+        "original_row_id": "",
+        "node_identifier": "Regex:.*Click 🔗 to read the comic.*",
+        "original": "点击查看漫画（先看漫画，再点下一步😎）",
+        "language": "zho",
+        "replacement": "<a href=\"https://mp.weixin.qq.com/s/mS_pd2XWMohWB5xjQI_xHA\">点击查看漫画（先看漫画，再点下一步😎）</a>"
+      },
+      {
+        "type_of_edit": "replace_bit_of_text",
+        "flow_id": "module - play_yc",
+        "original_row_id": "",
+        "node_identifier": "Regex:.*Click 🔗 to read the comic.*",
+        "original": "点击查看漫画（先看漫画，再点下一步😎）",
+        "language": "zho",
+        "replacement": "<a href=\"https://mp.weixin.qq.com/s/EhH7BA4BMLzQTglY7R7JPw\">点击查看漫画（先看漫画，再点下一步😎）</a>"
+      },
+      {
+        "type_of_edit": "replace_bit_of_text",
+        "flow_id": "module - learn_experience_yc",
+        "original_row_id": "",
+        "node_identifier": "Regex:.*Click 🔗 to read the comic.*",
+        "original": "点击查看漫画（先看漫画，再点下一步😎）",
+        "language": "zho",
+        "replacement": "<a href=\"https://mp.weixin.qq.com/s/56buCdf92VYQiXIw1gb-Pg\">点击查看漫画（先看漫画，再点下一步😎）</a>"
+      },
+      {
+        "type_of_edit": "replace_bit_of_text",
+        "flow_id": "module - toddler_change_yc",
+        "original_row_id": "",
+        "node_identifier": "Regex:.*Click 🔗 to read the comic.*",
+        "original": "点击查看漫画（先看漫画，再点下一步😎）",
+        "language": "zho",
+        "replacement": "<a href=\"https://mp.weixin.qq.com/s/ujg9y54e44AbdK7DBzPfUw\">点击查看漫画（先看漫画，再点下一步😎）</a>"
+      },
+      {
+        "type_of_edit": "replace_bit_of_text",
+        "flow_id": "module - young_child_change_yc",
+        "original_row_id": "",
+        "node_identifier": "Regex:.*Click 🔗 to read the comic.*",
+        "original": "点击查看漫画（先看漫画，再点下一步😎）",
+        "language": "zho",
+        "replacement": "<a href=\"https://mp.weixin.qq.com/s/NaA7PI5cxR14EXTq102T6w\">点击查看漫画（先看漫画，再点下一步😎）</a>"
+      },
+      {
+        "type_of_edit": "replace_bit_of_text",
+        "flow_id": "module - child_change_yc",
+        "original_row_id": "",
+        "node_identifier": "Regex:.*Click 🔗 to read the comic.*",
+        "original": "点击查看漫画（先看漫画，再点下一步😎）",
+        "language": "zho",
+        "replacement": "<a href=\"https://mp.weixin.qq.com/s/f-KyL1J7DOK3CBxpPPrGPw\">点击查看漫画（先看漫画，再点下一步😎）</a>"
+      },
+      {
+        "type_of_edit": "replace_bit_of_text",
+        "flow_id": "module - language_yc",
+        "original_row_id": "",
+        "node_identifier": "Regex:.*Click 🔗 to read the comic.*",
+        "original": "点击查看漫画（先看漫画，再点下一步😎）",
+        "language": "zho",
+        "replacement": "<a href=\"https://mp.weixin.qq.com/s/AKZSEpJpusgt1-xR2xlgTQ\">点击查看漫画（先看漫画，再点下一步😎）</a>"
+      },
+      {
+        "type_of_edit": "replace_bit_of_text",
+        "flow_id": "module - reading_2to3_yc",
+        "original_row_id": "",
+        "node_identifier": "Regex:.*Click 🔗 to read the comic.*",
+        "original": "点击查看漫画（先看漫画，再点下一步😎）",
+        "language": "zho",
+        "replacement": "<a href=\"https://mp.weixin.qq.com/s/cHZZQ7X5PDswZ3JQ-j0EAg\">点击查看漫画（先看漫画，再点下一步😎）</a>"
+      },
+      {
+        "type_of_edit": "replace_bit_of_text",
+        "flow_id": "module - reading1_4to6_yc",
+        "original_row_id": "",
+        "node_identifier": "Regex:.*Click 🔗 to read the comic.*",
+        "original": "点击查看漫画（先看漫画，再点下一步😎）",
+        "language": "zho",
+        "replacement": "<a href=\"https://mp.weixin.qq.com/s/GEzH7pS7B_n5YsHDbRWapQ\">点击查看漫画（先看漫画，再点下一步😎）</a>"
+      },
+      {
+        "type_of_edit": "replace_bit_of_text",
+        "flow_id": "module - maths2_4to6_yc",
+        "original_row_id": "",
+        "node_identifier": "Regex:.*Click 🔗 to read the comic.*",
+        "original": "点击查看漫画（先看漫画，再点下一步😎）",
+        "language": "zho",
+        "replacement": "<a href=\"https://mp.weixin.qq.com/s/u-eW2DuE8_qyy7m-GAcvtw\">点击查看漫画（先看漫画，再点下一步😎）</a>"
+      },
+      {
+        "type_of_edit": "replace_bit_of_text",
+        "flow_id": "module - keeping_it_positive_yc",
+        "original_row_id": "",
+        "node_identifier": "Regex:.*Click 🔗 to read the comic.*",
+        "original": "点击查看漫画（先看漫画，再点下一步😎）",
+        "language": "zho",
+        "replacement": "<a href=\"https://mp.weixin.qq.com/s/uDBMpdINPd0QJDRoAqqtDg\">点击查看漫画（先看漫画，再点下一步😎）</a>"
+      },
+      {
+        "type_of_edit": "replace_bit_of_text",
+        "flow_id": "module - create_routines_yc",
+        "original_row_id": "",
+        "node_identifier": "Regex:.*Click 🔗 to read the comic.*",
+        "original": "点击查看漫画（先看漫画，再点下一步😎）",
+        "language": "zho",
+        "replacement": "<a href=\"https://mp.weixin.qq.com/s/fT8GQqrR6kww0eu1dkV17g\">点击查看漫画（先看漫画，再点下一步😎）</a>"
+      },
+      {
+        "type_of_edit": "replace_bit_of_text",
+        "flow_id": "module - create_family_rules_yc",
+        "original_row_id": "",
+        "node_identifier": "Regex:.*Click 🔗 to read the comic.*",
+        "original": "点击查看漫画（先看漫画，再点下一步😎）",
+        "language": "zho",
+        "replacement": "<a href=\"https://mp.weixin.qq.com/s/Pk-NjlcqINh0vp_sWmZrbw\">点击查看漫画（先看漫画，再点下一步😎）</a>"
+      },
+      {
+        "type_of_edit": "replace_bit_of_text",
+        "flow_id": "module - redirect_yc",
+        "original_row_id": "",
+        "node_identifier": "Regex:.*Click 🔗 to read the comic.*",
+        "original": "点击查看漫画（先看漫画，再点下一步😎）",
+        "language": "zho",
+        "replacement": "<a href=\"https://mp.weixin.qq.com/s/mqnZGhFHotlUaMhjO8UdQw\">点击查看漫画（先看漫画，再点下一步😎）</a>"
+      },
+      {
+        "type_of_edit": "replace_bit_of_text",
+        "flow_id": "module - ignore_demanding_yc",
+        "original_row_id": "",
+        "node_identifier": "Regex:.*Click 🔗 to read the comic.*",
+        "original": "点击查看漫画（先看漫画，再点下一步😎）",
+        "language": "zho",
+        "replacement": "<a href=\"https://mp.weixin.qq.com/s/62jZNVHHVnnG8X75JT41vA\">点击查看漫画（先看漫画，再点下一步😎）</a>"
+      },
+      {
+        "type_of_edit": "replace_bit_of_text",
+        "flow_id": "module - managing_anger_yc",
+        "original_row_id": "",
+        "node_identifier": "Regex:.*Click 🔗 to read the comic.*",
+        "original": "点击查看漫画（先看漫画，再点下一步😎）",
+        "language": "zho",
+        "replacement": "<a href=\"https://mp.weixin.qq.com/s/FE1_v5Lku707y1U-MZ3aSA\">点击查看漫画（先看漫画，再点下一步😎）</a>"
+      },
+      {
+        "type_of_edit": "replace_bit_of_text",
+        "flow_id": "module - teach_consequences_yc",
+        "original_row_id": "",
+        "node_identifier": "Regex:.*Click 🔗 to read the comic.*",
+        "original": "点击查看漫画（先看漫画，再点下一步😎）",
+        "language": "zho",
+        "replacement": "<a href=\"https://mp.weixin.qq.com/s/9C2sIXLI1aFhGYTbuGWTiw\">点击查看漫画（先看漫画，再点下一步😎）</a>"
+      },
+      {
+        "type_of_edit": "replace_bit_of_text",
+        "flow_id": "module - solve_problems_yc",
+        "original_row_id": "",
+        "node_identifier": "Regex:.*Click 🔗 to read the comic.*",
+        "original": "点击查看漫画（先看漫画，再点下一步😎）",
+        "language": "zho",
+        "replacement": "<a href=\"https://mp.weixin.qq.com/s/er7ZpROin6z_cs0SMnUDOg\">点击查看漫画（先看漫画，再点下一步😎）</a>"
+      },
+      {
+        "type_of_edit": "replace_bit_of_text",
+        "flow_id": "module - safe_touch_2to5_yc_m",
+        "original_row_id": "",
+        "node_identifier": "Regex:.*Click 🔗 to read the comic.*",
+        "original": "点击查看漫画（先看漫画，再点下一步😎）",
+        "language": "zho",
+        "replacement": "<a href=\"https://mp.weixin.qq.com/s/PwNX66fzIAePlgrhh-yNoA\">点击查看漫画（先看漫画，再点下一步😎）</a>"
+      },
+      {
+        "type_of_edit": "replace_bit_of_text",
+        "flow_id": "module - safe_touch_2to5_yc_f",
+        "original_row_id": "",
+        "node_identifier": "Regex:.*Click 🔗 to read the comic.*",
+        "original": "点击查看漫画（先看漫画，再点下一步😎）",
+        "language": "zho",
+        "replacement": "<a href=\"https://mp.weixin.qq.com/s/_7k500yOdw25gtTXnu7K8A\">点击查看漫画（先看漫画，再点下一步😎）</a>"
+      },
+      {
+        "type_of_edit": "replace_bit_of_text",
+        "flow_id": "module - safe_touch_6to9_yc",
+        "original_row_id": "",
+        "node_identifier": "Regex:.*Click 🔗 to read the comic.*",
+        "original": "点击查看漫画（先看漫画，再点下一步😎）",
+        "language": "zho",
+        "replacement": "<a href=\"https://mp.weixin.qq.com/s/YuIu9_EoXWFKSyTRdymSOg\">点击查看漫画（先看漫画，再点下一步😎）</a>"
+      },
+      {
+        "type_of_edit": "replace_bit_of_text",
+        "flow_id": "module - com_safety_2to4_yc",
+        "original_row_id": "",
+        "node_identifier": "Regex:.*Click 🔗 to read the comic.*",
+        "original": "点击查看漫画（先看漫画，再点下一步😎）",
+        "language": "zho",
+        "replacement": "<a href=\"https://mp.weixin.qq.com/s/DDxhMNc5m0ZR2mLSmkWSkg\">点击查看漫画（先看漫画，再点下一步😎）</a>"
+      },
+      {
+        "type_of_edit": "replace_bit_of_text",
+        "flow_id": "module - com_safety_5to9_yc",
+        "original_row_id": "",
+        "node_identifier": "Regex:.*Click 🔗 to read the comic.*",
+        "original": "点击查看漫画（先看漫画，再点下一步😎）",
+        "language": "zho",
+        "replacement": "<a href=\"https://mp.weixin.qq.com/s/GmWjm4lDTTDvvx6jlQRx0A\">点击查看漫画（先看漫画，再点下一步😎）</a>"
+      },
+      {
+        "type_of_edit": "replace_bit_of_text",
+        "flow_id": "module - crises_2to6_yc",
+        "original_row_id": "",
+        "node_identifier": "Regex:.*Click 🔗 to read the comic.*",
+        "original": "点击查看漫画（先看漫画，再点下一步😎）",
+        "language": "zho",
+        "replacement": "<a href=\"https://mp.weixin.qq.com/s/rrCSFGgqRhjsT1gLaa4SuA\">点击查看漫画（先看漫画，再点下一步😎）</a>"
+      },
+      {
+        "type_of_edit": "replace_bit_of_text",
+        "flow_id": "module - crises_7to9_yc",
+        "original_row_id": "",
+        "node_identifier": "Regex:.*Click 🔗 to read the comic.*",
+        "original": "点击查看漫画（先看漫画，再点下一步😎）",
+        "language": "zho",
+        "replacement": "<a href=\"https://mp.weixin.qq.com/s/fMNE_Nki5U09s3xW8nTGsQ\">点击查看漫画（先看漫画，再点下一步😎）</a>"
+      },
+      {
+        "type_of_edit": "replace_bit_of_text",
+        "flow_id": "module - online_safety_yc",
+        "original_row_id": "",
+        "node_identifier": "Regex:.*Click 🔗 to read the comic.*",
+        "original": "点击查看漫画（先看漫画，再点下一步😎）",
+        "language": "zho",
+        "replacement": "<a href=\"https://mp.weixin.qq.com/s/C-pkpQmeDEnSLNV2s2NAqw\">点击查看漫画（先看漫画，再点下一步😎）</a>"
+      },
+      {
+        "type_of_edit": "replace_bit_of_text",
+        "flow_id": "module - nutrition_health_yc",
+        "original_row_id": "",
+        "node_identifier": "Regex:.*Click 🔗 to read the comic.*",
+        "original": "点击查看漫画（先看漫画，再点下一步😎）",
+        "language": "zho",
+        "replacement": "<a href=\"https://mp.weixin.qq.com/s/60FYAj1UMfI_QxRl6tZKmw\">点击查看漫画（先看漫画，再点下一步😎）</a>"
+      },
+      {
+        "type_of_edit": "replace_bit_of_text",
+        "flow_id": "module - ipv_equals",
+        "original_row_id": "",
+        "node_identifier": "Regex:.*Click 🔗 to read the comic.*",
+        "original": "点击查看漫画（先看漫画，再点下一步😎）",
+        "language": "zho",
+        "replacement": "<a href=\"https://mp.weixin.qq.com/s/yaJaDLiY4KaemaLWB76RoA\">点击查看漫画（先看漫画，再点下一步😎）</a>"
+      },
+      {
+        "type_of_edit": "replace_bit_of_text",
+        "flow_id": "module - ipv_supportive",
+        "original_row_id": "",
+        "node_identifier": "Regex:.*Click 🔗 to read the comic.*",
+        "original": "点击查看漫画（先看漫画，再点下一步😎）",
+        "language": "zho",
+        "replacement": "<a href=\"https://mp.weixin.qq.com/s/53xBz4ZyzYuuk5W8bPGb5Q\">点击查看漫画（先看漫画，再点下一步😎）</a>"
+      },
+      {
+        "type_of_edit": "replace_bit_of_text",
+        "flow_id": "module - ipv_sharing",
+        "original_row_id": "",
+        "node_identifier": "Regex:.*Click 🔗 to read the comic.*",
+        "original": "点击查看漫画（先看漫画，再点下一步😎）",
+        "language": "zho",
+        "replacement": "<a href=\"https://mp.weixin.qq.com/s/Fok-TqImOSdiG8w8B6LcUw\">点击查看漫画（先看漫画，再点下一步😎）</a>"
+      },
+      {
+        "type_of_edit": "replace_bit_of_text",
+        "flow_id": "module - ipv_conflicts",
+        "original_row_id": "",
+        "node_identifier": "Regex:.*Click 🔗 to read the comic.*",
+        "original": "点击查看漫画（先看漫画，再点下一步😎）",
+        "language": "zho",
+        "replacement": "<a href=\"https://mp.weixin.qq.com/s/gRI-G_NAxuZ66LDUyIJgfw\">点击查看漫画（先看漫画，再点下一步😎）</a>"
+      },
+      {
+        "type_of_edit": "replace_bit_of_text",
+        "flow_id": "module - ipv_listen",
+        "original_row_id": "",
+        "node_identifier": "Regex:.*Click 🔗 to read the comic.*",
+        "original": "点击查看漫画（先看漫画，再点下一步😎）",
+        "language": "zho",
+        "replacement": "<a href=\"https://mp.weixin.qq.com/s/XRot0gdB-ptidQB9YEo4bA\">点击查看漫画（先看漫画，再点下一步😎）</a>"
+      },
+      {
+        "type_of_edit": "replace_bit_of_text",
+        "flow_id": "module - budget_expenses_yc",
+        "original_row_id": "",
+        "node_identifier": "Regex:.*Click 🔗 to get started!.*",
+        "original": "点击查看漫画，开始学习吧！",
+        "language": "zho",
+        "replacement": "<a href=\"https://mp.weixin.qq.com/s/YWU0JFpXI4XSHxlw8kgP-Q\">点击查看漫画，开始学习吧！</a>"
+      },
+      {
+        "type_of_edit": "replace_bit_of_text",
+        "flow_id": "module - budget_monthly_yc",
+        "original_row_id": "",
+        "node_identifier": "Regex:.*Click 🔗 to get started!.*",
+        "original": "点击查看漫画，开始学习吧！",
+        "language": "zho",
+        "replacement": "<a href=\"https://mp.weixin.qq.com/s/dxtUDbXexGE4aVuWVpM0Hg\">点击查看漫画，开始学习吧！</a>"
+      },
+      {
+        "type_of_edit": "replace_bit_of_text",
+        "flow_id": "module - budget_savings_yc",
+        "original_row_id": "",
+        "node_identifier": "Regex:.*Click 🔗 to read the comic.*",
+        "original": "点击查看漫画（先看漫画，再点下一步😎）",
+        "language": "zho",
+        "replacement": "<a href=\"https://mp.weixin.qq.com/s/JciiZM713K_QD1RLoRjBJA\">点击查看漫画（先看漫画，再点下一步😎）</a>"
+      },
+      {
+        "type_of_edit": "replace_bit_of_text",
+        "flow_id": "module_review - take_a_pause",
+        "original_row_id": "",
+        "node_identifier": "Regex:.*Click 🔗 to read the comic.*",
+        "original": "点击查看漫画（先看漫画，再点下一步😎）",
+        "language": "zho",
+        "replacement": "<a href=\"https://mp.weixin.qq.com/s/H5KrT_aGsEGWTIZO6G2XwQ\">点击查看漫画（先看漫画，再点下一步😎）</a>"
+      },
+      {
+        "type_of_edit": "replace_bit_of_text",
+        "flow_id": "module_review - one_on_one_yc",
+        "original_row_id": "",
+        "node_identifier": "Regex:.*Click 🔗 to read the comic.*",
+        "original": "点击查看漫画（先看漫画，再点下一步😎）",
+        "language": "zho",
+        "replacement": "<a href=\"https://mp.weixin.qq.com/s/X6aGmTOiWTarz9-IQG9vgA\">点击查看漫画（先看漫画，再点下一步😎）</a>"
+      },
+      {
+        "type_of_edit": "replace_bit_of_text",
+        "flow_id": "module_review - kind_to_myself_yc",
+        "original_row_id": "",
+        "node_identifier": "Regex:.*Click 🔗 to read the comic.*",
+        "original": "点击查看漫画（先看漫画，再点下一步😎）",
+        "language": "zho",
+        "replacement": "<a href=\"https://mp.weixin.qq.com/s/JcKa9gNXs4BNQzxcyP_3rQ\">点击查看漫画（先看漫画，再点下一步😎）</a>"
+      },
+      {
+        "type_of_edit": "replace_bit_of_text",
+        "flow_id": "module_review - give_praise_yc",
+        "original_row_id": "",
+        "node_identifier": "Regex:.*Click 🔗 to read the comic.*",
+        "original": "点击查看漫画（先看漫画，再点下一步😎）",
+        "language": "zho",
+        "replacement": "<a href=\"https://mp.weixin.qq.com/s/afReF83ZCLwmrx6z7ZCXiw\">点击查看漫画（先看漫画，再点下一步😎）</a>"
+      },
+      {
+        "type_of_edit": "replace_bit_of_text",
+        "flow_id": "module_review - talk_feelings_yc",
+        "original_row_id": "",
+        "node_identifier": "Regex:.*Click 🔗 to read the comic.*",
+        "original": "点击查看漫画（先看漫画，再点下一步😎）",
+        "language": "zho",
+        "replacement": "<a href=\"https://mp.weixin.qq.com/s/RCn4-9xpPWdCyNqX2_nG3g\">点击查看漫画（先看漫画，再点下一步😎）</a>"
+      },
+      {
+        "type_of_edit": "replace_bit_of_text",
+        "flow_id": "module_review - spirituality_yc",
+        "original_row_id": "",
+        "node_identifier": "Regex:.*Click 🔗 to read the comic.*",
+        "original": "点击查看漫画（先看漫画，再点下一步😎）",
+        "language": "zho",
+        "replacement": "<a href=\"https://mp.weixin.qq.com/s/mS_pd2XWMohWB5xjQI_xHA\">点击查看漫画（先看漫画，再点下一步😎）</a>"
+      },
+      {
+        "type_of_edit": "replace_bit_of_text",
+        "flow_id": "module_review - play_yc",
+        "original_row_id": "",
+        "node_identifier": "Regex:.*Click 🔗 to read the comic.*",
+        "original": "点击查看漫画（先看漫画，再点下一步😎）",
+        "language": "zho",
+        "replacement": "<a href=\"https://mp.weixin.qq.com/s/EhH7BA4BMLzQTglY7R7JPw\">点击查看漫画（先看漫画，再点下一步😎）</a>"
+      },
+      {
+        "type_of_edit": "replace_bit_of_text",
+        "flow_id": "module_review - learn_experience_yc",
+        "original_row_id": "",
+        "node_identifier": "Regex:.*Click 🔗 to read the comic.*",
+        "original": "点击查看漫画（先看漫画，再点下一步😎）",
+        "language": "zho",
+        "replacement": "<a href=\"https://mp.weixin.qq.com/s/56buCdf92VYQiXIw1gb-Pg\">点击查看漫画（先看漫画，再点下一步😎）</a>"
+      },
+      {
+        "type_of_edit": "replace_bit_of_text",
+        "flow_id": "module_review - toddler_change_yc",
+        "original_row_id": "",
+        "node_identifier": "Regex:.*Click 🔗 to read the comic.*",
+        "original": "点击查看漫画（先看漫画，再点下一步😎）",
+        "language": "zho",
+        "replacement": "<a href=\"https://mp.weixin.qq.com/s/ujg9y54e44AbdK7DBzPfUw\">点击查看漫画（先看漫画，再点下一步😎）</a>"
+      },
+      {
+        "type_of_edit": "replace_bit_of_text",
+        "flow_id": "module_review - young_child_change_yc",
+        "original_row_id": "",
+        "node_identifier": "Regex:.*Click 🔗 to read the comic.*",
+        "original": "点击查看漫画（先看漫画，再点下一步😎）",
+        "language": "zho",
+        "replacement": "<a href=\"https://mp.weixin.qq.com/s/NaA7PI5cxR14EXTq102T6w\">点击查看漫画（先看漫画，再点下一步😎）</a>"
+      },
+      {
+        "type_of_edit": "replace_bit_of_text",
+        "flow_id": "module_review - child_change_yc",
+        "original_row_id": "",
+        "node_identifier": "Regex:.*Click 🔗 to read the comic.*",
+        "original": "点击查看漫画（先看漫画，再点下一步😎）",
+        "language": "zho",
+        "replacement": "<a href=\"https://mp.weixin.qq.com/s/f-KyL1J7DOK3CBxpPPrGPw\">点击查看漫画（先看漫画，再点下一步😎）</a>"
+      },
+      {
+        "type_of_edit": "replace_bit_of_text",
+        "flow_id": "module_review - language_yc",
+        "original_row_id": "",
+        "node_identifier": "Regex:.*Click 🔗 to read the comic.*",
+        "original": "点击查看漫画（先看漫画，再点下一步😎）",
+        "language": "zho",
+        "replacement": "<a href=\"https://mp.weixin.qq.com/s/AKZSEpJpusgt1-xR2xlgTQ\">点击查看漫画（先看漫画，再点下一步😎）</a>"
+      },
+      {
+        "type_of_edit": "replace_bit_of_text",
+        "flow_id": "module_review - reading_2to3_yc",
+        "original_row_id": "",
+        "node_identifier": "Regex:.*Click 🔗 to read the comic.*",
+        "original": "点击查看漫画（先看漫画，再点下一步😎）",
+        "language": "zho",
+        "replacement": "<a href=\"https://mp.weixin.qq.com/s/cHZZQ7X5PDswZ3JQ-j0EAg\">点击查看漫画（先看漫画，再点下一步😎）</a>"
+      },
+      {
+        "type_of_edit": "replace_bit_of_text",
+        "flow_id": "module_review - reading1_4to6_yc",
+        "original_row_id": "",
+        "node_identifier": "Regex:.*Click 🔗 to read the comic.*",
+        "original": "点击查看漫画（先看漫画，再点下一步😎）",
+        "language": "zho",
+        "replacement": "<a href=\"https://mp.weixin.qq.com/s/GEzH7pS7B_n5YsHDbRWapQ\">点击查看漫画（先看漫画，再点下一步😎）</a>"
+      },
+      {
+        "type_of_edit": "replace_bit_of_text",
+        "flow_id": "module_review - maths2_4to6_yc",
+        "original_row_id": "",
+        "node_identifier": "Regex:.*Click 🔗 to read the comic.*",
+        "original": "点击查看漫画（先看漫画，再点下一步😎）",
+        "language": "zho",
+        "replacement": "<a href=\"https://mp.weixin.qq.com/s/u-eW2DuE8_qyy7m-GAcvtw\">点击查看漫画（先看漫画，再点下一步😎）</a>"
+      },
+      {
+        "type_of_edit": "replace_bit_of_text",
+        "flow_id": "module_review - keeping_it_positive_yc",
+        "original_row_id": "",
+        "node_identifier": "Regex:.*Click 🔗 to read the comic.*",
+        "original": "点击查看漫画（先看漫画，再点下一步😎）",
+        "language": "zho",
+        "replacement": "<a href=\"https://mp.weixin.qq.com/s/uDBMpdINPd0QJDRoAqqtDg\">点击查看漫画（先看漫画，再点下一步😎）</a>"
+      },
+      {
+        "type_of_edit": "replace_bit_of_text",
+        "flow_id": "module_review - create_routines_yc",
+        "original_row_id": "",
+        "node_identifier": "Regex:.*Click 🔗 to read the comic.*",
+        "original": "点击查看漫画（先看漫画，再点下一步😎）",
+        "language": "zho",
+        "replacement": "<a href=\"https://mp.weixin.qq.com/s/fT8GQqrR6kww0eu1dkV17g\">点击查看漫画（先看漫画，再点下一步😎）</a>"
+      },
+      {
+        "type_of_edit": "replace_bit_of_text",
+        "flow_id": "module_review - create_family_rules_yc",
+        "original_row_id": "",
+        "node_identifier": "Regex:.*Click 🔗 to read the comic.*",
+        "original": "点击查看漫画（先看漫画，再点下一步😎）",
+        "language": "zho",
+        "replacement": "<a href=\"https://mp.weixin.qq.com/s/Pk-NjlcqINh0vp_sWmZrbw\">点击查看漫画（先看漫画，再点下一步😎）</a>"
+      },
+      {
+        "type_of_edit": "replace_bit_of_text",
+        "flow_id": "module_review - redirect_yc",
+        "original_row_id": "",
+        "node_identifier": "Regex:.*Click 🔗 to read the comic.*",
+        "original": "点击查看漫画（先看漫画，再点下一步😎）",
+        "language": "zho",
+        "replacement": "<a href=\"https://mp.weixin.qq.com/s/mqnZGhFHotlUaMhjO8UdQw\">点击查看漫画（先看漫画，再点下一步😎）</a>"
+      },
+      {
+        "type_of_edit": "replace_bit_of_text",
+        "flow_id": "module_review - ignore_demanding_yc",
+        "original_row_id": "",
+        "node_identifier": "Regex:.*Click 🔗 to read the comic.*",
+        "original": "点击查看漫画（先看漫画，再点下一步😎）",
+        "language": "zho",
+        "replacement": "<a href=\"https://mp.weixin.qq.com/s/62jZNVHHVnnG8X75JT41vA\">点击查看漫画（先看漫画，再点下一步😎）</a>"
+      },
+      {
+        "type_of_edit": "replace_bit_of_text",
+        "flow_id": "module_review - managing_anger_yc",
+        "original_row_id": "",
+        "node_identifier": "Regex:.*Click 🔗 to read the comic.*",
+        "original": "点击查看漫画（先看漫画，再点下一步😎）",
+        "language": "zho",
+        "replacement": "<a href=\"https://mp.weixin.qq.com/s/FE1_v5Lku707y1U-MZ3aSA\">点击查看漫画（先看漫画，再点下一步😎）</a>"
+      },
+      {
+        "type_of_edit": "replace_bit_of_text",
+        "flow_id": "module_review - teach_consequences_yc",
+        "original_row_id": "",
+        "node_identifier": "Regex:.*Click 🔗 to read the comic.*",
+        "original": "点击查看漫画（先看漫画，再点下一步😎）",
+        "language": "zho",
+        "replacement": "<a href=\"https://mp.weixin.qq.com/s/9C2sIXLI1aFhGYTbuGWTiw\">点击查看漫画（先看漫画，再点下一步😎）</a>"
+      },
+      {
+        "type_of_edit": "replace_bit_of_text",
+        "flow_id": "module_review - solve_problems_yc",
+        "original_row_id": "",
+        "node_identifier": "Regex:.*Click 🔗 to read the comic.*",
+        "original": "点击查看漫画（先看漫画，再点下一步😎）",
+        "language": "zho",
+        "replacement": "<a href=\"https://mp.weixin.qq.com/s/er7ZpROin6z_cs0SMnUDOg\">点击查看漫画（先看漫画，再点下一步😎）</a>"
+      },
+      {
+        "type_of_edit": "replace_bit_of_text",
+        "flow_id": "module_review - safe_touch_2to5_yc_m",
+        "original_row_id": "",
+        "node_identifier": "Regex:.*Click 🔗 to read the comic.*",
+        "original": "点击查看漫画（先看漫画，再点下一步😎）",
+        "language": "zho",
+        "replacement": "<a href=\"https://mp.weixin.qq.com/s/PwNX66fzIAePlgrhh-yNoA\">点击查看漫画（先看漫画，再点下一步😎）</a>"
+      },
+      {
+        "type_of_edit": "replace_bit_of_text",
+        "flow_id": "module_review - safe_touch_2to5_yc_f",
+        "original_row_id": "",
+        "node_identifier": "Regex:.*Click 🔗 to read the comic.*",
+        "original": "点击查看漫画（先看漫画，再点下一步😎）",
+        "language": "zho",
+        "replacement": "<a href=\"https://mp.weixin.qq.com/s/_7k500yOdw25gtTXnu7K8A\">点击查看漫画（先看漫画，再点下一步😎）</a>"
+      },
+      {
+        "type_of_edit": "replace_bit_of_text",
+        "flow_id": "module_review - safe_touch_6to9_yc",
+        "original_row_id": "",
+        "node_identifier": "Regex:.*Click 🔗 to read the comic.*",
+        "original": "点击查看漫画（先看漫画，再点下一步😎）",
+        "language": "zho",
+        "replacement": "<a href=\"https://mp.weixin.qq.com/s/YuIu9_EoXWFKSyTRdymSOg\">点击查看漫画（先看漫画，再点下一步😎）</a>"
+      },
+      {
+        "type_of_edit": "replace_bit_of_text",
+        "flow_id": "module_review - com_safety_2to4_yc",
+        "original_row_id": "",
+        "node_identifier": "Regex:.*Click 🔗 to read the comic.*",
+        "original": "点击查看漫画（先看漫画，再点下一步😎）",
+        "language": "zho",
+        "replacement": "<a href=\"https://mp.weixin.qq.com/s/DDxhMNc5m0ZR2mLSmkWSkg\">点击查看漫画（先看漫画，再点下一步😎）</a>"
+      },
+      {
+        "type_of_edit": "replace_bit_of_text",
+        "flow_id": "module_review - com_safety_5to9_yc",
+        "original_row_id": "",
+        "node_identifier": "Regex:.*Click 🔗 to read the comic.*",
+        "original": "点击查看漫画（先看漫画，再点下一步😎）",
+        "language": "zho",
+        "replacement": "<a href=\"https://mp.weixin.qq.com/s/GmWjm4lDTTDvvx6jlQRx0A\">点击查看漫画（先看漫画，再点下一步😎）</a>"
+      },
+      {
+        "type_of_edit": "replace_bit_of_text",
+        "flow_id": "module_review - crises_2to6_yc",
+        "original_row_id": "",
+        "node_identifier": "Regex:.*Click 🔗 to read the comic.*",
+        "original": "点击查看漫画（先看漫画，再点下一步😎）",
+        "language": "zho",
+        "replacement": "<a href=\"https://mp.weixin.qq.com/s/rrCSFGgqRhjsT1gLaa4SuA\">点击查看漫画（先看漫画，再点下一步😎）</a>"
+      },
+      {
+        "type_of_edit": "replace_bit_of_text",
+        "flow_id": "module_review - crises_7to9_yc",
+        "original_row_id": "",
+        "node_identifier": "Regex:.*Click 🔗 to read the comic.*",
+        "original": "点击查看漫画（先看漫画，再点下一步😎）",
+        "language": "zho",
+        "replacement": "<a href=\"https://mp.weixin.qq.com/s/fMNE_Nki5U09s3xW8nTGsQ\">点击查看漫画（先看漫画，再点下一步😎）</a>"
+      },
+      {
+        "type_of_edit": "replace_bit_of_text",
+        "flow_id": "module_review - online_safety_yc",
+        "original_row_id": "",
+        "node_identifier": "Regex:.*Click 🔗 to read the comic.*",
+        "original": "点击查看漫画（先看漫画，再点下一步😎）",
+        "language": "zho",
+        "replacement": "<a href=\"https://mp.weixin.qq.com/s/C-pkpQmeDEnSLNV2s2NAqw\">点击查看漫画（先看漫画，再点下一步😎）</a>"
+      },
+      {
+        "type_of_edit": "replace_bit_of_text",
+        "flow_id": "module_review - nutrition_health_yc",
+        "original_row_id": "",
+        "node_identifier": "Regex:.*Click 🔗 to read the comic.*",
+        "original": "点击查看漫画（先看漫画，再点下一步😎）",
+        "language": "zho",
+        "replacement": "<a href=\"https://mp.weixin.qq.com/s/60FYAj1UMfI_QxRl6tZKmw\">点击查看漫画（先看漫画，再点下一步😎）</a>"
+      },
+      {
+        "type_of_edit": "replace_bit_of_text",
+        "flow_id": "module_review - ipv_equals",
+        "original_row_id": "",
+        "node_identifier": "Regex:.*Click 🔗 to read the comic.*",
+        "original": "点击查看漫画（先看漫画，再点下一步😎）",
+        "language": "zho",
+        "replacement": "<a href=\"https://mp.weixin.qq.com/s/yaJaDLiY4KaemaLWB76RoA\">点击查看漫画（先看漫画，再点下一步😎）</a>"
+      },
+      {
+        "type_of_edit": "replace_bit_of_text",
+        "flow_id": "module_review - ipv_supportive",
+        "original_row_id": "",
+        "node_identifier": "Regex:.*Click 🔗 to read the comic.*",
+        "original": "点击查看漫画（先看漫画，再点下一步😎）",
+        "language": "zho",
+        "replacement": "<a href=\"https://mp.weixin.qq.com/s/53xBz4ZyzYuuk5W8bPGb5Q\">点击查看漫画（先看漫画，再点下一步😎）</a>"
+      },
+      {
+        "type_of_edit": "replace_bit_of_text",
+        "flow_id": "module_review - ipv_sharing",
+        "original_row_id": "",
+        "node_identifier": "Regex:.*Click 🔗 to read the comic.*",
+        "original": "点击查看漫画（先看漫画，再点下一步😎）",
+        "language": "zho",
+        "replacement": "<a href=\"https://mp.weixin.qq.com/s/Fok-TqImOSdiG8w8B6LcUw\">点击查看漫画（先看漫画，再点下一步😎）</a>"
+      },
+      {
+        "type_of_edit": "replace_bit_of_text",
+        "flow_id": "module_review - ipv_conflicts",
+        "original_row_id": "",
+        "node_identifier": "Regex:.*Click 🔗 to read the comic.*",
+        "original": "点击查看漫画（先看漫画，再点下一步😎）",
+        "language": "zho",
+        "replacement": "<a href=\"https://mp.weixin.qq.com/s/gRI-G_NAxuZ66LDUyIJgfw\">点击查看漫画（先看漫画，再点下一步😎）</a>"
+      },
+      {
+        "type_of_edit": "replace_bit_of_text",
+        "flow_id": "module_review - ipv_listen",
+        "original_row_id": "",
+        "node_identifier": "Regex:.*Click 🔗 to read the comic.*",
+        "original": "点击查看漫画（先看漫画，再点下一步😎）",
+        "language": "zho",
+        "replacement": "<a href=\"https://mp.weixin.qq.com/s/XRot0gdB-ptidQB9YEo4bA\">点击查看漫画（先看漫画，再点下一步😎）</a>"
+      },
+      {
+        "type_of_edit": "replace_bit_of_text",
+        "flow_id": "module_review - budget_expenses_yc",
+        "original_row_id": "",
+        "node_identifier": "Regex:.*Click 🔗 to get started!.*",
+        "original": "点击查看漫画，开始学习吧！",
+        "language": "zho",
+        "replacement": "<a href=\"https://mp.weixin.qq.com/s/YWU0JFpXI4XSHxlw8kgP-Q\">点击查看漫画，开始学习吧！</a>"
+      },
+      {
+        "type_of_edit": "replace_bit_of_text",
+        "flow_id": "module_review - budget_monthly_yc",
+        "original_row_id": "",
+        "node_identifier": "Regex:.*Click 🔗 to get started!.*",
+        "original": "点击查看漫画，开始学习吧！",
+        "language": "zho",
+        "replacement": "<a href=\"https://mp.weixin.qq.com/s/dxtUDbXexGE4aVuWVpM0Hg\">点击查看漫画，开始学习吧！</a>"
+      },
+      {
+        "type_of_edit": "replace_bit_of_text",
+        "flow_id": "module_review - budget_savings_yc",
+        "original_row_id": "",
+        "node_identifier": "Regex:.*Click 🔗 to read the comic.*",
+        "original": "点击查看漫画（先看漫画，再点下一步😎）",
+        "language": "zho",
+        "replacement": "<a href=\"https://mp.weixin.qq.com/s/JciiZM713K_QD1RLoRjBJA\">点击查看漫画（先看漫画，再点下一步😎）</a>"
+      },
+      {
+        "type_of_edit": "replace_bit_of_text",
+        "flow_id": "program_overview",
+        "original_row_id": "",
+        "node_identifier": "Click to view all goals and modules",
+        "original": "点击查看课程概览",
+        "language": "zho",
+        "replacement": "<a href=\"https://mp.weixin.qq.com/s/RHY7MqdTCjAF9axrbpAElQ\">点击查看课程概览</a>"
+      }
+    ],
+    "video_links_eng": [
+      {
+        "type_of_edit": "replace_bit_of_text",
+        "flow_id": "module - take_a_pause",
+        "original_row_id": "",
+        "node_identifier": "Regex:.*⏯ Click to watch the video*",
+        "change": "⏯ Click to watch the video",
+        "condition_var": "",
+        "category": "<a href=\"@(globals.path &fields.attachment_gender&\"/take_a_pause.mp4\")\">⏯ Click to watch the video</a>"
+      },
+      {
+        "type_of_edit": "replace_bit_of_text",
+        "flow_id": "module - one_on_one_yc",
+        "original_row_id": "",
+        "node_identifier": "Regex:.*⏯ Click to watch the video*",
+        "change": "⏯ Click to watch the video",
+        "condition_var": "",
+        "category": "<a href=\"@(globals.path &fields.attachment_gender&\"/one_on_one_yc.mp4\")\">⏯ Click to watch the video</a>"
+      },
+      {
+        "type_of_edit": "replace_bit_of_text",
+        "flow_id": "module - kind_to_myself_yc",
+        "original_row_id": "",
+        "node_identifier": "Regex:.*⏯ Click to watch the video*",
+        "change": "⏯ Click to watch the video",
+        "condition_var": "",
+        "category": "<a href=\"@(globals.path &fields.attachment_gender&\"/kind_to_myself_yc.mp4\")\">⏯ Click to watch the video</a>"
+      },
+      {
+        "type_of_edit": "replace_bit_of_text",
+        "flow_id": "module - give_praise_yc",
+        "original_row_id": "",
+        "node_identifier": "Regex:.*⏯ Click to watch the video*",
+        "change": "⏯ Click to watch the video",
+        "condition_var": "",
+        "category": "<a href=\"@(globals.path &fields.attachment_gender&\"/give_praise_yc.mp4\")\">⏯ Click to watch the video</a>"
+      },
+      {
+        "type_of_edit": "replace_bit_of_text",
+        "flow_id": "module - talk_feelings_yc",
+        "original_row_id": "",
+        "node_identifier": "Regex:.*⏯ Click to watch the video*",
+        "change": "⏯ Click to watch the video",
+        "condition_var": "",
+        "category": "<a href=\"@(globals.path &fields.attachment_gender&\"/talk_feelings_yc.mp4\")\">⏯ Click to watch the video</a>"
+      },
+      {
+        "type_of_edit": "replace_bit_of_text",
+        "flow_id": "module - spirituality_yc",
+        "original_row_id": "",
+        "node_identifier": "Regex:.*⏯ Click to watch the video*",
+        "change": "⏯ Click to watch the video",
+        "condition_var": "",
+        "category": "<a href=\"@(globals.path &fields.attachment_gender&\"/spirituality_yc.mp4\")\">⏯ Click to watch the video</a>"
+      },
+      {
+        "type_of_edit": "replace_bit_of_text",
+        "flow_id": "module - language_yc",
+        "original_row_id": "",
+        "node_identifier": "Regex:.*⏯ Click to watch the video*",
+        "change": "⏯ Click to watch the video",
+        "condition_var": "",
+        "category": "<a href=\"@(globals.path &fields.attachment_gender&\"/language_yc.mp4\")\">⏯ Click to watch the video</a>"
+      },
+      {
+        "type_of_edit": "replace_bit_of_text",
+        "flow_id": "module - reading1_4to6_yc",
+        "original_row_id": "",
+        "node_identifier": "Regex:.*⏯ Click to watch the video*",
+        "change": "⏯ Click to watch the video",
+        "condition_var": "",
+        "category": "<a href=\"@(globals.path &fields.attachment_gender&\"/reading1_4to6_yc.mp4\")\">⏯ Click to watch the video</a>"
+      },
+      {
+        "type_of_edit": "replace_bit_of_text",
+        "flow_id": "module - reading2_4to6_yc",
+        "original_row_id": "",
+        "node_identifier": "Regex:.*⏯ Click to watch the video*",
+        "change": "⏯ Click to watch the video",
+        "condition_var": "",
+        "category": "<a href=\"@(globals.path &fields.attachment_gender&\"/reading2_4to6_yc.mp4\")\">⏯ Click to watch the video</a>"
+      },
+      {
+        "type_of_edit": "replace_bit_of_text",
+        "flow_id": "module - maths1_4to6_yc",
+        "original_row_id": "",
+        "node_identifier": "Regex:.*⏯ Click to watch the video*",
+        "change": "⏯ Click to watch the video",
+        "condition_var": "",
+        "category": "<a href=\"@(globals.path &fields.attachment_gender&\"/maths1_4to6_yc.mp4\")\">⏯ Click to watch the video</a>"
+      },
+      {
+        "type_of_edit": "replace_bit_of_text",
+        "flow_id": "module - maths2_4to6_yc",
+        "original_row_id": "",
+        "node_identifier": "Regex:.*⏯ Click to watch the video*",
+        "change": "⏯ Click to watch the video",
+        "condition_var": "",
+        "category": "<a href=\"@(globals.path &fields.attachment_gender&\"/maths2_4to6_yc.mp4\")\">⏯ Click to watch the video</a>"
+      },
+      {
+        "type_of_edit": "replace_bit_of_text",
+        "flow_id": "module - reading_2to3_yc",
+        "original_row_id": "",
+        "node_identifier": "Regex:.*⏯ Click to watch the video*",
+        "change": "⏯ Click to watch the video",
+        "condition_var": "",
+        "category": "<a href=\"@(globals.path &fields.attachment_gender&\"/reading_2to3_yc.mp4\")\">⏯ Click to watch the video</a>"
+      },
+      {
+        "type_of_edit": "replace_bit_of_text",
+        "flow_id": "module - maths_2to3_yc",
+        "original_row_id": "",
+        "node_identifier": "Regex:.*⏯ Click to watch the video*",
+        "change": "⏯ Click to watch the video",
+        "condition_var": "",
+        "category": "<a href=\"@(globals.path &fields.attachment_gender&\"/maths_2to3_yc.mp4\")\">⏯ Click to watch the video</a>"
+      },
+      {
+        "type_of_edit": "replace_bit_of_text",
+        "flow_id": "module - engage_school_3to6_yc",
+        "original_row_id": "",
+        "node_identifier": "Regex:.*⏯ Click to watch the video*",
+        "change": "⏯ Click to watch the video",
+        "condition_var": "",
+        "category": "<a href=\"@(globals.path &fields.attachment_gender&\"/engage_school_3to6_yc.mp4\")\">⏯ Click to watch the video</a>"
+      },
+      {
+        "type_of_edit": "replace_bit_of_text",
+        "flow_id": "module - play_yc",
+        "original_row_id": "",
+        "node_identifier": "Regex:.*⏯ Click to watch the video*",
+        "change": "⏯ Click to watch the video",
+        "condition_var": "",
+        "category": "<a href=\"@(globals.path &fields.attachment_gender&\"/play_yc.mp4\")\">⏯ Click to watch the video</a>"
+      },
+      {
+        "type_of_edit": "replace_bit_of_text",
+        "flow_id": "module - learn_experience_yc",
+        "original_row_id": "",
+        "node_identifier": "Regex:.*⏯ Click to watch the video*",
+        "change": "⏯ Click to watch the video",
+        "condition_var": "",
+        "category": "<a href=\"@(globals.path &fields.attachment_gender&\"/learn_experience_yc.mp4\")\">⏯ Click to watch the video</a>"
+      },
+      {
+        "type_of_edit": "replace_bit_of_text",
+        "flow_id": "module - toddler_change_yc",
+        "original_row_id": "",
+        "node_identifier": "Regex:.*⏯ Click to watch the video*",
+        "change": "⏯ Click to watch the video",
+        "condition_var": "",
+        "category": "<a href=\"@(globals.path &fields.attachment_gender&\"/toddler_change_yc.mp4\")\">⏯ Click to watch the video</a>"
+      },
+      {
+        "type_of_edit": "replace_bit_of_text",
+        "flow_id": "module - young_child_change_yc",
+        "original_row_id": "",
+        "node_identifier": "Regex:.*⏯ Click to watch the video*",
+        "change": "⏯ Click to watch the video",
+        "condition_var": "",
+        "category": "<a href=\"@(globals.path &fields.attachment_gender&\"/young_child_change_yc.mp4\")\">⏯ Click to watch the video</a>"
+      },
+      {
+        "type_of_edit": "replace_bit_of_text",
+        "flow_id": "module - child_change_yc",
+        "original_row_id": "",
+        "node_identifier": "Regex:.*⏯ Click to watch the video*",
+        "change": "⏯ Click to watch the video",
+        "condition_var": "",
+        "category": "<a href=\"@(globals.path &fields.attachment_gender&\"/child_change_yc.mp4\")\">⏯ Click to watch the video</a>"
+      },
+      {
+        "type_of_edit": "replace_bit_of_text",
+        "flow_id": "module - manage_my_stress_yc",
+        "original_row_id": "",
+        "node_identifier": "Regex:.*⏯ Click to watch the video*",
+        "change": "⏯ Click to watch the video",
+        "condition_var": "",
+        "category": "<a href=\"@(globals.path &fields.attachment_gender&\"/manage_my_stress_yc.mp4\")\">⏯ Click to watch the video</a>"
+      },
+      {
+        "type_of_edit": "replace_bit_of_text",
+        "flow_id": "module - keeping_it_positive_yc",
+        "original_row_id": "",
+        "node_identifier": "Regex:.*⏯ Click to watch the video*",
+        "change": "⏯ Click to watch the video",
+        "condition_var": "",
+        "category": "<a href=\"@(globals.path &fields.attachment_gender&\"/keeping_it_positive_yc.mp4\")\">⏯ Click to watch the video</a>"
+      },
+      {
+        "type_of_edit": "replace_bit_of_text",
+        "flow_id": "module - create_routines_yc",
+        "original_row_id": "",
+        "node_identifier": "Regex:.*⏯ Click to watch the video*",
+        "change": "⏯ Click to watch the video",
+        "condition_var": "",
+        "category": "<a href=\"@(globals.path &fields.attachment_gender&\"/create_routines_yc.mp4\")\">⏯ Click to watch the video</a>"
+      },
+      {
+        "type_of_edit": "replace_bit_of_text",
+        "flow_id": "module - create_family_rules_yc",
+        "original_row_id": "",
+        "node_identifier": "Regex:.*⏯ Click to watch the video*",
+        "change": "⏯ Click to watch the video",
+        "condition_var": "",
+        "category": "<a href=\"@(globals.path &fields.attachment_gender&\"/create_family_rules_yc.mp4\")\">⏯ Click to watch the video</a>"
+      },
+      {
+        "type_of_edit": "replace_bit_of_text",
+        "flow_id": "module - know_role_yc",
+        "original_row_id": "",
+        "node_identifier": "Regex:.*⏯ Click to watch the video*",
+        "change": "⏯ Click to watch the video",
+        "condition_var": "",
+        "category": "<a href=\"@(globals.path &fields.attachment_gender&\"/know_role_yc.mp4\")\">⏯ Click to watch the video</a>"
+      },
+      {
+        "type_of_edit": "replace_bit_of_text",
+        "flow_id": "module - redirect_yc",
+        "original_row_id": "",
+        "node_identifier": "Regex:.*⏯ Click to watch the video*",
+        "change": "⏯ Click to watch the video",
+        "condition_var": "",
+        "category": "<a href=\"@(globals.path &fields.attachment_gender&\"/redirect_yc.mp4\")\">⏯ Click to watch the video</a>"
+      },
+      {
+        "type_of_edit": "replace_bit_of_text",
+        "flow_id": "module - ignore_demanding_yc",
+        "original_row_id": "",
+        "node_identifier": "Regex:.*⏯ Click to watch the video*",
+        "change": "⏯ Click to watch the video",
+        "condition_var": "",
+        "category": "<a href=\"@(globals.path &fields.attachment_gender&\"/ignore_demanding_yc.mp4\")\">⏯ Click to watch the video</a>"
+      },
+      {
+        "type_of_edit": "replace_bit_of_text",
+        "flow_id": "module - managing_anger_yc",
+        "original_row_id": "",
+        "node_identifier": "Regex:.*⏯ Click to watch the video*",
+        "change": "⏯ Click to watch the video",
+        "condition_var": "",
+        "category": "<a href=\"@(globals.path &fields.attachment_gender&\"/managing_anger_yc.mp4\")\">⏯ Click to watch the video</a>"
+      },
+      {
+        "type_of_edit": "replace_bit_of_text",
+        "flow_id": "module - teach_consequences_yc",
+        "original_row_id": "",
+        "node_identifier": "Regex:.*⏯ Click to watch the video*",
+        "change": "⏯ Click to watch the video",
+        "condition_var": "",
+        "category": "<a href=\"@(globals.path &fields.attachment_gender&\"/teach_consequences_yc.mp4\")\">⏯ Click to watch the video</a>"
+      },
+      {
+        "type_of_edit": "replace_bit_of_text",
+        "flow_id": "module - solve_problems_yc",
+        "original_row_id": "",
+        "node_identifier": "Regex:.*⏯ Click to watch the video*",
+        "change": "⏯ Click to watch the video",
+        "condition_var": "",
+        "category": "<a href=\"@(globals.path &fields.attachment_gender&\"/solve_problems_yc.mp4\")\">⏯ Click to watch the video</a>"
+      },
+      {
+        "type_of_edit": "replace_bit_of_text",
+        "flow_id": "module - safe_touch_2to5_yc_m",
+        "original_row_id": "",
+        "node_identifier": "Regex:.*⏯ Click to watch the video*",
+        "change": "⏯ Click to watch the video",
+        "condition_var": "",
+        "category": "<a href=\"@(globals.path &fields.attachment_gender&\"/safe_touch_2to5_yc_m.mp4\")\">⏯ Click to watch the video</a>"
+      },
+      {
+        "type_of_edit": "replace_bit_of_text",
+        "flow_id": "module - safe_touch_2to5_yc_f",
+        "original_row_id": "",
+        "node_identifier": "Regex:.*⏯ Click to watch the video*",
+        "change": "⏯ Click to watch the video",
+        "condition_var": "",
+        "category": "<a href=\"@(globals.path &fields.attachment_gender&\"/safe_touch_2to5_yc_f.mp4\")\">⏯ Click to watch the video</a>"
+      },
+      {
+        "type_of_edit": "replace_bit_of_text",
+        "flow_id": "module - safe_touch_6to9_yc",
+        "original_row_id": "",
+        "node_identifier": "Regex:.*⏯ Click to watch the video*",
+        "change": "⏯ Click to watch the video",
+        "condition_var": "",
+        "category": "<a href=\"@(globals.path &fields.attachment_gender&\"/safe_touch_6to9_yc.mp4\")\">⏯ Click to watch the video</a>"
+      },
+      {
+        "type_of_edit": "replace_bit_of_text",
+        "flow_id": "module - com_safety_2to4_yc",
+        "original_row_id": "",
+        "node_identifier": "Regex:.*⏯ Click to watch the video*",
+        "change": "⏯ Click to watch the video",
+        "condition_var": "",
+        "category": "<a href=\"@(globals.path &fields.attachment_gender&\"/com_safety_2to4_yc.mp4\")\">⏯ Click to watch the video</a>"
+      },
+      {
+        "type_of_edit": "replace_bit_of_text",
+        "flow_id": "module - com_safety_5to9_yc",
+        "original_row_id": "",
+        "node_identifier": "Regex:.*⏯ Click to watch the video*",
+        "change": "⏯ Click to watch the video",
+        "condition_var": "",
+        "category": "<a href=\"@(globals.path &fields.attachment_gender&\"/com_safety_5to9_yc.mp4\")\">⏯ Click to watch the video</a>"
+      },
+      {
+        "type_of_edit": "replace_bit_of_text",
+        "flow_id": "module - crises_2to6_yc",
+        "original_row_id": "",
+        "node_identifier": "Regex:.*⏯ Click to watch the video*",
+        "change": "⏯ Click to watch the video",
+        "condition_var": "",
+        "category": "<a href=\"@(globals.path &fields.attachment_gender&\"/crises_2to6_yc.mp4\")\">⏯ Click to watch the video</a>"
+      },
+      {
+        "type_of_edit": "replace_bit_of_text",
+        "flow_id": "module - crises_7to9_yc",
+        "original_row_id": "",
+        "node_identifier": "Regex:.*⏯ Click to watch the video*",
+        "change": "⏯ Click to watch the video",
+        "condition_var": "",
+        "category": "<a href=\"@(globals.path &fields.attachment_gender&\"/crises_7to9_yc.mp4\")\">⏯ Click to watch the video</a>"
+      },
+      {
+        "type_of_edit": "replace_bit_of_text",
+        "flow_id": "module - online_safety_yc",
+        "original_row_id": "",
+        "node_identifier": "Regex:.*⏯ Click to watch the video*",
+        "change": "⏯ Click to watch the video",
+        "condition_var": "",
+        "category": "<a href=\"@(globals.path &fields.attachment_gender&\"/online_safety_yc.mp4\")\">⏯ Click to watch the video</a>"
+      },
+      {
+        "type_of_edit": "replace_bit_of_text",
+        "flow_id": "module - habits_trust_online_yc",
+        "original_row_id": "",
+        "node_identifier": "Regex:.*⏯ Click to watch the video*",
+        "change": "⏯ Click to watch the video",
+        "condition_var": "",
+        "category": "<a href=\"@(globals.path &fields.attachment_gender&\"/habits_trust_online_yc.mp4\")\">⏯ Click to watch the video</a>"
+      },
+      {
+        "type_of_edit": "replace_bit_of_text",
+        "flow_id": "module - nutrition_health_yc",
+        "original_row_id": "",
+        "node_identifier": "Regex:.*⏯ Click to watch the video*",
+        "change": "⏯ Click to watch the video",
+        "condition_var": "",
+        "category": "<a href=\"@(globals.path &fields.attachment_gender&\"/nutrition_health_yc.mp4\")\">⏯ Click to watch the video</a>"
+      },
+      {
+        "type_of_edit": "replace_bit_of_text",
+        "flow_id": "module - ipv_equals",
+        "original_row_id": "",
+        "node_identifier": "Regex:.*⏯ Click to watch the video*",
+        "change": "⏯ Click to watch the video",
+        "condition_var": "",
+        "category": "<a href=\"@(globals.path &fields.attachment_gender&\"/ipv_equals.mp4\")\">⏯ Click to watch the video</a>"
+      },
+      {
+        "type_of_edit": "replace_bit_of_text",
+        "flow_id": "module - ipv_supportive",
+        "original_row_id": "",
+        "node_identifier": "Regex:.*⏯ Click to watch the video*",
+        "change": "⏯ Click to watch the video",
+        "condition_var": "",
+        "category": "<a href=\"@(globals.path &fields.attachment_gender&\"/ipv_supportive.mp4\")\">⏯ Click to watch the video</a>"
+      },
+      {
+        "type_of_edit": "replace_bit_of_text",
+        "flow_id": "module - ipv_sharing",
+        "original_row_id": "",
+        "node_identifier": "Regex:.*⏯ Click to watch the video*",
+        "change": "⏯ Click to watch the video",
+        "condition_var": "",
+        "category": "<a href=\"@(globals.path &fields.attachment_gender&\"/ipv_sharing.mp4\")\">⏯ Click to watch the video</a>"
+      },
+      {
+        "type_of_edit": "replace_bit_of_text",
+        "flow_id": "module - ipv_conflicts",
+        "original_row_id": "",
+        "node_identifier": "Regex:.*⏯ Click to watch the video*",
+        "change": "⏯ Click to watch the video",
+        "condition_var": "",
+        "category": "<a href=\"@(globals.path &fields.attachment_gender&\"/ipv_conflicts.mp4\")\">⏯ Click to watch the video</a>"
+      },
+      {
+        "type_of_edit": "replace_bit_of_text",
+        "flow_id": "module - ipv_listen",
+        "original_row_id": "",
+        "node_identifier": "Regex:.*⏯ Click to watch the video*",
+        "change": "⏯ Click to watch the video",
+        "condition_var": "",
+        "category": "<a href=\"@(globals.path &fields.attachment_gender&\"/ipv_listen.mp4\")\">⏯ Click to watch the video</a>"
+      },
+      {
+        "type_of_edit": "replace_bit_of_text",
+        "flow_id": "module - budget_needs_yc",
+        "original_row_id": "",
+        "node_identifier": "Regex:.*⏯ Click to watch the video*",
+        "change": "⏯ Click to watch the video",
+        "condition_var": "",
+        "category": "<a href=\"@(globals.path &fields.attachment_gender&\"/budget_needs_yc.mp4\")\">⏯ Click to watch the video</a>"
+      },
+      {
+        "type_of_edit": "replace_bit_of_text",
+        "flow_id": "module - budget_expenses_yc",
+        "original_row_id": "",
+        "node_identifier": "Regex:.*⏯ Click to watch the video*",
+        "change": "⏯ Click to watch the video",
+        "condition_var": "",
+        "category": "<a href=\"@(globals.path &fields.attachment_gender&\"/budget_expenses_yc.mp4\")\">⏯ Click to watch the video</a>"
+      },
+      {
+        "type_of_edit": "replace_bit_of_text",
+        "flow_id": "module - budget_monthly_yc",
+        "original_row_id": "",
+        "node_identifier": "Regex:.*⏯ Click to watch the video*",
+        "change": "⏯ Click to watch the video",
+        "condition_var": "",
+        "category": "<a href=\"@(globals.path &fields.attachment_gender&\"/budget_monthly_yc.mp4\")\">⏯ Click to watch the video</a>"
+      },
+      {
+        "type_of_edit": "replace_bit_of_text",
+        "flow_id": "module - budget_savings_yc",
+        "original_row_id": "",
+        "node_identifier": "Regex:.*⏯ Click to watch the video*",
+        "change": "⏯ Click to watch the video",
+        "condition_var": "",
+        "category": "<a href=\"@(globals.path &fields.attachment_gender&\"/budget_savings_yc.mp4\")\">⏯ Click to watch the video</a>"
+      },
+      {
+        "type_of_edit": "replace_bit_of_text",
+        "flow_id": "module_review - take_a_pause",
+        "original_row_id": "",
+        "node_identifier": "Regex:.*⏯ Click to watch the video*",
+        "change": "⏯ Click to watch the video",
+        "condition_var": "",
+        "category": "<a href=\"@(globals.path &fields.attachment_gender&\"/take_a_pause.mp4\")\">⏯ Click to watch the video</a>"
+      },
+      {
+        "type_of_edit": "replace_bit_of_text",
+        "flow_id": "module_review - one_on_one_yc",
+        "original_row_id": "",
+        "node_identifier": "Regex:.*⏯ Click to watch the video*",
+        "change": "⏯ Click to watch the video",
+        "condition_var": "",
+        "category": "<a href=\"@(globals.path &fields.attachment_gender&\"/one_on_one_yc.mp4\")\">⏯ Click to watch the video</a>"
+      },
+      {
+        "type_of_edit": "replace_bit_of_text",
+        "flow_id": "module_review - kind_to_myself_yc",
+        "original_row_id": "",
+        "node_identifier": "Regex:.*⏯ Click to watch the video*",
+        "change": "⏯ Click to watch the video",
+        "condition_var": "",
+        "category": "<a href=\"@(globals.path &fields.attachment_gender&\"/kind_to_myself_yc.mp4\")\">⏯ Click to watch the video</a>"
+      },
+      {
+        "type_of_edit": "replace_bit_of_text",
+        "flow_id": "module_review - give_praise_yc",
+        "original_row_id": "",
+        "node_identifier": "Regex:.*⏯ Click to watch the video*",
+        "change": "⏯ Click to watch the video",
+        "condition_var": "",
+        "category": "<a href=\"@(globals.path &fields.attachment_gender&\"/give_praise_yc.mp4\")\">⏯ Click to watch the video</a>"
+      },
+      {
+        "type_of_edit": "replace_bit_of_text",
+        "flow_id": "module_review - talk_feelings_yc",
+        "original_row_id": "",
+        "node_identifier": "Regex:.*⏯ Click to watch the video*",
+        "change": "⏯ Click to watch the video",
+        "condition_var": "",
+        "category": "<a href=\"@(globals.path &fields.attachment_gender&\"/talk_feelings_yc.mp4\")\">⏯ Click to watch the video</a>"
+      },
+      {
+        "type_of_edit": "replace_bit_of_text",
+        "flow_id": "module_review - spirituality_yc",
+        "original_row_id": "",
+        "node_identifier": "Regex:.*⏯ Click to watch the video*",
+        "change": "⏯ Click to watch the video",
+        "condition_var": "",
+        "category": "<a href=\"@(globals.path &fields.attachment_gender&\"/spirituality_yc.mp4\")\">⏯ Click to watch the video</a>"
+      },
+      {
+        "type_of_edit": "replace_bit_of_text",
+        "flow_id": "module_review - language_yc",
+        "original_row_id": "",
+        "node_identifier": "Regex:.*⏯ Click to watch the video*",
+        "change": "⏯ Click to watch the video",
+        "condition_var": "",
+        "category": "<a href=\"@(globals.path &fields.attachment_gender&\"/language_yc.mp4\")\">⏯ Click to watch the video</a>"
+      },
+      {
+        "type_of_edit": "replace_bit_of_text",
+        "flow_id": "module_review - reading1_4to6_yc",
+        "original_row_id": "",
+        "node_identifier": "Regex:.*⏯ Click to watch the video*",
+        "change": "⏯ Click to watch the video",
+        "condition_var": "",
+        "category": "<a href=\"@(globals.path &fields.attachment_gender&\"/reading1_4to6_yc.mp4\")\">⏯ Click to watch the video</a>"
+      },
+      {
+        "type_of_edit": "replace_bit_of_text",
+        "flow_id": "module_review - reading2_4to6_yc",
+        "original_row_id": "",
+        "node_identifier": "Regex:.*⏯ Click to watch the video*",
+        "change": "⏯ Click to watch the video",
+        "condition_var": "",
+        "category": "<a href=\"@(globals.path &fields.attachment_gender&\"/reading2_4to6_yc.mp4\")\">⏯ Click to watch the video</a>"
+      },
+      {
+        "type_of_edit": "replace_bit_of_text",
+        "flow_id": "module_review - maths1_4to6_yc",
+        "original_row_id": "",
+        "node_identifier": "Regex:.*⏯ Click to watch the video*",
+        "change": "⏯ Click to watch the video",
+        "condition_var": "",
+        "category": "<a href=\"@(globals.path &fields.attachment_gender&\"/maths1_4to6_yc.mp4\")\">⏯ Click to watch the video</a>"
+      },
+      {
+        "type_of_edit": "replace_bit_of_text",
+        "flow_id": "module_review - maths2_4to6_yc",
+        "original_row_id": "",
+        "node_identifier": "Regex:.*⏯ Click to watch the video*",
+        "change": "⏯ Click to watch the video",
+        "condition_var": "",
+        "category": "<a href=\"@(globals.path &fields.attachment_gender&\"/maths2_4to6_yc.mp4\")\">⏯ Click to watch the video</a>"
+      },
+      {
+        "type_of_edit": "replace_bit_of_text",
+        "flow_id": "module_review - reading_2to3_yc",
+        "original_row_id": "",
+        "node_identifier": "Regex:.*⏯ Click to watch the video*",
+        "change": "⏯ Click to watch the video",
+        "condition_var": "",
+        "category": "<a href=\"@(globals.path &fields.attachment_gender&\"/reading_2to3_yc.mp4\")\">⏯ Click to watch the video</a>"
+      },
+      {
+        "type_of_edit": "replace_bit_of_text",
+        "flow_id": "module_review - maths_2to3_yc",
+        "original_row_id": "",
+        "node_identifier": "Regex:.*⏯ Click to watch the video*",
+        "change": "⏯ Click to watch the video",
+        "condition_var": "",
+        "category": "<a href=\"@(globals.path &fields.attachment_gender&\"/maths_2to3_yc.mp4\")\">⏯ Click to watch the video</a>"
+      },
+      {
+        "type_of_edit": "replace_bit_of_text",
+        "flow_id": "module_review - engage_school_3to6_yc",
+        "original_row_id": "",
+        "node_identifier": "Regex:.*⏯ Click to watch the video*",
+        "change": "⏯ Click to watch the video",
+        "condition_var": "",
+        "category": "<a href=\"@(globals.path &fields.attachment_gender&\"/engage_school_3to6_yc.mp4\")\">⏯ Click to watch the video</a>"
+      },
+      {
+        "type_of_edit": "replace_bit_of_text",
+        "flow_id": "module_review - play_yc",
+        "original_row_id": "",
+        "node_identifier": "Regex:.*⏯ Click to watch the video*",
+        "change": "⏯ Click to watch the video",
+        "condition_var": "",
+        "category": "<a href=\"@(globals.path &fields.attachment_gender&\"/play_yc.mp4\")\">⏯ Click to watch the video</a>"
+      },
+      {
+        "type_of_edit": "replace_bit_of_text",
+        "flow_id": "module_review - learn_experience_yc",
+        "original_row_id": "",
+        "node_identifier": "Regex:.*⏯ Click to watch the video*",
+        "change": "⏯ Click to watch the video",
+        "condition_var": "",
+        "category": "<a href=\"@(globals.path &fields.attachment_gender&\"/learn_experience_yc.mp4\")\">⏯ Click to watch the video</a>"
+      },
+      {
+        "type_of_edit": "replace_bit_of_text",
+        "flow_id": "module_review - toddler_change_yc",
+        "original_row_id": "",
+        "node_identifier": "Regex:.*⏯ Click to watch the video*",
+        "change": "⏯ Click to watch the video",
+        "condition_var": "",
+        "category": "<a href=\"@(globals.path &fields.attachment_gender&\"/toddler_change_yc.mp4\")\">⏯ Click to watch the video</a>"
+      },
+      {
+        "type_of_edit": "replace_bit_of_text",
+        "flow_id": "module_review - young_child_change_yc",
+        "original_row_id": "",
+        "node_identifier": "Regex:.*⏯ Click to watch the video*",
+        "change": "⏯ Click to watch the video",
+        "condition_var": "",
+        "category": "<a href=\"@(globals.path &fields.attachment_gender&\"/young_child_change_yc.mp4\")\">⏯ Click to watch the video</a>"
+      },
+      {
+        "type_of_edit": "replace_bit_of_text",
+        "flow_id": "module_review - child_change_yc",
+        "original_row_id": "",
+        "node_identifier": "Regex:.*⏯ Click to watch the video*",
+        "change": "⏯ Click to watch the video",
+        "condition_var": "",
+        "category": "<a href=\"@(globals.path &fields.attachment_gender&\"/child_change_yc.mp4\")\">⏯ Click to watch the video</a>"
+      },
+      {
+        "type_of_edit": "replace_bit_of_text",
+        "flow_id": "module_review - manage_my_stress_yc",
+        "original_row_id": "",
+        "node_identifier": "Regex:.*⏯ Click to watch the video*",
+        "change": "⏯ Click to watch the video",
+        "condition_var": "",
+        "category": "<a href=\"@(globals.path &fields.attachment_gender&\"/manage_my_stress_yc.mp4\")\">⏯ Click to watch the video</a>"
+      },
+      {
+        "type_of_edit": "replace_bit_of_text",
+        "flow_id": "module_review - keeping_it_positive_yc",
+        "original_row_id": "",
+        "node_identifier": "Regex:.*⏯ Click to watch the video*",
+        "change": "⏯ Click to watch the video",
+        "condition_var": "",
+        "category": "<a href=\"@(globals.path &fields.attachment_gender&\"/keeping_it_positive_yc.mp4\")\">⏯ Click to watch the video</a>"
+      },
+      {
+        "type_of_edit": "replace_bit_of_text",
+        "flow_id": "module_review - create_routines_yc",
+        "original_row_id": "",
+        "node_identifier": "Regex:.*⏯ Click to watch the video*",
+        "change": "⏯ Click to watch the video",
+        "condition_var": "",
+        "category": "<a href=\"@(globals.path &fields.attachment_gender&\"/create_routines_yc.mp4\")\">⏯ Click to watch the video</a>"
+      },
+      {
+        "type_of_edit": "replace_bit_of_text",
+        "flow_id": "module_review - create_family_rules_yc",
+        "original_row_id": "",
+        "node_identifier": "Regex:.*⏯ Click to watch the video*",
+        "change": "⏯ Click to watch the video",
+        "condition_var": "",
+        "category": "<a href=\"@(globals.path &fields.attachment_gender&\"/create_family_rules_yc.mp4\")\">⏯ Click to watch the video</a>"
+      },
+      {
+        "type_of_edit": "replace_bit_of_text",
+        "flow_id": "module_review - know_role_yc",
+        "original_row_id": "",
+        "node_identifier": "Regex:.*⏯ Click to watch the video*",
+        "change": "⏯ Click to watch the video",
+        "condition_var": "",
+        "category": "<a href=\"@(globals.path &fields.attachment_gender&\"/know_role_yc.mp4\")\">⏯ Click to watch the video</a>"
+      },
+      {
+        "type_of_edit": "replace_bit_of_text",
+        "flow_id": "module_review - redirect_yc",
+        "original_row_id": "",
+        "node_identifier": "Regex:.*⏯ Click to watch the video*",
+        "change": "⏯ Click to watch the video",
+        "condition_var": "",
+        "category": "<a href=\"@(globals.path &fields.attachment_gender&\"/redirect_yc.mp4\")\">⏯ Click to watch the video</a>"
+      },
+      {
+        "type_of_edit": "replace_bit_of_text",
+        "flow_id": "module_review - ignore_demanding_yc",
+        "original_row_id": "",
+        "node_identifier": "Regex:.*⏯ Click to watch the video*",
+        "change": "⏯ Click to watch the video",
+        "condition_var": "",
+        "category": "<a href=\"@(globals.path &fields.attachment_gender&\"/ignore_demanding_yc.mp4\")\">⏯ Click to watch the video</a>"
+      },
+      {
+        "type_of_edit": "replace_bit_of_text",
+        "flow_id": "module_review - managing_anger_yc",
+        "original_row_id": "",
+        "node_identifier": "Regex:.*⏯ Click to watch the video*",
+        "change": "⏯ Click to watch the video",
+        "condition_var": "",
+        "category": "<a href=\"@(globals.path &fields.attachment_gender&\"/managing_anger_yc.mp4\")\">⏯ Click to watch the video</a>"
+      },
+      {
+        "type_of_edit": "replace_bit_of_text",
+        "flow_id": "module_review - teach_consequences_yc",
+        "original_row_id": "",
+        "node_identifier": "Regex:.*⏯ Click to watch the video*",
+        "change": "⏯ Click to watch the video",
+        "condition_var": "",
+        "category": "<a href=\"@(globals.path &fields.attachment_gender&\"/teach_consequences_yc.mp4\")\">⏯ Click to watch the video</a>"
+      },
+      {
+        "type_of_edit": "replace_bit_of_text",
+        "flow_id": "module_review - solve_problems_yc",
+        "original_row_id": "",
+        "node_identifier": "Regex:.*⏯ Click to watch the video*",
+        "change": "⏯ Click to watch the video",
+        "condition_var": "",
+        "category": "<a href=\"@(globals.path &fields.attachment_gender&\"/solve_problems_yc.mp4\")\">⏯ Click to watch the video</a>"
+      },
+      {
+        "type_of_edit": "replace_bit_of_text",
+        "flow_id": "module_review - safe_touch_2to5_yc_m",
+        "original_row_id": "",
+        "node_identifier": "Regex:.*⏯ Click to watch the video*",
+        "change": "⏯ Click to watch the video",
+        "condition_var": "",
+        "category": "<a href=\"@(globals.path &fields.attachment_gender&\"/safe_touch_2to5_yc_m.mp4\")\">⏯ Click to watch the video</a>"
+      },
+      {
+        "type_of_edit": "replace_bit_of_text",
+        "flow_id": "module_review - safe_touch_2to5_yc_f",
+        "original_row_id": "",
+        "node_identifier": "Regex:.*⏯ Click to watch the video*",
+        "change": "⏯ Click to watch the video",
+        "condition_var": "",
+        "category": "<a href=\"@(globals.path &fields.attachment_gender&\"/safe_touch_2to5_yc_f.mp4\")\">⏯ Click to watch the video</a>"
+      },
+      {
+        "type_of_edit": "replace_bit_of_text",
+        "flow_id": "module_review - safe_touch_6to9_yc",
+        "original_row_id": "",
+        "node_identifier": "Regex:.*⏯ Click to watch the video*",
+        "change": "⏯ Click to watch the video",
+        "condition_var": "",
+        "category": "<a href=\"@(globals.path &fields.attachment_gender&\"/safe_touch_6to9_yc.mp4\")\">⏯ Click to watch the video</a>"
+      },
+      {
+        "type_of_edit": "replace_bit_of_text",
+        "flow_id": "module_review - com_safety_2to4_yc",
+        "original_row_id": "",
+        "node_identifier": "Regex:.*⏯ Click to watch the video*",
+        "change": "⏯ Click to watch the video",
+        "condition_var": "",
+        "category": "<a href=\"@(globals.path &fields.attachment_gender&\"/com_safety_2to4_yc.mp4\")\">⏯ Click to watch the video</a>"
+      },
+      {
+        "type_of_edit": "replace_bit_of_text",
+        "flow_id": "module_review - com_safety_5to9_yc",
+        "original_row_id": "",
+        "node_identifier": "Regex:.*⏯ Click to watch the video*",
+        "change": "⏯ Click to watch the video",
+        "condition_var": "",
+        "category": "<a href=\"@(globals.path &fields.attachment_gender&\"/com_safety_5to9_yc.mp4\")\">⏯ Click to watch the video</a>"
+      },
+      {
+        "type_of_edit": "replace_bit_of_text",
+        "flow_id": "module_review - crises_2to6_yc",
+        "original_row_id": "",
+        "node_identifier": "Regex:.*⏯ Click to watch the video*",
+        "change": "⏯ Click to watch the video",
+        "condition_var": "",
+        "category": "<a href=\"@(globals.path &fields.attachment_gender&\"/crises_2to6_yc.mp4\")\">⏯ Click to watch the video</a>"
+      },
+      {
+        "type_of_edit": "replace_bit_of_text",
+        "flow_id": "module_review - crises_7to9_yc",
+        "original_row_id": "",
+        "node_identifier": "Regex:.*⏯ Click to watch the video*",
+        "change": "⏯ Click to watch the video",
+        "condition_var": "",
+        "category": "<a href=\"@(globals.path &fields.attachment_gender&\"/crises_7to9_yc.mp4\")\">⏯ Click to watch the video</a>"
+      },
+      {
+        "type_of_edit": "replace_bit_of_text",
+        "flow_id": "module_review - online_safety_yc",
+        "original_row_id": "",
+        "node_identifier": "Regex:.*⏯ Click to watch the video*",
+        "change": "⏯ Click to watch the video",
+        "condition_var": "",
+        "category": "<a href=\"@(globals.path &fields.attachment_gender&\"/online_safety_yc.mp4\")\">⏯ Click to watch the video</a>"
+      },
+      {
+        "type_of_edit": "replace_bit_of_text",
+        "flow_id": "module_review - habits_trust_online_yc",
+        "original_row_id": "",
+        "node_identifier": "Regex:.*⏯ Click to watch the video*",
+        "change": "⏯ Click to watch the video",
+        "condition_var": "",
+        "category": "<a href=\"@(globals.path &fields.attachment_gender&\"/habits_trust_online_yc.mp4\")\">⏯ Click to watch the video</a>"
+      },
+      {
+        "type_of_edit": "replace_bit_of_text",
+        "flow_id": "module_review - nutrition_health_yc",
+        "original_row_id": "",
+        "node_identifier": "Regex:.*⏯ Click to watch the video*",
+        "change": "⏯ Click to watch the video",
+        "condition_var": "",
+        "category": "<a href=\"@(globals.path &fields.attachment_gender&\"/nutrition_health_yc.mp4\")\">⏯ Click to watch the video</a>"
+      },
+      {
+        "type_of_edit": "replace_bit_of_text",
+        "flow_id": "module_review - ipv_equals",
+        "original_row_id": "",
+        "node_identifier": "Regex:.*⏯ Click to watch the video*",
+        "change": "⏯ Click to watch the video",
+        "condition_var": "",
+        "category": "<a href=\"@(globals.path &fields.attachment_gender&\"/ipv_equals.mp4\")\">⏯ Click to watch the video</a>"
+      },
+      {
+        "type_of_edit": "replace_bit_of_text",
+        "flow_id": "module_review - ipv_supportive",
+        "original_row_id": "",
+        "node_identifier": "Regex:.*⏯ Click to watch the video*",
+        "change": "⏯ Click to watch the video",
+        "condition_var": "",
+        "category": "<a href=\"@(globals.path &fields.attachment_gender&\"/ipv_supportive.mp4\")\">⏯ Click to watch the video</a>"
+      },
+      {
+        "type_of_edit": "replace_bit_of_text",
+        "flow_id": "module_review - ipv_sharing",
+        "original_row_id": "",
+        "node_identifier": "Regex:.*⏯ Click to watch the video*",
+        "change": "⏯ Click to watch the video",
+        "condition_var": "",
+        "category": "<a href=\"@(globals.path &fields.attachment_gender&\"/ipv_sharing.mp4\")\">⏯ Click to watch the video</a>"
+      },
+      {
+        "type_of_edit": "replace_bit_of_text",
+        "flow_id": "module_review - ipv_conflicts",
+        "original_row_id": "",
+        "node_identifier": "Regex:.*⏯ Click to watch the video*",
+        "change": "⏯ Click to watch the video",
+        "condition_var": "",
+        "category": "<a href=\"@(globals.path &fields.attachment_gender&\"/ipv_conflicts.mp4\")\">⏯ Click to watch the video</a>"
+      },
+      {
+        "type_of_edit": "replace_bit_of_text",
+        "flow_id": "module_review - ipv_listen",
+        "original_row_id": "",
+        "node_identifier": "Regex:.*⏯ Click to watch the video*",
+        "change": "⏯ Click to watch the video",
+        "condition_var": "",
+        "category": "<a href=\"@(globals.path &fields.attachment_gender&\"/ipv_listen.mp4\")\">⏯ Click to watch the video</a>"
+      },
+      {
+        "type_of_edit": "replace_bit_of_text",
+        "flow_id": "module_review - budget_needs_yc",
+        "original_row_id": "",
+        "node_identifier": "Regex:.*⏯ Click to watch the video*",
+        "change": "⏯ Click to watch the video",
+        "condition_var": "",
+        "category": "<a href=\"@(globals.path &fields.attachment_gender&\"/budget_needs_yc.mp4\")\">⏯ Click to watch the video</a>"
+      },
+      {
+        "type_of_edit": "replace_bit_of_text",
+        "flow_id": "module_review - budget_expenses_yc",
+        "original_row_id": "",
+        "node_identifier": "Regex:.*⏯ Click to watch the video*",
+        "change": "⏯ Click to watch the video",
+        "condition_var": "",
+        "category": "<a href=\"@(globals.path &fields.attachment_gender&\"/budget_expenses_yc.mp4\")\">⏯ Click to watch the video</a>"
+      },
+      {
+        "type_of_edit": "replace_bit_of_text",
+        "flow_id": "module_review - budget_monthly_yc",
+        "original_row_id": "",
+        "node_identifier": "Regex:.*⏯ Click to watch the video*",
+        "change": "⏯ Click to watch the video",
+        "condition_var": "",
+        "category": "<a href=\"@(globals.path &fields.attachment_gender&\"/budget_monthly_yc.mp4\")\">⏯ Click to watch the video</a>"
+      },
+      {
+        "type_of_edit": "replace_bit_of_text",
+        "flow_id": "module_review - budget_savings_yc",
+        "original_row_id": "",
+        "node_identifier": "Regex:.*⏯ Click to watch the video*",
+        "change": "⏯ Click to watch the video",
+        "condition_var": "",
+        "category": "<a href=\"@(globals.path &fields.attachment_gender&\"/budget_savings_yc.mp4\")\">⏯ Click to watch the video</a>"
+      },
+      {
+        "type_of_edit": "replace_bit_of_text",
+        "flow_id": "orientation",
+        "original_row_id": "",
+        "node_identifier": "Regex:.*⏯ Click to watch the video*",
+        "change": "⏯ Click to watch the video",
+        "condition_var": "",
+        "category": "<a href=\"@(globals.path &fields.attachment_gender&\"/onboarding.mp4\")\">⏯ Click to watch the video</a>"
+      }
+    ],
+    "video_links_transl": [
+      {
+        "type_of_edit": "replace_bit_of_text",
+        "flow_id": "module - take_a_pause",
+        "original_row_id": "",
+        "node_identifier": "Regex:.*⏯ Click to watch the video*",
+        "original": "⏯ 点击观看视频（先看视频，再点下一步😎）",
+        "language": "zho",
+        "replacement": "<a href=\"@(globals.path &fields.attachment_gender&\"/take_a_pause.mp4\")\">⏯ 点击观看视频（先看视频，再点下一步😎）</a>"
+      },
+      {
+        "type_of_edit": "replace_bit_of_text",
+        "flow_id": "module - one_on_one_yc",
+        "original_row_id": "",
+        "node_identifier": "Regex:.*⏯ Click to watch the video*",
+        "original": "⏯ 点击观看视频（先看视频，再点下一步😎）",
+        "language": "zho",
+        "replacement": "<a href=\"@(globals.path &fields.attachment_gender&\"/one_on_one_yc.mp4\")\">⏯ 点击观看视频（先看视频，再点下一步😎）</a>"
+      },
+      {
+        "type_of_edit": "replace_bit_of_text",
+        "flow_id": "module - kind_to_myself_yc",
+        "original_row_id": "",
+        "node_identifier": "Regex:.*⏯ Click to watch the video*",
+        "original": "⏯ 点击观看视频（先看视频，再点下一步😎）",
+        "language": "zho",
+        "replacement": "<a href=\"@(globals.path &fields.attachment_gender&\"/kind_to_myself_yc.mp4\")\">⏯ 点击观看视频（先看视频，再点下一步😎）</a>"
+      },
+      {
+        "type_of_edit": "replace_bit_of_text",
+        "flow_id": "module - give_praise_yc",
+        "original_row_id": "",
+        "node_identifier": "Regex:.*⏯ Click to watch the video*",
+        "original": "⏯ 点击观看视频（先看视频，再点下一步😎）",
+        "language": "zho",
+        "replacement": "<a href=\"@(globals.path &fields.attachment_gender&\"/give_praise_yc.mp4\")\">⏯ 点击观看视频（先看视频，再点下一步😎）</a>"
+      },
+      {
+        "type_of_edit": "replace_bit_of_text",
+        "flow_id": "module - talk_feelings_yc",
+        "original_row_id": "",
+        "node_identifier": "Regex:.*⏯ Click to watch the video*",
+        "original": "⏯ 点击观看视频（先看视频，再点下一步😎）",
+        "language": "zho",
+        "replacement": "<a href=\"@(globals.path &fields.attachment_gender&\"/talk_feelings_yc.mp4\")\">⏯ 点击观看视频（先看视频，再点下一步😎）</a>"
+      },
+      {
+        "type_of_edit": "replace_bit_of_text",
+        "flow_id": "module - spirituality_yc",
+        "original_row_id": "",
+        "node_identifier": "Regex:.*⏯ Click to watch the video*",
+        "original": "⏯ 点击观看视频（先看视频，再点下一步😎）",
+        "language": "zho",
+        "replacement": "<a href=\"@(globals.path &fields.attachment_gender&\"/spirituality_yc.mp4\")\">⏯ 点击观看视频（先看视频，再点下一步😎）</a>"
+      },
+      {
+        "type_of_edit": "replace_bit_of_text",
+        "flow_id": "module - language_yc",
+        "original_row_id": "",
+        "node_identifier": "Regex:.*⏯ Click to watch the video*",
+        "original": "⏯ 点击观看视频（先看视频，再点下一步😎）",
+        "language": "zho",
+        "replacement": "<a href=\"@(globals.path &fields.attachment_gender&\"/language_yc.mp4\")\">⏯ 点击观看视频（先看视频，再点下一步😎）</a>"
+      },
+      {
+        "type_of_edit": "replace_bit_of_text",
+        "flow_id": "module - reading1_4to6_yc",
+        "original_row_id": "",
+        "node_identifier": "Regex:.*⏯ Click to watch the video*",
+        "original": "⏯ 点击观看视频（先看视频，再点下一步😎）",
+        "language": "zho",
+        "replacement": "<a href=\"@(globals.path &fields.attachment_gender&\"/reading1_4to6_yc.mp4\")\">⏯ 点击观看视频（先看视频，再点下一步😎）</a>"
+      },
+      {
+        "type_of_edit": "replace_bit_of_text",
+        "flow_id": "module - reading2_4to6_yc",
+        "original_row_id": "",
+        "node_identifier": "Regex:.*⏯ Click to watch the video*",
+        "original": "⏯ 点击观看视频（先看视频，再点下一步😎）",
+        "language": "zho",
+        "replacement": "<a href=\"@(globals.path &fields.attachment_gender&\"/reading2_4to6_yc.mp4\")\">⏯ 点击观看视频（先看视频，再点下一步😎）</a>"
+      },
+      {
+        "type_of_edit": "replace_bit_of_text",
+        "flow_id": "module - maths1_4to6_yc",
+        "original_row_id": "",
+        "node_identifier": "Regex:.*⏯ Click to watch the video*",
+        "original": "⏯ 点击观看视频（先看视频，再点下一步😎）",
+        "language": "zho",
+        "replacement": "<a href=\"@(globals.path &fields.attachment_gender&\"/maths1_4to6_yc.mp4\")\">⏯ 点击观看视频（先看视频，再点下一步😎）</a>"
+      },
+      {
+        "type_of_edit": "replace_bit_of_text",
+        "flow_id": "module - maths2_4to6_yc",
+        "original_row_id": "",
+        "node_identifier": "Regex:.*⏯ Click to watch the video*",
+        "original": "⏯ 点击观看视频（先看视频，再点下一步😎）",
+        "language": "zho",
+        "replacement": "<a href=\"@(globals.path &fields.attachment_gender&\"/maths2_4to6_yc.mp4\")\">⏯ 点击观看视频（先看视频，再点下一步😎）</a>"
+      },
+      {
+        "type_of_edit": "replace_bit_of_text",
+        "flow_id": "module - reading_2to3_yc",
+        "original_row_id": "",
+        "node_identifier": "Regex:.*⏯ Click to watch the video*",
+        "original": "⏯ 点击观看视频（先看视频，再点下一步😎）",
+        "language": "zho",
+        "replacement": "<a href=\"@(globals.path &fields.attachment_gender&\"/reading_2to3_yc.mp4\")\">⏯ 点击观看视频（先看视频，再点下一步😎）</a>"
+      },
+      {
+        "type_of_edit": "replace_bit_of_text",
+        "flow_id": "module - maths_2to3_yc",
+        "original_row_id": "",
+        "node_identifier": "Regex:.*⏯ Click to watch the video*",
+        "original": "⏯ 点击观看视频（先看视频，再点下一步😎）",
+        "language": "zho",
+        "replacement": "<a href=\"@(globals.path &fields.attachment_gender&\"/maths_2to3_yc.mp4\")\">⏯ 点击观看视频（先看视频，再点下一步😎）</a>"
+      },
+      {
+        "type_of_edit": "replace_bit_of_text",
+        "flow_id": "module - engage_school_3to6_yc",
+        "original_row_id": "",
+        "node_identifier": "Regex:.*⏯ Click to watch the video*",
+        "original": "⏯ 点击观看视频（先看视频，再点下一步😎）",
+        "language": "zho",
+        "replacement": "<a href=\"@(globals.path &fields.attachment_gender&\"/engage_school_3to6_yc.mp4\")\">⏯ 点击观看视频（先看视频，再点下一步😎）</a>"
+      },
+      {
+        "type_of_edit": "replace_bit_of_text",
+        "flow_id": "module - play_yc",
+        "original_row_id": "",
+        "node_identifier": "Regex:.*⏯ Click to watch the video*",
+        "original": "⏯ 点击观看视频（先看视频，再点下一步😎）",
+        "language": "zho",
+        "replacement": "<a href=\"@(globals.path &fields.attachment_gender&\"/play_yc.mp4\")\">⏯ 点击观看视频（先看视频，再点下一步😎）</a>"
+      },
+      {
+        "type_of_edit": "replace_bit_of_text",
+        "flow_id": "module - learn_experience_yc",
+        "original_row_id": "",
+        "node_identifier": "Regex:.*⏯ Click to watch the video*",
+        "original": "⏯ 点击观看视频（先看视频，再点下一步😎）",
+        "language": "zho",
+        "replacement": "<a href=\"@(globals.path &fields.attachment_gender&\"/learn_experience_yc.mp4\")\">⏯ 点击观看视频（先看视频，再点下一步😎）</a>"
+      },
+      {
+        "type_of_edit": "replace_bit_of_text",
+        "flow_id": "module - toddler_change_yc",
+        "original_row_id": "",
+        "node_identifier": "Regex:.*⏯ Click to watch the video*",
+        "original": "⏯ 点击观看视频（先看视频，再点下一步😎）",
+        "language": "zho",
+        "replacement": "<a href=\"@(globals.path &fields.attachment_gender&\"/toddler_change_yc.mp4\")\">⏯ 点击观看视频（先看视频，再点下一步😎）</a>"
+      },
+      {
+        "type_of_edit": "replace_bit_of_text",
+        "flow_id": "module - young_child_change_yc",
+        "original_row_id": "",
+        "node_identifier": "Regex:.*⏯ Click to watch the video*",
+        "original": "⏯ 点击观看视频（先看视频，再点下一步😎）",
+        "language": "zho",
+        "replacement": "<a href=\"@(globals.path &fields.attachment_gender&\"/young_child_change_yc.mp4\")\">⏯ 点击观看视频（先看视频，再点下一步😎）</a>"
+      },
+      {
+        "type_of_edit": "replace_bit_of_text",
+        "flow_id": "module - child_change_yc",
+        "original_row_id": "",
+        "node_identifier": "Regex:.*⏯ Click to watch the video*",
+        "original": "⏯ 点击观看视频（先看视频，再点下一步😎）",
+        "language": "zho",
+        "replacement": "<a href=\"@(globals.path &fields.attachment_gender&\"/child_change_yc.mp4\")\">⏯ 点击观看视频（先看视频，再点下一步😎）</a>"
+      },
+      {
+        "type_of_edit": "replace_bit_of_text",
+        "flow_id": "module - manage_my_stress_yc",
+        "original_row_id": "",
+        "node_identifier": "Regex:.*⏯ Click to watch the video*",
+        "original": "⏯ 点击观看视频（先看视频，再点下一步😎）",
+        "language": "zho",
+        "replacement": "<a href=\"@(globals.path &fields.attachment_gender&\"/manage_my_stress_yc.mp4\")\">⏯ 点击观看视频（先看视频，再点下一步😎）</a>"
+      },
+      {
+        "type_of_edit": "replace_bit_of_text",
+        "flow_id": "module - keeping_it_positive_yc",
+        "original_row_id": "",
+        "node_identifier": "Regex:.*⏯ Click to watch the video*",
+        "original": "⏯ 点击观看视频（先看视频，再点下一步😎）",
+        "language": "zho",
+        "replacement": "<a href=\"@(globals.path &fields.attachment_gender&\"/keeping_it_positive_yc.mp4\")\">⏯ 点击观看视频（先看视频，再点下一步😎）</a>"
+      },
+      {
+        "type_of_edit": "replace_bit_of_text",
+        "flow_id": "module - create_routines_yc",
+        "original_row_id": "",
+        "node_identifier": "Regex:.*⏯ Click to watch the video*",
+        "original": "⏯ 点击观看视频（先看视频，再点下一步😎）",
+        "language": "zho",
+        "replacement": "<a href=\"@(globals.path &fields.attachment_gender&\"/create_routines_yc.mp4\")\">⏯ 点击观看视频（先看视频，再点下一步😎）</a>"
+      },
+      {
+        "type_of_edit": "replace_bit_of_text",
+        "flow_id": "module - create_family_rules_yc",
+        "original_row_id": "",
+        "node_identifier": "Regex:.*⏯ Click to watch the video*",
+        "original": "⏯ 点击观看视频（先看视频，再点下一步😎）",
+        "language": "zho",
+        "replacement": "<a href=\"@(globals.path &fields.attachment_gender&\"/create_family_rules_yc.mp4\")\">⏯ 点击观看视频（先看视频，再点下一步😎）</a>"
+      },
+      {
+        "type_of_edit": "replace_bit_of_text",
+        "flow_id": "module - know_role_yc",
+        "original_row_id": "",
+        "node_identifier": "Regex:.*⏯ Click to watch the video*",
+        "original": "⏯ 点击观看视频（先看视频，再点下一步😎）",
+        "language": "zho",
+        "replacement": "<a href=\"@(globals.path &fields.attachment_gender&\"/know_role_yc.mp4\")\">⏯ 点击观看视频（先看视频，再点下一步😎）</a>"
+      },
+      {
+        "type_of_edit": "replace_bit_of_text",
+        "flow_id": "module - redirect_yc",
+        "original_row_id": "",
+        "node_identifier": "Regex:.*⏯ Click to watch the video*",
+        "original": "⏯ 点击观看视频（先看视频，再点下一步😎）",
+        "language": "zho",
+        "replacement": "<a href=\"@(globals.path &fields.attachment_gender&\"/redirect_yc.mp4\")\">⏯ 点击观看视频（先看视频，再点下一步😎）</a>"
+      },
+      {
+        "type_of_edit": "replace_bit_of_text",
+        "flow_id": "module - ignore_demanding_yc",
+        "original_row_id": "",
+        "node_identifier": "Regex:.*⏯ Click to watch the video*",
+        "original": "⏯ 点击观看视频（先看视频，再点下一步😎）",
+        "language": "zho",
+        "replacement": "<a href=\"@(globals.path &fields.attachment_gender&\"/ignore_demanding_yc.mp4\")\">⏯ 点击观看视频（先看视频，再点下一步😎）</a>"
+      },
+      {
+        "type_of_edit": "replace_bit_of_text",
+        "flow_id": "module - managing_anger_yc",
+        "original_row_id": "",
+        "node_identifier": "Regex:.*⏯ Click to watch the video*",
+        "original": "⏯ 点击观看视频（先看视频，再点下一步😎）",
+        "language": "zho",
+        "replacement": "<a href=\"@(globals.path &fields.attachment_gender&\"/managing_anger_yc.mp4\")\">⏯ 点击观看视频（先看视频，再点下一步😎）</a>"
+      },
+      {
+        "type_of_edit": "replace_bit_of_text",
+        "flow_id": "module - teach_consequences_yc",
+        "original_row_id": "",
+        "node_identifier": "Regex:.*⏯ Click to watch the video*",
+        "original": "⏯ 点击观看视频（先看视频，再点下一步😎）",
+        "language": "zho",
+        "replacement": "<a href=\"@(globals.path &fields.attachment_gender&\"/teach_consequences_yc.mp4\")\">⏯ 点击观看视频（先看视频，再点下一步😎）</a>"
+      },
+      {
+        "type_of_edit": "replace_bit_of_text",
+        "flow_id": "module - solve_problems_yc",
+        "original_row_id": "",
+        "node_identifier": "Regex:.*⏯ Click to watch the video*",
+        "original": "⏯ 点击观看视频（先看视频，再点下一步😎）",
+        "language": "zho",
+        "replacement": "<a href=\"@(globals.path &fields.attachment_gender&\"/solve_problems_yc.mp4\")\">⏯ 点击观看视频（先看视频，再点下一步😎）</a>"
+      },
+      {
+        "type_of_edit": "replace_bit_of_text",
+        "flow_id": "module - safe_touch_2to5_yc_m",
+        "original_row_id": "",
+        "node_identifier": "Regex:.*⏯ Click to watch the video*",
+        "original": "⏯ 点击观看视频（先看视频，再点下一步😎）",
+        "language": "zho",
+        "replacement": "<a href=\"@(globals.path &fields.attachment_gender&\"/safe_touch_2to5_yc_m.mp4\")\">⏯ 点击观看视频（先看视频，再点下一步😎）</a>"
+      },
+      {
+        "type_of_edit": "replace_bit_of_text",
+        "flow_id": "module - safe_touch_2to5_yc_f",
+        "original_row_id": "",
+        "node_identifier": "Regex:.*⏯ Click to watch the video*",
+        "original": "⏯ 点击观看视频（先看视频，再点下一步😎）",
+        "language": "zho",
+        "replacement": "<a href=\"@(globals.path &fields.attachment_gender&\"/safe_touch_2to5_yc_f.mp4\")\">⏯ 点击观看视频（先看视频，再点下一步😎）</a>"
+      },
+      {
+        "type_of_edit": "replace_bit_of_text",
+        "flow_id": "module - safe_touch_6to9_yc",
+        "original_row_id": "",
+        "node_identifier": "Regex:.*⏯ Click to watch the video*",
+        "original": "⏯ 点击观看视频（先看视频，再点下一步😎）",
+        "language": "zho",
+        "replacement": "<a href=\"@(globals.path &fields.attachment_gender&\"/safe_touch_6to9_yc.mp4\")\">⏯ 点击观看视频（先看视频，再点下一步😎）</a>"
+      },
+      {
+        "type_of_edit": "replace_bit_of_text",
+        "flow_id": "module - com_safety_2to4_yc",
+        "original_row_id": "",
+        "node_identifier": "Regex:.*⏯ Click to watch the video*",
+        "original": "⏯ 点击观看视频（先看视频，再点下一步😎）",
+        "language": "zho",
+        "replacement": "<a href=\"@(globals.path &fields.attachment_gender&\"/com_safety_2to4_yc.mp4\")\">⏯ 点击观看视频（先看视频，再点下一步😎）</a>"
+      },
+      {
+        "type_of_edit": "replace_bit_of_text",
+        "flow_id": "module - com_safety_5to9_yc",
+        "original_row_id": "",
+        "node_identifier": "Regex:.*⏯ Click to watch the video*",
+        "original": "⏯ 点击观看视频（先看视频，再点下一步😎）",
+        "language": "zho",
+        "replacement": "<a href=\"@(globals.path &fields.attachment_gender&\"/com_safety_5to9_yc.mp4\")\">⏯ 点击观看视频（先看视频，再点下一步😎）</a>"
+      },
+      {
+        "type_of_edit": "replace_bit_of_text",
+        "flow_id": "module - crises_2to6_yc",
+        "original_row_id": "",
+        "node_identifier": "Regex:.*⏯ Click to watch the video*",
+        "original": "⏯ 点击观看视频（先看视频，再点下一步😎）",
+        "language": "zho",
+        "replacement": "<a href=\"@(globals.path &fields.attachment_gender&\"/crises_2to6_yc.mp4\")\">⏯ 点击观看视频（先看视频，再点下一步😎）</a>"
+      },
+      {
+        "type_of_edit": "replace_bit_of_text",
+        "flow_id": "module - crises_7to9_yc",
+        "original_row_id": "",
+        "node_identifier": "Regex:.*⏯ Click to watch the video*",
+        "original": "⏯ 点击观看视频（先看视频，再点下一步😎）",
+        "language": "zho",
+        "replacement": "<a href=\"@(globals.path &fields.attachment_gender&\"/crises_7to9_yc.mp4\")\">⏯ 点击观看视频（先看视频，再点下一步😎）</a>"
+      },
+      {
+        "type_of_edit": "replace_bit_of_text",
+        "flow_id": "module - online_safety_yc",
+        "original_row_id": "",
+        "node_identifier": "Regex:.*⏯ Click to watch the video*",
+        "original": "⏯ 点击观看视频（先看视频，再点下一步😎）",
+        "language": "zho",
+        "replacement": "<a href=\"@(globals.path &fields.attachment_gender&\"/online_safety_yc.mp4\")\">⏯ 点击观看视频（先看视频，再点下一步😎）</a>"
+      },
+      {
+        "type_of_edit": "replace_bit_of_text",
+        "flow_id": "module - habits_trust_online_yc",
+        "original_row_id": "",
+        "node_identifier": "Regex:.*⏯ Click to watch the video*",
+        "original": "⏯ 点击观看视频（先看视频，再点下一步😎）",
+        "language": "zho",
+        "replacement": "<a href=\"@(globals.path &fields.attachment_gender&\"/habits_trust_online_yc.mp4\")\">⏯ 点击观看视频（先看视频，再点下一步😎）</a>"
+      },
+      {
+        "type_of_edit": "replace_bit_of_text",
+        "flow_id": "module - nutrition_health_yc",
+        "original_row_id": "",
+        "node_identifier": "Regex:.*⏯ Click to watch the video*",
+        "original": "⏯ 点击观看视频（先看视频，再点下一步😎）",
+        "language": "zho",
+        "replacement": "<a href=\"@(globals.path &fields.attachment_gender&\"/nutrition_health_yc.mp4\")\">⏯ 点击观看视频（先看视频，再点下一步😎）</a>"
+      },
+      {
+        "type_of_edit": "replace_bit_of_text",
+        "flow_id": "module - ipv_equals",
+        "original_row_id": "",
+        "node_identifier": "Regex:.*⏯ Click to watch the video*",
+        "original": "⏯ 点击观看视频（先看视频，再点下一步😎）",
+        "language": "zho",
+        "replacement": "<a href=\"@(globals.path &fields.attachment_gender&\"/ipv_equals.mp4\")\">⏯ 点击观看视频（先看视频，再点下一步😎）</a>"
+      },
+      {
+        "type_of_edit": "replace_bit_of_text",
+        "flow_id": "module - ipv_supportive",
+        "original_row_id": "",
+        "node_identifier": "Regex:.*⏯ Click to watch the video*",
+        "original": "⏯ 点击观看视频（先看视频，再点下一步😎）",
+        "language": "zho",
+        "replacement": "<a href=\"@(globals.path &fields.attachment_gender&\"/ipv_supportive.mp4\")\">⏯ 点击观看视频（先看视频，再点下一步😎）</a>"
+      },
+      {
+        "type_of_edit": "replace_bit_of_text",
+        "flow_id": "module - ipv_sharing",
+        "original_row_id": "",
+        "node_identifier": "Regex:.*⏯ Click to watch the video*",
+        "original": "⏯ 点击观看视频（先看视频，再点下一步😎）",
+        "language": "zho",
+        "replacement": "<a href=\"@(globals.path &fields.attachment_gender&\"/ipv_sharing.mp4\")\">⏯ 点击观看视频（先看视频，再点下一步😎）</a>"
+      },
+      {
+        "type_of_edit": "replace_bit_of_text",
+        "flow_id": "module - ipv_conflicts",
+        "original_row_id": "",
+        "node_identifier": "Regex:.*⏯ Click to watch the video*",
+        "original": "⏯ 点击观看视频（先看视频，再点下一步😎）",
+        "language": "zho",
+        "replacement": "<a href=\"@(globals.path &fields.attachment_gender&\"/ipv_conflicts.mp4\")\">⏯ 点击观看视频（先看视频，再点下一步😎）</a>"
+      },
+      {
+        "type_of_edit": "replace_bit_of_text",
+        "flow_id": "module - ipv_listen",
+        "original_row_id": "",
+        "node_identifier": "Regex:.*⏯ Click to watch the video*",
+        "original": "⏯ 点击观看视频（先看视频，再点下一步😎）",
+        "language": "zho",
+        "replacement": "<a href=\"@(globals.path &fields.attachment_gender&\"/ipv_listen.mp4\")\">⏯ 点击观看视频（先看视频，再点下一步😎）</a>"
+      },
+      {
+        "type_of_edit": "replace_bit_of_text",
+        "flow_id": "module - budget_needs_yc",
+        "original_row_id": "",
+        "node_identifier": "Regex:.*⏯ Click to watch the video*",
+        "original": "⏯ 点击观看视频（先看视频，再点下一步😎）",
+        "language": "zho",
+        "replacement": "<a href=\"@(globals.path &fields.attachment_gender&\"/budget_needs_yc.mp4\")\">⏯ 点击观看视频（先看视频，再点下一步😎）</a>"
+      },
+      {
+        "type_of_edit": "replace_bit_of_text",
+        "flow_id": "module - budget_expenses_yc",
+        "original_row_id": "",
+        "node_identifier": "Regex:.*⏯ Click to watch the video*",
+        "original": "⏯ 点击观看视频（先看视频，再点下一步😎）",
+        "language": "zho",
+        "replacement": "<a href=\"@(globals.path &fields.attachment_gender&\"/budget_expenses_yc.mp4\")\">⏯ 点击观看视频（先看视频，再点下一步😎）</a>"
+      },
+      {
+        "type_of_edit": "replace_bit_of_text",
+        "flow_id": "module - budget_monthly_yc",
+        "original_row_id": "",
+        "node_identifier": "Regex:.*⏯ Click to watch the video*",
+        "original": "⏯ 点击观看视频（先看视频，再点下一步😎）",
+        "language": "zho",
+        "replacement": "<a href=\"@(globals.path &fields.attachment_gender&\"/budget_monthly_yc.mp4\")\">⏯ 点击观看视频（先看视频，再点下一步😎）</a>"
+      },
+      {
+        "type_of_edit": "replace_bit_of_text",
+        "flow_id": "module - budget_savings_yc",
+        "original_row_id": "",
+        "node_identifier": "Regex:.*⏯ Click to watch the video*",
+        "original": "⏯ 点击观看视频（先看视频，再点下一步😎）",
+        "language": "zho",
+        "replacement": "<a href=\"@(globals.path &fields.attachment_gender&\"/budget_savings_yc.mp4\")\">⏯ 点击观看视频（先看视频，再点下一步😎）</a>"
+      },
+      {
+        "type_of_edit": "replace_bit_of_text",
+        "flow_id": "module_review - take_a_pause",
+        "original_row_id": "",
+        "node_identifier": "Regex:.*⏯ Click to watch the video*",
+        "original": "⏯ 点击观看视频（先看视频，再点下一步😎）",
+        "language": "zho",
+        "replacement": "<a href=\"@(globals.path &fields.attachment_gender&\"/take_a_pause.mp4\")\">⏯ 点击观看视频（先看视频，再点下一步😎）</a>"
+      },
+      {
+        "type_of_edit": "replace_bit_of_text",
+        "flow_id": "module_review - one_on_one_yc",
+        "original_row_id": "",
+        "node_identifier": "Regex:.*⏯ Click to watch the video*",
+        "original": "⏯ 点击观看视频（先看视频，再点下一步😎）",
+        "language": "zho",
+        "replacement": "<a href=\"@(globals.path &fields.attachment_gender&\"/one_on_one_yc.mp4\")\">⏯ 点击观看视频（先看视频，再点下一步😎）</a>"
+      },
+      {
+        "type_of_edit": "replace_bit_of_text",
+        "flow_id": "module_review - kind_to_myself_yc",
+        "original_row_id": "",
+        "node_identifier": "Regex:.*⏯ Click to watch the video*",
+        "original": "⏯ 点击观看视频（先看视频，再点下一步😎）",
+        "language": "zho",
+        "replacement": "<a href=\"@(globals.path &fields.attachment_gender&\"/kind_to_myself_yc.mp4\")\">⏯ 点击观看视频（先看视频，再点下一步😎）</a>"
+      },
+      {
+        "type_of_edit": "replace_bit_of_text",
+        "flow_id": "module_review - give_praise_yc",
+        "original_row_id": "",
+        "node_identifier": "Regex:.*⏯ Click to watch the video*",
+        "original": "⏯ 点击观看视频（先看视频，再点下一步😎）",
+        "language": "zho",
+        "replacement": "<a href=\"@(globals.path &fields.attachment_gender&\"/give_praise_yc.mp4\")\">⏯ 点击观看视频（先看视频，再点下一步😎）</a>"
+      },
+      {
+        "type_of_edit": "replace_bit_of_text",
+        "flow_id": "module_review - talk_feelings_yc",
+        "original_row_id": "",
+        "node_identifier": "Regex:.*⏯ Click to watch the video*",
+        "original": "⏯ 点击观看视频（先看视频，再点下一步😎）",
+        "language": "zho",
+        "replacement": "<a href=\"@(globals.path &fields.attachment_gender&\"/talk_feelings_yc.mp4\")\">⏯ 点击观看视频（先看视频，再点下一步😎）</a>"
+      },
+      {
+        "type_of_edit": "replace_bit_of_text",
+        "flow_id": "module_review - spirituality_yc",
+        "original_row_id": "",
+        "node_identifier": "Regex:.*⏯ Click to watch the video*",
+        "original": "⏯ 点击观看视频（先看视频，再点下一步😎）",
+        "language": "zho",
+        "replacement": "<a href=\"@(globals.path &fields.attachment_gender&\"/spirituality_yc.mp4\")\">⏯ 点击观看视频（先看视频，再点下一步😎）</a>"
+      },
+      {
+        "type_of_edit": "replace_bit_of_text",
+        "flow_id": "module_review - language_yc",
+        "original_row_id": "",
+        "node_identifier": "Regex:.*⏯ Click to watch the video*",
+        "original": "⏯ 点击观看视频（先看视频，再点下一步😎）",
+        "language": "zho",
+        "replacement": "<a href=\"@(globals.path &fields.attachment_gender&\"/language_yc.mp4\")\">⏯ 点击观看视频（先看视频，再点下一步😎）</a>"
+      },
+      {
+        "type_of_edit": "replace_bit_of_text",
+        "flow_id": "module_review - reading1_4to6_yc",
+        "original_row_id": "",
+        "node_identifier": "Regex:.*⏯ Click to watch the video*",
+        "original": "⏯ 点击观看视频（先看视频，再点下一步😎）",
+        "language": "zho",
+        "replacement": "<a href=\"@(globals.path &fields.attachment_gender&\"/reading1_4to6_yc.mp4\")\">⏯ 点击观看视频（先看视频，再点下一步😎）</a>"
+      },
+      {
+        "type_of_edit": "replace_bit_of_text",
+        "flow_id": "module_review - reading2_4to6_yc",
+        "original_row_id": "",
+        "node_identifier": "Regex:.*⏯ Click to watch the video*",
+        "original": "⏯ 点击观看视频（先看视频，再点下一步😎）",
+        "language": "zho",
+        "replacement": "<a href=\"@(globals.path &fields.attachment_gender&\"/reading2_4to6_yc.mp4\")\">⏯ 点击观看视频（先看视频，再点下一步😎）</a>"
+      },
+      {
+        "type_of_edit": "replace_bit_of_text",
+        "flow_id": "module_review - maths1_4to6_yc",
+        "original_row_id": "",
+        "node_identifier": "Regex:.*⏯ Click to watch the video*",
+        "original": "⏯ 点击观看视频（先看视频，再点下一步😎）",
+        "language": "zho",
+        "replacement": "<a href=\"@(globals.path &fields.attachment_gender&\"/maths1_4to6_yc.mp4\")\">⏯ 点击观看视频（先看视频，再点下一步😎）</a>"
+      },
+      {
+        "type_of_edit": "replace_bit_of_text",
+        "flow_id": "module_review - maths2_4to6_yc",
+        "original_row_id": "",
+        "node_identifier": "Regex:.*⏯ Click to watch the video*",
+        "original": "⏯ 点击观看视频（先看视频，再点下一步😎）",
+        "language": "zho",
+        "replacement": "<a href=\"@(globals.path &fields.attachment_gender&\"/maths2_4to6_yc.mp4\")\">⏯ 点击观看视频（先看视频，再点下一步😎）</a>"
+      },
+      {
+        "type_of_edit": "replace_bit_of_text",
+        "flow_id": "module_review - reading_2to3_yc",
+        "original_row_id": "",
+        "node_identifier": "Regex:.*⏯ Click to watch the video*",
+        "original": "⏯ 点击观看视频（先看视频，再点下一步😎）",
+        "language": "zho",
+        "replacement": "<a href=\"@(globals.path &fields.attachment_gender&\"/reading_2to3_yc.mp4\")\">⏯ 点击观看视频（先看视频，再点下一步😎）</a>"
+      },
+      {
+        "type_of_edit": "replace_bit_of_text",
+        "flow_id": "module_review - maths_2to3_yc",
+        "original_row_id": "",
+        "node_identifier": "Regex:.*⏯ Click to watch the video*",
+        "original": "⏯ 点击观看视频（先看视频，再点下一步😎）",
+        "language": "zho",
+        "replacement": "<a href=\"@(globals.path &fields.attachment_gender&\"/maths_2to3_yc.mp4\")\">⏯ 点击观看视频（先看视频，再点下一步😎）</a>"
+      },
+      {
+        "type_of_edit": "replace_bit_of_text",
+        "flow_id": "module_review - engage_school_3to6_yc",
+        "original_row_id": "",
+        "node_identifier": "Regex:.*⏯ Click to watch the video*",
+        "original": "⏯ 点击观看视频（先看视频，再点下一步😎）",
+        "language": "zho",
+        "replacement": "<a href=\"@(globals.path &fields.attachment_gender&\"/engage_school_3to6_yc.mp4\")\">⏯ 点击观看视频（先看视频，再点下一步😎）</a>"
+      },
+      {
+        "type_of_edit": "replace_bit_of_text",
+        "flow_id": "module_review - play_yc",
+        "original_row_id": "",
+        "node_identifier": "Regex:.*⏯ Click to watch the video*",
+        "original": "⏯ 点击观看视频（先看视频，再点下一步😎）",
+        "language": "zho",
+        "replacement": "<a href=\"@(globals.path &fields.attachment_gender&\"/play_yc.mp4\")\">⏯ 点击观看视频（先看视频，再点下一步😎）</a>"
+      },
+      {
+        "type_of_edit": "replace_bit_of_text",
+        "flow_id": "module_review - learn_experience_yc",
+        "original_row_id": "",
+        "node_identifier": "Regex:.*⏯ Click to watch the video*",
+        "original": "⏯ 点击观看视频（先看视频，再点下一步😎）",
+        "language": "zho",
+        "replacement": "<a href=\"@(globals.path &fields.attachment_gender&\"/learn_experience_yc.mp4\")\">⏯ 点击观看视频（先看视频，再点下一步😎）</a>"
+      },
+      {
+        "type_of_edit": "replace_bit_of_text",
+        "flow_id": "module_review - toddler_change_yc",
+        "original_row_id": "",
+        "node_identifier": "Regex:.*⏯ Click to watch the video*",
+        "original": "⏯ 点击观看视频（先看视频，再点下一步😎）",
+        "language": "zho",
+        "replacement": "<a href=\"@(globals.path &fields.attachment_gender&\"/toddler_change_yc.mp4\")\">⏯ 点击观看视频（先看视频，再点下一步😎）</a>"
+      },
+      {
+        "type_of_edit": "replace_bit_of_text",
+        "flow_id": "module_review - young_child_change_yc",
+        "original_row_id": "",
+        "node_identifier": "Regex:.*⏯ Click to watch the video*",
+        "original": "⏯ 点击观看视频（先看视频，再点下一步😎）",
+        "language": "zho",
+        "replacement": "<a href=\"@(globals.path &fields.attachment_gender&\"/young_child_change_yc.mp4\")\">⏯ 点击观看视频（先看视频，再点下一步😎）</a>"
+      },
+      {
+        "type_of_edit": "replace_bit_of_text",
+        "flow_id": "module_review - child_change_yc",
+        "original_row_id": "",
+        "node_identifier": "Regex:.*⏯ Click to watch the video*",
+        "original": "⏯ 点击观看视频（先看视频，再点下一步😎）",
+        "language": "zho",
+        "replacement": "<a href=\"@(globals.path &fields.attachment_gender&\"/child_change_yc.mp4\")\">⏯ 点击观看视频（先看视频，再点下一步😎）</a>"
+      },
+      {
+        "type_of_edit": "replace_bit_of_text",
+        "flow_id": "module_review - manage_my_stress_yc",
+        "original_row_id": "",
+        "node_identifier": "Regex:.*⏯ Click to watch the video*",
+        "original": "⏯ 点击观看视频（先看视频，再点下一步😎）",
+        "language": "zho",
+        "replacement": "<a href=\"@(globals.path &fields.attachment_gender&\"/manage_my_stress_yc.mp4\")\">⏯ 点击观看视频（先看视频，再点下一步😎）</a>"
+      },
+      {
+        "type_of_edit": "replace_bit_of_text",
+        "flow_id": "module_review - keeping_it_positive_yc",
+        "original_row_id": "",
+        "node_identifier": "Regex:.*⏯ Click to watch the video*",
+        "original": "⏯ 点击观看视频（先看视频，再点下一步😎）",
+        "language": "zho",
+        "replacement": "<a href=\"@(globals.path &fields.attachment_gender&\"/keeping_it_positive_yc.mp4\")\">⏯ 点击观看视频（先看视频，再点下一步😎）</a>"
+      },
+      {
+        "type_of_edit": "replace_bit_of_text",
+        "flow_id": "module_review - create_routines_yc",
+        "original_row_id": "",
+        "node_identifier": "Regex:.*⏯ Click to watch the video*",
+        "original": "⏯ 点击观看视频（先看视频，再点下一步😎）",
+        "language": "zho",
+        "replacement": "<a href=\"@(globals.path &fields.attachment_gender&\"/create_routines_yc.mp4\")\">⏯ 点击观看视频（先看视频，再点下一步😎）</a>"
+      },
+      {
+        "type_of_edit": "replace_bit_of_text",
+        "flow_id": "module_review - create_family_rules_yc",
+        "original_row_id": "",
+        "node_identifier": "Regex:.*⏯ Click to watch the video*",
+        "original": "⏯ 点击观看视频（先看视频，再点下一步😎）",
+        "language": "zho",
+        "replacement": "<a href=\"@(globals.path &fields.attachment_gender&\"/create_family_rules_yc.mp4\")\">⏯ 点击观看视频（先看视频，再点下一步😎）</a>"
+      },
+      {
+        "type_of_edit": "replace_bit_of_text",
+        "flow_id": "module_review - know_role_yc",
+        "original_row_id": "",
+        "node_identifier": "Regex:.*⏯ Click to watch the video*",
+        "original": "⏯ 点击观看视频（先看视频，再点下一步😎）",
+        "language": "zho",
+        "replacement": "<a href=\"@(globals.path &fields.attachment_gender&\"/know_role_yc.mp4\")\">⏯ 点击观看视频（先看视频，再点下一步😎）</a>"
+      },
+      {
+        "type_of_edit": "replace_bit_of_text",
+        "flow_id": "module_review - redirect_yc",
+        "original_row_id": "",
+        "node_identifier": "Regex:.*⏯ Click to watch the video*",
+        "original": "⏯ 点击观看视频（先看视频，再点下一步😎）",
+        "language": "zho",
+        "replacement": "<a href=\"@(globals.path &fields.attachment_gender&\"/redirect_yc.mp4\")\">⏯ 点击观看视频（先看视频，再点下一步😎）</a>"
+      },
+      {
+        "type_of_edit": "replace_bit_of_text",
+        "flow_id": "module_review - ignore_demanding_yc",
+        "original_row_id": "",
+        "node_identifier": "Regex:.*⏯ Click to watch the video*",
+        "original": "⏯ 点击观看视频（先看视频，再点下一步😎）",
+        "language": "zho",
+        "replacement": "<a href=\"@(globals.path &fields.attachment_gender&\"/ignore_demanding_yc.mp4\")\">⏯ 点击观看视频（先看视频，再点下一步😎）</a>"
+      },
+      {
+        "type_of_edit": "replace_bit_of_text",
+        "flow_id": "module_review - managing_anger_yc",
+        "original_row_id": "",
+        "node_identifier": "Regex:.*⏯ Click to watch the video*",
+        "original": "⏯ 点击观看视频（先看视频，再点下一步😎）",
+        "language": "zho",
+        "replacement": "<a href=\"@(globals.path &fields.attachment_gender&\"/managing_anger_yc.mp4\")\">⏯ 点击观看视频（先看视频，再点下一步😎）</a>"
+      },
+      {
+        "type_of_edit": "replace_bit_of_text",
+        "flow_id": "module_review - teach_consequences_yc",
+        "original_row_id": "",
+        "node_identifier": "Regex:.*⏯ Click to watch the video*",
+        "original": "⏯ 点击观看视频（先看视频，再点下一步😎）",
+        "language": "zho",
+        "replacement": "<a href=\"@(globals.path &fields.attachment_gender&\"/teach_consequences_yc.mp4\")\">⏯ 点击观看视频（先看视频，再点下一步😎）</a>"
+      },
+      {
+        "type_of_edit": "replace_bit_of_text",
+        "flow_id": "module_review - solve_problems_yc",
+        "original_row_id": "",
+        "node_identifier": "Regex:.*⏯ Click to watch the video*",
+        "original": "⏯ 点击观看视频（先看视频，再点下一步😎）",
+        "language": "zho",
+        "replacement": "<a href=\"@(globals.path &fields.attachment_gender&\"/solve_problems_yc.mp4\")\">⏯ 点击观看视频（先看视频，再点下一步😎）</a>"
+      },
+      {
+        "type_of_edit": "replace_bit_of_text",
+        "flow_id": "module_review - safe_touch_2to5_yc_m",
+        "original_row_id": "",
+        "node_identifier": "Regex:.*⏯ Click to watch the video*",
+        "original": "⏯ 点击观看视频（先看视频，再点下一步😎）",
+        "language": "zho",
+        "replacement": "<a href=\"@(globals.path &fields.attachment_gender&\"/safe_touch_2to5_yc_m.mp4\")\">⏯ 点击观看视频（先看视频，再点下一步😎）</a>"
+      },
+      {
+        "type_of_edit": "replace_bit_of_text",
+        "flow_id": "module_review - safe_touch_2to5_yc_f",
+        "original_row_id": "",
+        "node_identifier": "Regex:.*⏯ Click to watch the video*",
+        "original": "⏯ 点击观看视频（先看视频，再点下一步😎）",
+        "language": "zho",
+        "replacement": "<a href=\"@(globals.path &fields.attachment_gender&\"/safe_touch_2to5_yc_f.mp4\")\">⏯ 点击观看视频（先看视频，再点下一步😎）</a>"
+      },
+      {
+        "type_of_edit": "replace_bit_of_text",
+        "flow_id": "module_review - safe_touch_6to9_yc",
+        "original_row_id": "",
+        "node_identifier": "Regex:.*⏯ Click to watch the video*",
+        "original": "⏯ 点击观看视频（先看视频，再点下一步😎）",
+        "language": "zho",
+        "replacement": "<a href=\"@(globals.path &fields.attachment_gender&\"/safe_touch_6to9_yc.mp4\")\">⏯ 点击观看视频（先看视频，再点下一步😎）</a>"
+      },
+      {
+        "type_of_edit": "replace_bit_of_text",
+        "flow_id": "module_review - com_safety_2to4_yc",
+        "original_row_id": "",
+        "node_identifier": "Regex:.*⏯ Click to watch the video*",
+        "original": "⏯ 点击观看视频（先看视频，再点下一步😎）",
+        "language": "zho",
+        "replacement": "<a href=\"@(globals.path &fields.attachment_gender&\"/com_safety_2to4_yc.mp4\")\">⏯ 点击观看视频（先看视频，再点下一步😎）</a>"
+      },
+      {
+        "type_of_edit": "replace_bit_of_text",
+        "flow_id": "module_review - com_safety_5to9_yc",
+        "original_row_id": "",
+        "node_identifier": "Regex:.*⏯ Click to watch the video*",
+        "original": "⏯ 点击观看视频（先看视频，再点下一步😎）",
+        "language": "zho",
+        "replacement": "<a href=\"@(globals.path &fields.attachment_gender&\"/com_safety_5to9_yc.mp4\")\">⏯ 点击观看视频（先看视频，再点下一步😎）</a>"
+      },
+      {
+        "type_of_edit": "replace_bit_of_text",
+        "flow_id": "module_review - crises_2to6_yc",
+        "original_row_id": "",
+        "node_identifier": "Regex:.*⏯ Click to watch the video*",
+        "original": "⏯ 点击观看视频（先看视频，再点下一步😎）",
+        "language": "zho",
+        "replacement": "<a href=\"@(globals.path &fields.attachment_gender&\"/crises_2to6_yc.mp4\")\">⏯ 点击观看视频（先看视频，再点下一步😎）</a>"
+      },
+      {
+        "type_of_edit": "replace_bit_of_text",
+        "flow_id": "module_review - crises_7to9_yc",
+        "original_row_id": "",
+        "node_identifier": "Regex:.*⏯ Click to watch the video*",
+        "original": "⏯ 点击观看视频（先看视频，再点下一步😎）",
+        "language": "zho",
+        "replacement": "<a href=\"@(globals.path &fields.attachment_gender&\"/crises_7to9_yc.mp4\")\">⏯ 点击观看视频（先看视频，再点下一步😎）</a>"
+      },
+      {
+        "type_of_edit": "replace_bit_of_text",
+        "flow_id": "module_review - online_safety_yc",
+        "original_row_id": "",
+        "node_identifier": "Regex:.*⏯ Click to watch the video*",
+        "original": "⏯ 点击观看视频（先看视频，再点下一步😎）",
+        "language": "zho",
+        "replacement": "<a href=\"@(globals.path &fields.attachment_gender&\"/online_safety_yc.mp4\")\">⏯ 点击观看视频（先看视频，再点下一步😎）</a>"
+      },
+      {
+        "type_of_edit": "replace_bit_of_text",
+        "flow_id": "module_review - habits_trust_online_yc",
+        "original_row_id": "",
+        "node_identifier": "Regex:.*⏯ Click to watch the video*",
+        "original": "⏯ 点击观看视频（先看视频，再点下一步😎）",
+        "language": "zho",
+        "replacement": "<a href=\"@(globals.path &fields.attachment_gender&\"/habits_trust_online_yc.mp4\")\">⏯ 点击观看视频（先看视频，再点下一步😎）</a>"
+      },
+      {
+        "type_of_edit": "replace_bit_of_text",
+        "flow_id": "module_review - nutrition_health_yc",
+        "original_row_id": "",
+        "node_identifier": "Regex:.*⏯ Click to watch the video*",
+        "original": "⏯ 点击观看视频（先看视频，再点下一步😎）",
+        "language": "zho",
+        "replacement": "<a href=\"@(globals.path &fields.attachment_gender&\"/nutrition_health_yc.mp4\")\">⏯ 点击观看视频（先看视频，再点下一步😎）</a>"
+      },
+      {
+        "type_of_edit": "replace_bit_of_text",
+        "flow_id": "module_review - ipv_equals",
+        "original_row_id": "",
+        "node_identifier": "Regex:.*⏯ Click to watch the video*",
+        "original": "⏯ 点击观看视频（先看视频，再点下一步😎）",
+        "language": "zho",
+        "replacement": "<a href=\"@(globals.path &fields.attachment_gender&\"/ipv_equals.mp4\")\">⏯ 点击观看视频（先看视频，再点下一步😎）</a>"
+      },
+      {
+        "type_of_edit": "replace_bit_of_text",
+        "flow_id": "module_review - ipv_supportive",
+        "original_row_id": "",
+        "node_identifier": "Regex:.*⏯ Click to watch the video*",
+        "original": "⏯ 点击观看视频（先看视频，再点下一步😎）",
+        "language": "zho",
+        "replacement": "<a href=\"@(globals.path &fields.attachment_gender&\"/ipv_supportive.mp4\")\">⏯ 点击观看视频（先看视频，再点下一步😎）</a>"
+      },
+      {
+        "type_of_edit": "replace_bit_of_text",
+        "flow_id": "module_review - ipv_sharing",
+        "original_row_id": "",
+        "node_identifier": "Regex:.*⏯ Click to watch the video*",
+        "original": "⏯ 点击观看视频（先看视频，再点下一步😎）",
+        "language": "zho",
+        "replacement": "<a href=\"@(globals.path &fields.attachment_gender&\"/ipv_sharing.mp4\")\">⏯ 点击观看视频（先看视频，再点下一步😎）</a>"
+      },
+      {
+        "type_of_edit": "replace_bit_of_text",
+        "flow_id": "module_review - ipv_conflicts",
+        "original_row_id": "",
+        "node_identifier": "Regex:.*⏯ Click to watch the video*",
+        "original": "⏯ 点击观看视频（先看视频，再点下一步😎）",
+        "language": "zho",
+        "replacement": "<a href=\"@(globals.path &fields.attachment_gender&\"/ipv_conflicts.mp4\")\">⏯ 点击观看视频（先看视频，再点下一步😎）</a>"
+      },
+      {
+        "type_of_edit": "replace_bit_of_text",
+        "flow_id": "module_review - ipv_listen",
+        "original_row_id": "",
+        "node_identifier": "Regex:.*⏯ Click to watch the video*",
+        "original": "⏯ 点击观看视频（先看视频，再点下一步😎）",
+        "language": "zho",
+        "replacement": "<a href=\"@(globals.path &fields.attachment_gender&\"/ipv_listen.mp4\")\">⏯ 点击观看视频（先看视频，再点下一步😎）</a>"
+      },
+      {
+        "type_of_edit": "replace_bit_of_text",
+        "flow_id": "module_review - budget_needs_yc",
+        "original_row_id": "",
+        "node_identifier": "Regex:.*⏯ Click to watch the video*",
+        "original": "⏯ 点击观看视频（先看视频，再点下一步😎）",
+        "language": "zho",
+        "replacement": "<a href=\"@(globals.path &fields.attachment_gender&\"/budget_needs_yc.mp4\")\">⏯ 点击观看视频（先看视频，再点下一步😎）</a>"
+      },
+      {
+        "type_of_edit": "replace_bit_of_text",
+        "flow_id": "module_review - budget_expenses_yc",
+        "original_row_id": "",
+        "node_identifier": "Regex:.*⏯ Click to watch the video*",
+        "original": "⏯ 点击观看视频（先看视频，再点下一步😎）",
+        "language": "zho",
+        "replacement": "<a href=\"@(globals.path &fields.attachment_gender&\"/budget_expenses_yc.mp4\")\">⏯ 点击观看视频（先看视频，再点下一步😎）</a>"
+      },
+      {
+        "type_of_edit": "replace_bit_of_text",
+        "flow_id": "module_review - budget_monthly_yc",
+        "original_row_id": "",
+        "node_identifier": "Regex:.*⏯ Click to watch the video*",
+        "original": "⏯ 点击观看视频（先看视频，再点下一步😎）",
+        "language": "zho",
+        "replacement": "<a href=\"@(globals.path &fields.attachment_gender&\"/budget_monthly_yc.mp4\")\">⏯ 点击观看视频（先看视频，再点下一步😎）</a>"
+      },
+      {
+        "type_of_edit": "replace_bit_of_text",
+        "flow_id": "module_review - budget_savings_yc",
+        "original_row_id": "",
+        "node_identifier": "Regex:.*⏯ Click to watch the video*",
+        "original": "⏯ 点击观看视频（先看视频，再点下一步😎）",
+        "language": "zho",
+        "replacement": "<a href=\"@(globals.path &fields.attachment_gender&\"/budget_savings_yc.mp4\")\">⏯ 点击观看视频（先看视频，再点下一步😎）</a>"
+      },
+      {
+        "type_of_edit": "replace_bit_of_text",
+        "flow_id": "orientation",
+        "original_row_id": "",
+        "node_identifier": "Regex:.*⏯ Click to watch the video*",
+        "original": "⏯ 点击观看视频（先看视频，再点下一步😎）",
+        "language": "zho",
+        "replacement": "<a href=\"@(globals.path &fields.attachment_gender&\"/onboarding.mp4\")\">⏯ 点击观看视频（先看视频，再点下一步😎）</a>"
+      }
+    ],
+    "badge_links_eng": [
+      {
+        "type_of_edit": "replace_bit_of_text",
+        "flow_id": "goal_completion_congrats",
+        "original_row_id": "",
+        "node_identifier": "Regex:.*Click to see your new badge*",
+        "change": "Click to see your new badge",
+        "condition_var": "",
+        "category": "<a href=\"@(globals.path &\"badge/\"&fields.attachment_gender & \"/\" & results.curr_goal & \".jpeg\")\">Click to see your new badge</a>"
+      },
+      {
+        "type_of_edit": "replace_bit_of_text",
+        "flow_id": "congrats_take_a_pause",
+        "original_row_id": "",
+        "node_identifier": "Regex:.*Click to see your new badge*",
+        "change": "Click to see your new badge",
+        "condition_var": "",
+        "category": "<a href=\"@(globals.path &\"badge/\"&fields.attachment_gender & \"/stress.jpeg\")\">Click to see your new badge</a>"
+      },
+      {
+        "type_of_edit": "replace_bit_of_text",
+        "flow_id": "program_completion_congrats",
+        "original_row_id": "",
+        "node_identifier": "Regex:.*Click here to get your certificate*",
+        "change": "Click here to get your certificate",
+        "condition_var": "",
+        "category": "<a href=\"@webhook.url\">Click here to get your certificate</a>"
+      }
+    ],
+    "badge_links_transl": [
+      {
+        "type_of_edit": "replace_bit_of_text",
+        "flow_id": "goal_completion_congrats",
+        "original_row_id": "",
+        "node_identifier": "Regex:.*Click to see your new badge*",
+        "original": "点击查看新奖章！",
+        "language": "zho",
+        "replacement": "<a href=\"@(globals.path &\"badge/\"&fields.attachment_gender & \"/\" & results.curr_goal & \".jpeg\")\">点击查看新奖章！</a>"
+      },
+      {
+        "type_of_edit": "replace_bit_of_text",
+        "flow_id": "congrats_take_a_pause",
+        "original_row_id": "",
+        "node_identifier": "Regex:.*Click to see your new badge*",
+        "original": "点击查看新奖章！",
+        "language": "zho",
+        "replacement": "<a href=\"@(globals.path &\"badge/\"&fields.attachment_gender & \"/stress.jpeg\")\">点击查看新奖章！</a>"
+      },
+      {
+        "type_of_edit": "replace_bit_of_text",
+        "flow_id": "program_completion_congrats",
+        "original_row_id": "",
+        "node_identifier": "Regex:.*Click here to get your certificate*",
+        "original": "点击查看证书",
+        "language": "zho",
+        "replacement": "<a href=\"@webhook.url\">点击查看证书</a>"
+      }
+    ],
+    "comic_names_transl": [
+      {
+        "type_of_edit": "replace_bit_of_text",
+        "flow_id": "Regex:.*",
+        "original_row_id": "",
+        "node_identifier": "Regex:.*{F1_MOTHER}.*",
+        "original": "{F1_MOTHER}",
+        "language": "zho",
+        "replacement": "@(parse_json(fields.comic_names_dict_0 &fields.comic_names_dict_1 &fields.comic_names_dict_2 )[\"F1_MOTHER\"][contact.language])"
+      },
+      {
+        "type_of_edit": "replace_bit_of_text",
+        "flow_id": "Regex:.*",
+        "original_row_id": "",
+        "node_identifier": "Regex:.*{F1_FATHER}.*",
+        "original": "{F1_FATHER}",
+        "language": "zho",
+        "replacement": "@(parse_json(fields.comic_names_dict_0 &fields.comic_names_dict_1 &fields.comic_names_dict_2 )[\"F1_FATHER\"][contact.language])"
+      },
+      {
+        "type_of_edit": "replace_bit_of_text",
+        "flow_id": "Regex:.*",
+        "original_row_id": "",
+        "node_identifier": "Regex:.*{F1_SON_18}.*",
+        "original": "{F1_SON_18}",
+        "language": "zho",
+        "replacement": "@(parse_json(fields.comic_names_dict_0 &fields.comic_names_dict_1 &fields.comic_names_dict_2 )[\"F1_SON_18\"][contact.language])"
+      },
+      {
+        "type_of_edit": "replace_bit_of_text",
+        "flow_id": "Regex:.*",
+        "original_row_id": "",
+        "node_identifier": "Regex:.*{F1_DAUGHTER_16}.*",
+        "original": "{F1_DAUGHTER_16}",
+        "language": "zho",
+        "replacement": "@(parse_json(fields.comic_names_dict_0 &fields.comic_names_dict_1 &fields.comic_names_dict_2 )[\"F1_DAUGHTER_16\"][contact.language])"
+      },
+      {
+        "type_of_edit": "replace_bit_of_text",
+        "flow_id": "Regex:.*",
+        "original_row_id": "",
+        "node_identifier": "Regex:.*{F1_DAUGHTER_13}.*",
+        "original": "{F1_DAUGHTER_13}",
+        "language": "zho",
+        "replacement": "@(parse_json(fields.comic_names_dict_0 &fields.comic_names_dict_1 &fields.comic_names_dict_2 )[\"F1_DAUGHTER_13\"][contact.language])"
+      },
+      {
+        "type_of_edit": "replace_bit_of_text",
+        "flow_id": "Regex:.*",
+        "original_row_id": "",
+        "node_identifier": "Regex:.*{F1_DAUGHTER_6}.*",
+        "original": "{F1_DAUGHTER_6}",
+        "language": "zho",
+        "replacement": "@(parse_json(fields.comic_names_dict_0 &fields.comic_names_dict_1 &fields.comic_names_dict_2 )[\"F1_DAUGHTER_6\"][contact.language])"
+      },
+      {
+        "type_of_edit": "replace_bit_of_text",
+        "flow_id": "Regex:.*",
+        "original_row_id": "",
+        "node_identifier": "Regex:.*{F1_DAUGHTER_2}.*",
+        "original": "{F1_DAUGHTER_2}",
+        "language": "zho",
+        "replacement": "@(parse_json(fields.comic_names_dict_0 &fields.comic_names_dict_1 &fields.comic_names_dict_2 )[\"F1_DAUGHTER_2\"][contact.language])"
+      },
+      {
+        "type_of_edit": "replace_bit_of_text",
+        "flow_id": "Regex:.*",
+        "original_row_id": "",
+        "node_identifier": "Regex:.*{F1_SON_5}.*",
+        "original": "{F1_SON_5}",
+        "language": "zho",
+        "replacement": "@(parse_json(fields.comic_names_dict_0 &fields.comic_names_dict_1 &fields.comic_names_dict_2 )[\"F1_SON_5\"][contact.language])"
+      },
+      {
+        "type_of_edit": "replace_bit_of_text",
+        "flow_id": "Regex:.*",
+        "original_row_id": "",
+        "node_identifier": "Regex:.*{F2_GRANDMOTHER}.*",
+        "original": "{F2_GRANDMOTHER}",
+        "language": "zho",
+        "replacement": "@(parse_json(fields.comic_names_dict_0 &fields.comic_names_dict_1 &fields.comic_names_dict_2 )[\"F2_GRANDMOTHER\"][contact.language])"
+      },
+      {
+        "type_of_edit": "replace_bit_of_text",
+        "flow_id": "Regex:.*",
+        "original_row_id": "",
+        "node_identifier": "Regex:.*{F2_GRANDFATHER}.*",
+        "original": "{F2_GRANDFATHER}",
+        "language": "zho",
+        "replacement": "@(parse_json(fields.comic_names_dict_0 &fields.comic_names_dict_1 &fields.comic_names_dict_2 )[\"F2_GRANDFATHER\"][contact.language])"
+      },
+      {
+        "type_of_edit": "replace_bit_of_text",
+        "flow_id": "Regex:.*",
+        "original_row_id": "",
+        "node_identifier": "Regex:.*{F2_DAUGHTER_19}.*",
+        "original": "{F2_DAUGHTER_19}",
+        "language": "zho",
+        "replacement": "@(parse_json(fields.comic_names_dict_0 &fields.comic_names_dict_1 &fields.comic_names_dict_2 )[\"F2_DAUGHTER_19\"][contact.language])"
+      },
+      {
+        "type_of_edit": "replace_bit_of_text",
+        "flow_id": "Regex:.*",
+        "original_row_id": "",
+        "node_identifier": "Regex:.*{F2_SON_15}.*",
+        "original": "{F2_SON_15}",
+        "language": "zho",
+        "replacement": "@(parse_json(fields.comic_names_dict_0 &fields.comic_names_dict_1 &fields.comic_names_dict_2 )[\"F2_SON_15\"][contact.language])"
+      },
+      {
+        "type_of_edit": "replace_bit_of_text",
+        "flow_id": "Regex:.*",
+        "original_row_id": "",
+        "node_identifier": "Regex:.*{F2_DAUGHTER_8}.*",
+        "original": "{F2_DAUGHTER_8}",
+        "language": "zho",
+        "replacement": "@(parse_json(fields.comic_names_dict_0 &fields.comic_names_dict_1 &fields.comic_names_dict_2 )[\"F2_DAUGHTER_8\"][contact.language])"
+      },
+      {
+        "type_of_edit": "replace_bit_of_text",
+        "flow_id": "Regex:.*",
+        "original_row_id": "",
+        "node_identifier": "Regex:.*{F2_SON_3}.*",
+        "original": "{F2_SON_3}",
+        "language": "zho",
+        "replacement": "@(parse_json(fields.comic_names_dict_0 &fields.comic_names_dict_1 &fields.comic_names_dict_2 )[\"F2_SON_3\"][contact.language])"
+      },
+      {
+        "type_of_edit": "replace_bit_of_text",
+        "flow_id": "Regex:.*",
+        "original_row_id": "",
+        "node_identifier": "Regex:.*{F3_MOTHER}.*",
+        "original": "{F3_MOTHER}",
+        "language": "zho",
+        "replacement": "@(parse_json(fields.comic_names_dict_0 &fields.comic_names_dict_1 &fields.comic_names_dict_2 )[\"F3_MOTHER\"][contact.language])"
+      },
+      {
+        "type_of_edit": "replace_bit_of_text",
+        "flow_id": "Regex:.*",
+        "original_row_id": "",
+        "node_identifier": "Regex:.*{F3_UNCLE}.*",
+        "original": "{F3_UNCLE}",
+        "language": "zho",
+        "replacement": "@(parse_json(fields.comic_names_dict_0 &fields.comic_names_dict_1 &fields.comic_names_dict_2 )[\"F3_UNCLE\"][contact.language])"
+      },
+      {
+        "type_of_edit": "replace_bit_of_text",
+        "flow_id": "Regex:.*",
+        "original_row_id": "",
+        "node_identifier": "Regex:.*{F3_DAUGHTER_12}.*",
+        "original": "{F3_DAUGHTER_12}",
+        "language": "zho",
+        "replacement": "@(parse_json(fields.comic_names_dict_0 &fields.comic_names_dict_1 &fields.comic_names_dict_2 )[\"F3_DAUGHTER_12\"][contact.language])"
+      },
+      {
+        "type_of_edit": "replace_bit_of_text",
+        "flow_id": "Regex:.*",
+        "original_row_id": "",
+        "node_identifier": "Regex:.*{F3_SON_7}.*",
+        "original": "{F3_SON_7}",
+        "language": "zho",
+        "replacement": "@(parse_json(fields.comic_names_dict_0 &fields.comic_names_dict_1 &fields.comic_names_dict_2 )[\"F3_SON_7\"][contact.language])"
+      },
+      {
+        "type_of_edit": "replace_bit_of_text",
+        "flow_id": "Regex:.*",
+        "original_row_id": "",
+        "node_identifier": "Regex:.*{F3_DAUGTHER_4}.*",
+        "original": "{F3_DAUGTHER_4}",
+        "language": "zho",
+        "replacement": "@(parse_json(fields.comic_names_dict_0 &fields.comic_names_dict_1 &fields.comic_names_dict_2 )[\"F3_DAUGHTER_4\"][contact.language])"
+      },
+      {
+        "type_of_edit": "replace_bit_of_text",
+        "flow_id": "Regex:.*",
+        "original_row_id": "",
+        "node_identifier": "Regex:.*{F3_DAUGHTER_4}.*",
+        "original": "{F3_DAUGHTER_4}",
+        "language": "zho",
+        "replacement": "@(parse_json(fields.comic_names_dict_0 &fields.comic_names_dict_1 &fields.comic_names_dict_2 )[\"F3_DAUGHTER_4\"][contact.language])"
+      },
+      {
+        "type_of_edit": "replace_bit_of_text",
+        "flow_id": "Regex:.*",
+        "original_row_id": "",
+        "node_identifier": "Regex:.*{FRIEND_FEMALE_1}.*",
+        "original": "{FRIEND_FEMALE_1}",
+        "language": "zho",
+        "replacement": "@(parse_json(fields.comic_names_dict_0 &fields.comic_names_dict_1 &fields.comic_names_dict_2 )[\"FRIEND_FEMALE_1\"][contact.language])"
+      },
+      {
+        "type_of_edit": "replace_bit_of_text",
+        "flow_id": "Regex:.*",
+        "original_row_id": "",
+        "node_identifier": "Regex:.*{FRIEND_FEMALE_2}.*",
+        "original": "{FRIEND_FEMALE_2}",
+        "language": "zho",
+        "replacement": "@(parse_json(fields.comic_names_dict_0 &fields.comic_names_dict_1 &fields.comic_names_dict_2 )[\"FRIEND_FEMALE_2\"][contact.language])"
+      },
+      {
+        "type_of_edit": "replace_bit_of_text",
+        "flow_id": "Regex:.*",
+        "original_row_id": "",
+        "node_identifier": "Regex:.*{BOYFRIEND}.*",
+        "original": "{BOYFRIEND}",
+        "language": "zho",
+        "replacement": "@(parse_json(fields.comic_names_dict_0 &fields.comic_names_dict_1 &fields.comic_names_dict_2 )[\"BOYFRIEND\"][contact.language])"
+      },
+      {
+        "type_of_edit": "replace_bit_of_text",
+        "flow_id": "Regex:.*",
+        "original_row_id": "",
+        "node_identifier": "Regex:.*{GIRLFRIEND}.*",
+        "original": "{GIRLFRIEND}",
+        "language": "zho",
+        "replacement": "@(parse_json(fields.comic_names_dict_0 &fields.comic_names_dict_1 &fields.comic_names_dict_2 )[\"GIRLFRIEND\"][contact.language])"
+      },
+      {
+        "type_of_edit": "replace_bit_of_text",
+        "flow_id": "Regex:.*",
+        "original_row_id": "",
+        "node_identifier": "Regex:.*{MAN_THREAT}.*",
+        "original": "{MAN_THREAT}",
+        "language": "zho",
+        "replacement": "@(parse_json(fields.comic_names_dict_0 &fields.comic_names_dict_1 &fields.comic_names_dict_2 )[\"MAN_THREAT\"][contact.language])"
+      },
+      {
+        "type_of_edit": "replace_bit_of_text",
+        "flow_id": "Regex:.*",
+        "original_row_id": "",
+        "node_identifier": "Regex:.*{MAN_IN_CAR}.*",
+        "original": "{MAN_IN_CAR}",
+        "language": "zho",
+        "replacement": "@(parse_json(fields.comic_names_dict_0 &fields.comic_names_dict_1 &fields.comic_names_dict_2 )[\"MAN_IN_CAR\"][contact.language])"
+      }
+    ],
+    "urls": [
+      {
+        "type_of_edit": "replace_bit_of_text",
+        "flow_id": "Regex:.*",
+        "original_row_id": "",
+        "node_identifier": "Regex:.*https://covid19parenting.com/assets/consents/eng.pdf.*",
+        "original": "",
+        "language": "zho",
+        "replacement": ""
+      }
+    ],
+    "triggers_eng": [
+      {
+        "type_of_edit": "replace_bit_of_text",
+        "flow_id": "Regex:.*",
+        "original_row_id": "",
+        "node_identifier": "Regex:.*{HELP}.*",
+        "change": "{HELP}",
+        "condition_var": "",
+        "category": "HELP"
+      },
+      {
+        "type_of_edit": "replace_bit_of_text",
+        "flow_id": "Regex:.*",
+        "original_row_id": "",
+        "node_identifier": "Regex:.*{MENU}.*",
+        "change": "{MENU}",
+        "condition_var": "",
+        "category": "MENU"
+      },
+      {
+        "type_of_edit": "replace_bit_of_text",
+        "flow_id": "Regex:.*",
+        "original_row_id": "",
+        "node_identifier": "Regex:.*{PLAY}.*",
+        "change": "{PLAY}",
+        "condition_var": "",
+        "category": "PLAY"
+      },
+      {
+        "type_of_edit": "replace_bit_of_text",
+        "flow_id": "Regex:.*",
+        "original_row_id": "",
+        "node_identifier": "Regex:.*{GROW}.*",
+        "change": "{GROW}",
+        "condition_var": "",
+        "category": "GROW"
+      },
+      {
+        "type_of_edit": "replace_bit_of_text",
+        "flow_id": "Regex:.*",
+        "original_row_id": "",
+        "node_identifier": "Regex:.*{STOP}.*",
+        "change": "{STOP}",
+        "condition_var": "",
+        "category": "STOP"
+      },
+      {
+        "type_of_edit": "replace_bit_of_text",
+        "flow_id": "Regex:.*",
+        "original_row_id": "",
+        "node_identifier": "Regex:.*{START}.*",
+        "change": "{START}",
+        "condition_var": "",
+        "category": "START"
+      },
+      {
+        "type_of_edit": "replace_bit_of_text",
+        "flow_id": "Regex:.*",
+        "original_row_id": "",
+        "node_identifier": "Regex:.*{BOOK}.*",
+        "change": "{BOOK}",
+        "condition_var": "",
+        "category": "BOOK"
+      },
+      {
+        "type_of_edit": "replace_bit_of_text",
+        "flow_id": "Regex:.*",
+        "original_row_id": "",
+        "node_identifier": "Regex:.*{REVIEW}.*",
+        "change": "{REVIEW}",
+        "condition_var": "",
+        "category": "REVIEW"
+      },
+      {
+        "type_of_edit": "replace_bit_of_text",
+        "flow_id": "Regex:.*",
+        "original_row_id": "",
+        "node_identifier": "Regex:.*{PAUSE}.*",
+        "change": "{PAUSE}",
+        "condition_var": "",
+        "category": "PAUSE"
+      }
+    ],
+    "triggers_transl": [
+      {
+        "type_of_edit": "replace_bit_of_text",
+        "flow_id": "Regex:.*",
+        "original_row_id": "",
+        "node_identifier": "Regex:.*{HELP}.*",
+        "original": "{HELP}",
+        "language": "zho",
+        "replacement": "\"帮助\""
+      },
+      {
+        "type_of_edit": "replace_bit_of_text",
+        "flow_id": "Regex:.*",
+        "original_row_id": "",
+        "node_identifier": "Regex:.*{MENU}.*",
+        "original": "{MENU}",
+        "language": "zho",
+        "replacement": "\"菜单\""
+      },
+      {
+        "type_of_edit": "replace_bit_of_text",
+        "flow_id": "Regex:.*",
+        "original_row_id": "",
+        "node_identifier": "Regex:.*{PLAY}.*",
+        "original": "{PLAY}",
+        "language": "zho",
+        "replacement": "\"游戏\""
+      },
+      {
+        "type_of_edit": "replace_bit_of_text",
+        "flow_id": "Regex:.*",
+        "original_row_id": "",
+        "node_identifier": "Regex:.*{GROW}.*",
+        "original": "{GROW}",
+        "language": "zho",
+        "replacement": "\"成长\""
+      },
+      {
+        "type_of_edit": "replace_bit_of_text",
+        "flow_id": "Regex:.*",
+        "original_row_id": "",
+        "node_identifier": "Regex:.*{STOP}.*",
+        "original": "{STOP}",
+        "language": "zho",
+        "replacement": "”退课“"
+      },
+      {
+        "type_of_edit": "replace_bit_of_text",
+        "flow_id": "Regex:.*",
+        "original_row_id": "",
+        "node_identifier": "Regex:.*{START}.*",
+        "original": "{START}",
+        "language": "zho",
+        "replacement": "”上课“"
+      },
+      {
+        "type_of_edit": "replace_bit_of_text",
+        "flow_id": "Regex:.*",
+        "original_row_id": "",
+        "node_identifier": "Regex:.*{BOOK}.*",
+        "original": "{BOOK}",
+        "language": "zho",
+        "replacement": "\"书\""
+      },
+      {
+        "type_of_edit": "replace_bit_of_text",
+        "flow_id": "Regex:.*",
+        "original_row_id": "",
+        "node_identifier": "Regex:.*{REVIEW}.*",
+        "original": "{REVIEW}",
+        "language": "zho",
+        "replacement": "\"回顾\""
+      },
+      {
+        "type_of_edit": "replace_bit_of_text",
+        "flow_id": "Regex:.*",
+        "original_row_id": "",
+        "node_identifier": "Regex:.*{PAUSE}.*",
+        "original": "{PAUSE}",
+        "language": "zho",
+        "replacement": "\"暂停\""
+      }
+    ],
+    "external_references_eng": [
+      {
+        "type_of_edit": "replace_bit_of_text",
+        "flow_id": "Regex:.*",
+        "original_row_id": "",
+        "node_identifier": "Regex:.*{development resources 1}.*",
+        "change": "{development resources 1}",
+        "condition_var": "",
+        "category": "儿童残障、发展迟缓筛查和服务： \n\n1、社区卫生服务中心、乡镇医院、妇幼保健院等可提供初步筛查。 \n\n2、中国残疾人联合会官方网站：https://www.cdpf.org.cn/ \n\n3、孤独症筛查官方服务指南：https://www.gov.cn/zhengce/zhengceku/2022-09/23/content_5711379.htm \n\n4、全国心智障碍者家庭支持计划: https://onefoundation.cn/project/oceanheaven/detail/62958cf8eebd94ba63/  "
+      },
+      {
+        "type_of_edit": "replace_bit_of_text",
+        "flow_id": "Regex:.*",
+        "original_row_id": "",
+        "node_identifier": "Regex:.*{development resources 2}.*",
+        "change": "{development resources 2}",
+        "condition_var": "",
+        "category": "儿童残障、发展迟缓筛查和服务： \n\n1、社区卫生服务中心、乡镇医院、妇幼保健院等可提供初步筛查。 \n\n2、中国残疾人联合会官方网站：https://www.cdpf.org.cn/ \n\n3、孤独症筛查官方服务指南：https://www.gov.cn/zhengce/zhengceku/2022-09/23/content_5711379.htm \n\n4、全国心智障碍者家庭支持计划: https://onefoundation.cn/project/oceanheaven/detail/62958cf8eebd94ba63/  "
+      },
+      {
+        "type_of_edit": "replace_bit_of_text",
+        "flow_id": "Regex:.*",
+        "original_row_id": "",
+        "node_identifier": "Regex:.*{learning resources}.*",
+        "change": "{learning resources}",
+        "condition_var": "",
+        "category": "教育部家庭教育公开课：http://www.centv.cn/z/467566/"
+      },
+      {
+        "type_of_edit": "replace_bit_of_text",
+        "flow_id": "Regex:.*",
+        "original_row_id": "",
+        "node_identifier": "Regex:.*{community safety}.*",
+        "change": "{community safety}",
+        "condition_var": "",
+        "category": "联合国儿童基金会中国《让我们的孩子远离伤害》幼儿安全教育与安全管理手册：https://www.unicef.cn/reports/keep-children-away-accidental-injuries"
+      }
+    ],
+    "external_references_transl": [
+      {
+        "type_of_edit": "replace_bit_of_text",
+        "flow_id": "Regex:.*",
+        "original_row_id": "",
+        "node_identifier": "Regex:.*{development resources 1}.*",
+        "original": "{development resources 1}",
+        "language": "zho",
+        "replacement": "儿童残障、发展迟缓筛查和服务： \n\n1、社区卫生服务中心、乡镇医院、妇幼保健院等可提供初步筛查。 \n\n2、中国残疾人联合会官方网站：https://www.cdpf.org.cn/ \n\n3、孤独症筛查官方服务指南：https://www.gov.cn/zhengce/zhengceku/2022-09/23/content_5711379.htm \n\n4、全国心智障碍者家庭支持计划: https://onefoundation.cn/project/oceanheaven/detail/62958cf8eebd94ba63/  "
+      },
+      {
+        "type_of_edit": "replace_bit_of_text",
+        "flow_id": "Regex:.*",
+        "original_row_id": "",
+        "node_identifier": "Regex:.*{development resources 2}.*",
+        "original": "{development resources 2}",
+        "language": "zho",
+        "replacement": "儿童残障、发展迟缓筛查和服务： \n\n1、社区卫生服务中心、乡镇医院、妇幼保健院等可提供初步筛查。 \n\n2、中国残疾人联合会官方网站：https://www.cdpf.org.cn/ \n\n3、孤独症筛查官方服务指南：https://www.gov.cn/zhengce/zhengceku/2022-09/23/content_5711379.htm \n\n4、全国心智障碍者家庭支持计划: https://onefoundation.cn/project/oceanheaven/detail/62958cf8eebd94ba63/  "
+      },
+      {
+        "type_of_edit": "replace_bit_of_text",
+        "flow_id": "Regex:.*",
+        "original_row_id": "",
+        "node_identifier": "Regex:.*{learning resources}.*",
+        "original": "{learning resources}",
+        "language": "zho",
+        "replacement": "教育部家庭教育公开课：http://www.centv.cn/z/467566/"
+      },
+      {
+        "type_of_edit": "replace_bit_of_text",
+        "flow_id": "Regex:.*",
+        "original_row_id": "",
+        "node_identifier": "Regex:.*{community safety}.*",
+        "original": "{community safety}",
+        "language": "zho",
+        "replacement": "联合国儿童基金会中国《让我们的孩子远离伤害》幼儿安全教育与安全管理手册：https://www.unicef.cn/reports/keep-children-away-accidental-injuries"
+      }
+    ],
+    "referrals_eng": [
+      {
+        "type_of_edit": "replace_bit_of_text",
+        "flow_id": "Regex:.*",
+        "original_row_id": "",
+        "node_identifier": "Regex:.*{generic referrals}.*",
+        "change": "{generic referrals}",
+        "condition_var": "",
+        "category": "·官方热线：\n1-常用电话：报警求助：110（短信12110）；火警：119；医疗救护：120；交通事故：122\n2-如何拨打电话，见《市民公共安全应急指南》中《常用应急号码》：https://www.gov.cn/ztzl/yjzn/content_562406.htm\n\n`应急安全指南：\n中国应急信息网站：“科普馆”-应急指南：https://www.emerinfo.cn/\n中华人民共和国中央人民政府网站：《市民公共安全应急指南》https://www.gov.cn/ztzl/yjzn/index.htm"
+      },
+      {
+        "type_of_edit": "replace_bit_of_text",
+        "flow_id": "Regex:.*",
+        "original_row_id": "",
+        "node_identifier": "Regex:.*{mental_health referrals}.*",
+        "change": "{mental_health referrals}",
+        "condition_var": "",
+        "category": "·官方热线：\n卫生健康热线：12320\n全国青少年心理咨询热线：12355\n全国妇女儿童心理咨询热线：12338\n各地方心理咨询热线，见链接：https://zhuanlan.zhihu.com/p/395359151\n全国生命危机干预热线：400-1619995 \n中国心理危机与自杀干预中心救助热线：010-62715275\n\n·养育指南：\n中国疾病预防控制中心妇幼保健中心组织制作了《儿童心理保健预见性指导》手册，为0-6岁家长提供促进儿童心理健康发展的养育要点和推荐活动：https://www.chinacdc.cn/zxdt/202202/t20220216_256817.html\n\n·公益服务：\n北京师范大学心理学部心理健康服务中心，链接：https://mhs.bnu.edu.cn/index.do\n中国儿童健康教育公益项目一览，见链接20-22页：https://www.ricifoundation.com/Uploads/editorFile/20220304/1646383637869256.pdf"
+      },
+      {
+        "type_of_edit": "replace_bit_of_text",
+        "flow_id": "Regex:.*",
+        "original_row_id": "",
+        "node_identifier": "Regex:.*{health referrals}.*",
+        "change": "{health referrals}",
+        "condition_var": "",
+        "category": "1、卫生部政府公益电话：12320 \n\n2、各地方开办相应网站：旨在为社会公众提供卫生计生方面的法律法规和政策的宣传解读，疾病预防控制、就医指南、健康保健咨询、心理健康咨询、健康教育、戒烟服务与膳食指导等服务，接受违法吸烟投诉与举报、突发公共卫生事件与卫生方面的投诉、举报与舆情监测反馈。 \n\n北京为例：https://www.beijing12320.org.cn/  "
+      },
+      {
+        "type_of_edit": "replace_bit_of_text",
+        "flow_id": "Regex:.*",
+        "original_row_id": "",
+        "node_identifier": "Regex:.*{violence referrals}.*",
+        "change": "{violence referrals}",
+        "condition_var": "",
+        "category": "家庭暴力：\n·官方热线：\n报警求助：110（短信12110）\n全国妇女儿童维权热线：12338\n法律援助中心：12348\n儿童救助保护热线：12349\n\n·公益服务：\n北京源众性别发展中心在网站上提供可操作的“求助指南”：https://www.bjyuanzhong.org.cn/info/5/6/\n其中包括家暴求助小程序、常见问题、在线申请救助、紧急求助、危险自评表、法律工具包、自我防护手册和全国反性别暴力组织地图。\n\n\n儿童性侵害：\n·官方联系方式：\n报警求助：110\n全国妇女儿童维权热线：12338\n共青团中央心理咨询和法律援助：12355\n\n·公益服务：\n《如果被性侵了该怎么办》动画课程，来源于女童保护公众号平台：https://mp.weixin.qq.com/s/Hqk-uHywWDAvpp5zIK06Iw\n其公众号平台也提供“儿童防性侵动画课程”系列、家长版儿童性教育知识手册、入校防性侵课程申请服务。"
+      }
+    ],
+    "referrals_transl": [
+      {
+        "type_of_edit": "replace_bit_of_text",
+        "flow_id": "Regex:.*",
+        "original_row_id": "",
+        "node_identifier": "Regex:.*{generic referrals}.*",
+        "original": "{generic referrals}",
+        "language": "zho",
+        "replacement": "·官方热线：\n1-常用电话：报警求助：110（短信12110）；火警：119；医疗救护：120；交通事故：122\n2-如何拨打电话，见《市民公共安全应急指南》中《常用应急号码》：https://www.gov.cn/ztzl/yjzn/content_562406.htm\n\n`应急安全指南：\n中国应急信息网站：“科普馆”-应急指南：https://www.emerinfo.cn/\n中华人民共和国中央人民政府网站：《市民公共安全应急指南》https://www.gov.cn/ztzl/yjzn/index.htm"
+      },
+      {
+        "type_of_edit": "replace_bit_of_text",
+        "flow_id": "Regex:.*",
+        "original_row_id": "",
+        "node_identifier": "Regex:.*{mental_health referrals}.*",
+        "original": "{mental_health referrals}",
+        "language": "zho",
+        "replacement": "·官方热线：\n卫生健康热线：12320\n全国青少年心理咨询热线：12355\n全国妇女儿童心理咨询热线：12338\n各地方心理咨询热线，见链接：https://zhuanlan.zhihu.com/p/395359151\n全国生命危机干预热线：400-1619995 \n中国心理危机与自杀干预中心救助热线：010-62715275\n\n·养育指南：\n中国疾病预防控制中心妇幼保健中心组织制作了《儿童心理保健预见性指导》手册，为0-6岁家长提供促进儿童心理健康发展的养育要点和推荐活动：https://www.chinacdc.cn/zxdt/202202/t20220216_256817.html\n\n·公益服务：\n北京师范大学心理学部心理健康服务中心，链接：https://mhs.bnu.edu.cn/index.do\n中国儿童健康教育公益项目一览，见链接20-22页：https://www.ricifoundation.com/Uploads/editorFile/20220304/1646383637869256.pdf"
+      },
+      {
+        "type_of_edit": "replace_bit_of_text",
+        "flow_id": "Regex:.*",
+        "original_row_id": "",
+        "node_identifier": "Regex:.*{health referrals}.*",
+        "original": "{health referrals}",
+        "language": "zho",
+        "replacement": "1、卫生部政府公益电话：12320 \n\n2、各地方开办相应网站：旨在为社会公众提供卫生计生方面的法律法规和政策的宣传解读，疾病预防控制、就医指南、健康保健咨询、心理健康咨询、健康教育、戒烟服务与膳食指导等服务，接受违法吸烟投诉与举报、突发公共卫生事件与卫生方面的投诉、举报与舆情监测反馈。 \n\n北京为例：https://www.beijing12320.org.cn/  "
+      },
+      {
+        "type_of_edit": "replace_bit_of_text",
+        "flow_id": "Regex:.*",
+        "original_row_id": "",
+        "node_identifier": "Regex:.*{violence referrals}.*",
+        "original": "{violence referrals}",
+        "language": "zho",
+        "replacement": "家庭暴力：\n·官方热线：\n报警求助：110（短信12110）\n全国妇女儿童维权热线：12338\n法律援助中心：12348\n儿童救助保护热线：12349\n\n·公益服务：\n北京源众性别发展中心在网站上提供可操作的“求助指南”：https://www.bjyuanzhong.org.cn/info/5/6/\n其中包括家暴求助小程序、常见问题、在线申请救助、紧急求助、危险自评表、法律工具包、自我防护手册和全国反性别暴力组织地图。\n\n\n儿童性侵害：\n·官方联系方式：\n报警求助：110\n全国妇女儿童维权热线：12338\n共青团中央心理咨询和法律援助：12355\n\n·公益服务：\n《如果被性侵了该怎么办》动画课程，来源于女童保护公众号平台：https://mp.weixin.qq.com/s/Hqk-uHywWDAvpp5zIK06Iw\n其公众号平台也提供“儿童防性侵动画课程”系列、家长版儿童性教育知识手册、入校防性侵课程申请服务。"
+      }
+    ]
+  }
+}

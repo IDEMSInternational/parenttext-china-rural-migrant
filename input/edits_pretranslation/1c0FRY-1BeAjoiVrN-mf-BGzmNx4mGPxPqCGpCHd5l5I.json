@@ -1,0 +1,99 @@
+{
+  "meta": {
+    "version": "0.1.0"
+  },
+  "sheets": {
+    "==content==": [
+      {
+        "flow_type": "flow_editing",
+        "flow_name": "",
+        "sheet_name": "settings",
+        "status": "released",
+        "order": "0"
+      },
+      {
+        "flow_type": "flow_editing",
+        "flow_name": "",
+        "sheet_name": "pilot",
+        "status": "released",
+        "order": "0"
+      }
+    ],
+    "settings": [
+      {
+        "type_of_edit": "replace_flow",
+        "flow_id": "onboarding_wrapper",
+        "original_row_id": "",
+        "node_identifier": "onboarding_question_with_opt - emojis",
+        "change": "onboarding_question_with_opt - emojis",
+        "condition_var": "",
+        "category": "skip_onboarding_question - emojis"
+      },
+      {
+        "type_of_edit": "replace_flow",
+        "flow_id": "onboarding_wrapper",
+        "original_row_id": "",
+        "node_identifier": "onboarding_question_input - research_id",
+        "change": "onboarding_question_input - research_id",
+        "condition_var": "",
+        "category": "skip_onboarding_question - research_id"
+      },
+      {
+        "type_of_edit": "replace_saved_value",
+        "flow_id": "Regex:.*",
+        "original_row_id": "",
+        "node_identifier": "@fields.deployment",
+        "change": "Global",
+        "condition_var": "",
+        "category": "China"
+      },
+      {
+        "type_of_edit": "replace_bit_of_text",
+        "flow_id": "Regex:.*",
+        "original_row_id": "",
+        "node_identifier": "Regex:.*https://covid19parenting.com/assets/consents/eng.pdf.*",
+        "change": "https://covid19parenting.com/assets/consents/eng.pdf",
+        "condition_var": "",
+        "category": "x"
+      },
+      {
+        "type_of_edit": "NOreplace_bit_of_text",
+        "flow_id": "share",
+        "original_row_id": "",
+        "node_identifier": "Here is the link!\n[insert link]",
+        "change": "[insert link]",
+        "condition_var": "",
+        "category": "wechatlink"
+      },
+      {
+        "type_of_edit": "replace_saved_value",
+        "flow_id": "set_up_prog_var",
+        "original_row_id": "",
+        "node_identifier": "@fields.get_ipv_content",
+        "change": "no",
+        "condition_var": "",
+        "category": "yes"
+      }
+    ],
+    "pilot": [
+      {
+        "type_of_edit": "replace_flow",
+        "flow_id": "onboarding_wrapper",
+        "original_row_id": "",
+        "node_identifier": "consent",
+        "change": "consent",
+        "condition_var": "",
+        "category": "consent_pilot"
+      },
+      {
+        "type_of_edit": "replace_bit_of_text",
+        "flow_id": "share",
+        "original_row_id": "",
+        "node_identifier": "Here is the link!\n[insert link]",
+        "change": "[insert link]",
+        "condition_var": "",
+        "category": "**************"
+      }
+    ]
+  }
+}

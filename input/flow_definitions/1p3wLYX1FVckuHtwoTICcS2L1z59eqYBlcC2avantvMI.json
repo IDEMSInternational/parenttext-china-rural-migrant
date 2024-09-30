@@ -1,0 +1,391 @@
+{
+  "meta": {
+    "version": "0.1.0"
+  },
+  "sheets": {
+    "content_index": [
+      {
+        "type": "data_sheet",
+        "sheet_name": "home_activity_checkin_teen_data",
+        "data_sheet": "",
+        "data_row_id": "",
+        "new_name": "",
+        "data_model": "HomeActivityCheckInModel",
+        "template_arguments": "",
+        "status": "",
+        "tags.1": "",
+        "tags.2": ""
+      },
+      {
+        "type": "data_sheet",
+        "sheet_name": "home_activity_checkin_child_data",
+        "data_sheet": "",
+        "data_row_id": "",
+        "new_name": "",
+        "data_model": "HomeActivityCheckInModel",
+        "template_arguments": "",
+        "status": "",
+        "tags.1": "",
+        "tags.2": ""
+      },
+      {
+        "type": "data_sheet",
+        "sheet_name": "home_activity_checkin_all_ages_data",
+        "data_sheet": "",
+        "data_row_id": "",
+        "new_name": "",
+        "data_model": "HomeActivityCheckInModel",
+        "template_arguments": "",
+        "status": "",
+        "tags.1": "",
+        "tags.2": ""
+      },
+      {
+        "type": "data_sheet",
+        "sheet_name": "home_activity_checkin_teen_data;\nhome_activity_checkin_child_data;\nhome_activity_checkin_all_ages_data",
+        "data_sheet": "",
+        "data_row_id": "",
+        "new_name": "home_activity_checkin_data",
+        "data_model": "HomeActivityCheckInModel",
+        "template_arguments": "",
+        "status": "",
+        "tags.1": "",
+        "tags.2": ""
+      }
+    ],
+    "home_activity_checkin_teen_data": [],
+    "home_activity_checkin_child_data": [
+      {
+        "ID": "one_on_one_yc",
+        "activity": "spend 5 minutes of one-on-one time with your child",
+        "positive_message": "Amazing! Well done for making this commitment.",
+        "negative_message": "That’s okay! Try and set aside some time in the coming days.",
+        "attached_single_doc": "https://docs.google.com/document/d/1JXeiuDiCHyRonUjjSucDM40gbxSv-f1LAhoE76bnZIE"
+      },
+      {
+        "ID": "kind_to_myself_yc",
+        "activity": "practise taking a pause today",
+        "positive_message": "Well done for taking the time to care for yourself!",
+        "negative_message": "That’s okay! Try and find some time today to slow down",
+        "attached_single_doc": ""
+      },
+      {
+        "ID": "give_praise_yc",
+        "activity": "use the four steps of praise: see it, say it, repeat it, and keep it positive",
+        "positive_message": "Well done for remembering to praise your child and other family members!",
+        "negative_message": "That’s okay! Try to praise Your Child today, even if it’s something small.",
+        "attached_single_doc": ""
+      },
+      {
+        "ID": "talk_feelings_yc",
+        "activity": "talk about feelings with your child at least 3 different times today",
+        "positive_message": "Well done! This will help your child manage difficult emotions when they happen.",
+        "negative_message": "That’s okay! Try and find some time today to talk to your child about emotions.",
+        "attached_single_doc": ""
+      },
+      {
+        "ID": "spirituality_yc",
+        "activity": "spend some time today with your spouse or another caregiver of your child to identify the most important value you wish to instil in your child",
+        "positive_message": "Well done for taking the first step to instilling values!",
+        "negative_message": "That’s okay! Try and find some time today to identify the most important value for you and your children.",
+        "attached_single_doc": ""
+      },
+      {
+        "ID": "language_yc",
+        "activity": "use words and gestures to describe your activities when spending time with your child",
+        "positive_message": "Well done for helping Your Child learn!",
+        "negative_message": "That’s okay! Try to find some time to use words to describe the world around Your Child. It will help them learn!",
+        "attached_single_doc": ""
+      },
+      {
+        "ID": "reading1_4to6_yc",
+        "activity": "read with your child today",
+        "positive_message": "Well done for helping your child with reading.",
+        "negative_message": "That’s okay! Try to find some time today to read with your child.",
+        "attached_single_doc": ""
+      },
+      {
+        "ID": "reading2_4to6_yc",
+        "activity": "draw or write with your child today",
+        "positive_message": "Amazing! You did great in helping your child read.",
+        "negative_message": "That’s okay! Try to find some time today to do a drawing or writing activity with them.",
+        "attached_single_doc": ""
+      },
+      {
+        "ID": "maths1_4to6_yc",
+        "activity": "involve your child in an activity with numbers",
+        "positive_message": "Excellent! You are doing great in helping your child learn.",
+        "negative_message": "That’s okay! Try to find some time today to involve your child in a counting or other number activity. It will help them learn!",
+        "attached_single_doc": ""
+      },
+      {
+        "ID": "maths2_4to6_yc",
+        "activity": "do an activity with adding and subtracting with your child",
+        "positive_message": "Well done for helping your child’s learning.",
+        "negative_message": "That’s okay! Try to find some time to engage in addition and subtraction activities with your child.",
+        "attached_single_doc": ""
+      },
+      {
+        "ID": "engage_school_3to6_yc",
+        "activity": "talk to your child about what they are doing at school at the moment",
+        "positive_message": "Fantastic! You are connecting with your child’s learning.",
+        "negative_message": "That’s okay! Try to find some time today to talk with your child about their time at school, even if it is for a few minutes.",
+        "attached_single_doc": ""
+      },
+      {
+        "ID": "reading_2to3_yc",
+        "activity": "read with your child today",
+        "positive_message": "Well done for helping your child with reading.",
+        "negative_message": "That’s okay! Try to find some time today to read with your child. Even looking at pictures will make a difference!",
+        "attached_single_doc": ""
+      },
+      {
+        "ID": "maths_2to3_yc",
+        "activity": "do some counting with your child today",
+        "positive_message": "Excellent! You are doing great in helping your child learn.",
+        "negative_message": "That’s okay! Try to find some time today to do a counting activity with your child.",
+        "attached_single_doc": ""
+      },
+      {
+        "ID": "play_yc",
+        "activity": "play with your child today",
+        "positive_message": "Well done for supporting your child to find joy in learning.",
+        "negative_message": "That’s okay! Try to find a way to play with your child during your one-on-one time.",
+        "attached_single_doc": ""
+      },
+      {
+        "ID": "learn_experience_yc",
+        "activity": "share a story with your child about a time you learned from a mistake",
+        "positive_message": "Being open is not always easy, well done for doing it anyways!",
+        "negative_message": "That’s okay! Being open can be difficult, but it’s important. Try and find time to share with your child.",
+        "attached_single_doc": ""
+      },
+      {
+        "ID": "toddler_change_yc",
+        "activity": "complete the development assessment",
+        "positive_message": "Great!",
+        "negative_message": "That’s okay! Try to complete the assessment. You can type {GROW} at any time to begin.",
+        "attached_single_doc": ""
+      },
+      {
+        "ID": "young_child_change_yc",
+        "activity": "complete the development assessment",
+        "positive_message": "Great!",
+        "negative_message": "That’s okay! Try to complete the assessment. You can type {GROW} at any time to begin.",
+        "attached_single_doc": ""
+      },
+      {
+        "ID": "child_change_yc",
+        "activity": "complete the development assessment",
+        "positive_message": "Great!",
+        "negative_message": "That’s okay! Try to complete the assessment. You can type {GROW} at any time to begin.",
+        "attached_single_doc": ""
+      },
+      {
+        "ID": "manage_my_stress_yc",
+        "activity": "write down a list of activities that you can do for yourself that bring you joy",
+        "positive_message": "Well done! This is one goal you can be proud of! It will make it more likely for you to do one of these activities now that you have a list!",
+        "negative_message": "That’s okay! Try and take a few minutes to make a list of activities that bring you joy. It will make it easier to do one!",
+        "attached_single_doc": ""
+      },
+      {
+        "ID": "keeping_it_positive_yc",
+        "activity": "give specific, realistic, and positive instructions to your child",
+        "positive_message": "Amazing! Remember to praise your child when they follow your instructions.",
+        "negative_message": "That’s okay! This is a difficult skill to learn. Start with short instructions that are easy for your child to follow.",
+        "attached_single_doc": ""
+      },
+      {
+        "ID": "create_routines_yc",
+        "activity": "set a routine with your child",
+        "positive_message": "Amazing! Setting routines with your child will help provide structure in their lives.",
+        "negative_message": "That’s okay! Try and find time to set a routine with your child. It's a great way for your child to feel secure and safe.",
+        "attached_single_doc": ""
+      },
+      {
+        "ID": "create_family_rules_yc",
+        "activity": "create at least one family rule with your child",
+        "positive_message": "Well done! Involving your child in creating family rules will make it more likely that they follow them in the future.",
+        "negative_message": "That’s okay! Try and set up a rule with your child in the next few days. It will make it more likely that they will follow them in the future!",
+        "attached_single_doc": ""
+      },
+      {
+        "ID": "know_role_yc",
+        "activity": "talk to your child about one of their interests or something they love doing and show them you love and support them for their passion",
+        "positive_message": "Great! It is so important that your child feels that they are a valued member of the home.",
+        "negative_message": "That’s okay! Try and find time to talk with your child. It's a great way for your child to feel that they are a valued member of the home.",
+        "attached_single_doc": ""
+      },
+      {
+        "ID": "redirect_yc",
+        "activity": "share the four steps of be calm, quick, clear and positive with one of your family member",
+        "positive_message": "Great! Redirecting behaviour is one of the most useful parenting skills you can learn to keep your child behaving well!",
+        "negative_message": "That’s okay! Redirecting your child from negative to positive behaviours is really important. It is not an easy skill to learn but worth giving it a try! ",
+        "attached_single_doc": ""
+      },
+      {
+        "ID": "ignore_demanding_yc",
+        "activity": "find one positive thing your child did and praise them for it",
+        "positive_message": "Amazing! Praising tells our children what behaviours are positive and helpful.",
+        "negative_message": "That’s okay! Try to praise your child today - even something small can make a difference.",
+        "attached_single_doc": ""
+      },
+      {
+        "ID": "managing_anger_yc",
+        "activity": "breathe in and out slowly 5 times if you started feeling angry",
+        "positive_message": "Well done! You are learning how to manage your anger.",
+        "negative_message": "That’s okay! Try to find some time today to practise this skill.",
+        "attached_single_doc": ""
+      },
+      {
+        "ID": "teach_consequences_yc",
+        "activity": "praise your child for something you'd like them to continue doing? If your child refused to follow instructions, were you able to employ a fair consequence",
+        "positive_message": "Good for you! Setting fair consequences will make it more likely that they follow family rules. Remember to give them a choice to follow the instruction first before giving them the consequence in a calm way.",
+        "negative_message": "That’s okay! Try to find time to think of fair consequences that you could use next time your child forgets a household rule or refuses to follow instructions. Remember to give them a choice to follow the instruction first before giving them the consequence in a calm way.",
+        "attached_single_doc": ""
+      },
+      {
+        "ID": "solve_problems_yc",
+        "activity": "share the four steps to problem solving with your child",
+        "positive_message": "Great! Teaching your Child how to solve problems will set them up for success in life!",
+        "negative_message": "That’s okay! Try and find time today to talk to your Child about the four steps to problem solving: know it, solve it, try it, and test it. This is an important life skill!",
+        "attached_single_doc": ""
+      },
+      {
+        "ID": "safe_touch_2to5_yc_m",
+        "activity": "have a conversation with your child about safe and unsafe touch",
+        "positive_message": "Good for you. This is not easy for parents to do, but it is so important if we want to keep children safe from harm.Well done for making the commitment.",
+        "negative_message": "That’s okay! Try to find some time to talk to your child about safe and unsafe touch. This is not an easy thing for parents to do but can make a big difference in keeping your child safe from harm.",
+        "attached_single_doc": ""
+      },
+      {
+        "ID": "safe_touch_2to5_yc_f",
+        "activity": "have a conversation with your child about safe and unsafe touch",
+        "positive_message": "Good for you. This is not easy for parents to do, but it is so important if we want to keep children safe from harm.Well done for making the commitment.",
+        "negative_message": "That’s okay! Try to find some time to talk to your child about safe and unsafe touch. This is not an easy thing for parents to do but can make a big difference in keeping your child safe from harm.",
+        "attached_single_doc": ""
+      },
+      {
+        "ID": "safe_touch_6to9_yc",
+        "activity": "have a conversation with your child about saying no to unwanted or unsafe touch",
+        "positive_message": "Good for you. This is not easy for parents to do, but it is so important if we want to keep children safe from harm.Well done for making the commitment.",
+        "negative_message": "That’s okay! Try to find some time to talk to your child about safe and unsafe touch. This is not an easy thing for parents to do but can make a big difference in keeping your child safe from harm.",
+        "attached_single_doc": ""
+      },
+      {
+        "ID": "com_safety_2to4_yc",
+        "activity": "have a conversation with your child about safe and unsafe places in areas where you live and often go",
+        "positive_message": "Well done! Remember to revisit the safety map with your child every now and then to see if things have changed.",
+        "negative_message": "That’s okay! Try and find time to create a safety map with your child, this is a great tool to keep them safe in areas where you live and often go.",
+        "attached_single_doc": ""
+      },
+      {
+        "ID": "com_safety_5to9_yc",
+        "activity": "have a conversation with your child about safe and unsafe places in areas where you live and often go",
+        "positive_message": "Well done! Remember to revisit the safety map with your child every now and then to see if things have changed.",
+        "negative_message": "That’s okay! Try and find time to create a safety map with your child, this is a great tool to keep them safe in areas where you live and often go.",
+        "attached_single_doc": ""
+      },
+      {
+        "ID": "crises_2to6_yc",
+        "activity": "talk with your child about possible crises that may happen and what to do",
+        "positive_message": "Well done! This will help you and Your Child be prepared if a crisis ever happens. Good work!",
+        "negative_message": "That’s okay! Try and find time today. As a reminder, for this home activity you should:\n\n1️⃣Find a calm time to talk with Your Child about possible crises that may happen.\n2️⃣Discuss possible actions that you can take with your child if they happen.\n3️⃣Revisit the Mapping Activity to identify other sources of support.\n4️⃣Thank your child for taking the time to chat about this.",
+        "attached_single_doc": ""
+      },
+      {
+        "ID": "crises_7to9_yc",
+        "activity": "talk with your child about possible crises that may happen and what to do",
+        "positive_message": "Well done! This will help you and Your Child be prepared if a crisis ever happens. Good work!",
+        "negative_message": "That’s okay! Try and find time today. As a reminder, for this home activity you should:\n\n1️⃣Find a calm time to talk with Your Child about possible crises that may happen.\n2️⃣Discuss possible actions that you can take with your child if they happen.\n3️⃣Revisit the Mapping Activity to identify other sources of support.\n4️⃣Thank your child for taking the time to chat about this.",
+        "attached_single_doc": ""
+      },
+      {
+        "ID": "nutrition_health_yc",
+        "activity": "talk with your child about the importance of eating healthy food",
+        "positive_message": "Great! You are doing amazing in helping your child grow.",
+        "negative_message": "That’s okay! Try to find some time to talk with your child about eating healthy food. It will help their body AND brain grow.",
+        "attached_single_doc": ""
+      },
+      {
+        "ID": "online_safety_yc",
+        "activity": "ask your child what they do to stay safe online",
+        "positive_message": "Great! It is so important that we are able to protect our children online.",
+        "negative_message": "That’s okay! Online safety is really important so try and find some time to chat to your child about staying safe online.",
+        "attached_single_doc": ""
+      },
+      {
+        "ID": "habits_trust_online_yc",
+        "activity": "talk to your child about habits to stay safe online",
+        "positive_message": "Well done! You are helping your child learn how to be safe online!",
+        "negative_message": "That’s okay! Remember, some steps you can take to keep your child safe online today:\n\n 📝 Have a conversation with your child about how they can use the internet and devices in a safe way. \n\n🔴 Talk about which sites or apps might be unsafe. Why?\n\n😃 Praise your child for how good they are at using the web!",
+        "attached_single_doc": ""
+      },
+      {
+        "ID": "budget_needs_yc",
+        "activity": "discuss your wants and needs with your family",
+        "positive_message": "Great! You’re ready for today’s lesson.",
+        "negative_message": "That’s okay! Try and talk to your family about needs and wants, it’s the first step to building a family budget.",
+        "attached_single_doc": ""
+      },
+      {
+        "ID": "budget_expenses_yc",
+        "activity": "add up your monthly expenses",
+        "positive_message": "Amazing! You are making great progress on your family budget!",
+        "negative_message": "That’s okay! Talking about your monthly expenses is an important step to family budgeting. Try to complete this step with your family.",
+        "attached_single_doc": ""
+      },
+      {
+        "ID": "budget_monthly_yc",
+        "activity": "make a monthly budget with your family",
+        "positive_message": "Well done! Making a monthly budget will set your family up for success!",
+        "negative_message": "That’s okay! Completing a monthly budget will set your family up for success. Try to find time to complete this activity.",
+        "attached_single_doc": ""
+      },
+      {
+        "ID": "budget_savings_yc",
+        "activity": "create a saving plan with your family",
+        "positive_message": "Amazing! You have completed all the steps for creating a family budget.",
+        "negative_message": "That’s okay! Try and find time to make a saving plan with your family.",
+        "attached_single_doc": ""
+      }
+    ],
+    "home_activity_checkin_all_ages_data": [
+      {
+        "ID": "ipv_equals",
+        "activity": "involve your partner in a decision you made yesterday",
+        "positive_message": "Well done for making the effort to do this!!",
+        "negative_message": "That’s okay! Try and involve your partner in a decision you make today! It’s a great feeling to be valued!",
+        "attached_single_doc": "https://docs.google.com/document/d/1owqrstc0cgTjYYpVFcblo2_CUjK3B2pnEAz9oANtm3w"
+      },
+      {
+        "ID": "ipv_supportive",
+        "activity": "do childcare or housework with your partner",
+        "positive_message": "Amazing! Sharing childcare or housework is a great way to support each other.",
+        "negative_message": "That’s okay! Try and share your childcare or housecare with your partner. It's a great way to support each other.",
+        "attached_single_doc": ""
+      },
+      {
+        "ID": "ipv_sharing",
+        "activity": "invite your partner to discuss how you can share family responsibilities",
+        "positive_message": "Well done for taking the time to discuss sharing responsibilities with your partner!",
+        "negative_message": "That’s okay! Try and find time to share responsibilities with your partner. Sharing responsibilities is an important part of a healthy relationship.",
+        "attached_single_doc": ""
+      },
+      {
+        "ID": "ipv_conflicts",
+        "activity": "practice taking a pause",
+        "positive_message": "Well done! Taking a pause is a great skill to use whenever you are stressed!",
+        "negative_message": "That’s okay! Try and find time today to take a pause, the more you practise the more it will help.",
+        "attached_single_doc": ""
+      },
+      {
+        "ID": "ipv_listen",
+        "activity": "set aside time to talk to your partner about your feelings",
+        "positive_message": "Well done! Talking to your partner about how you are feeling can be difficult, but it is very important for a healthy relationship.",
+        "negative_message": "That’s okay! Talking about your feelings can seem scary, but being open and communicating is an important part of a healthy relationship.",
+        "attached_single_doc": ""
+      }
+    ]
+  }
+}

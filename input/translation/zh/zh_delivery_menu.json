@@ -1,0 +1,1850 @@
+[
+  {
+    "SourceText": "In this goal, you will gain @fields.c_n_mod new skills. You will receive a new lesson each day. Today you will begin the first skill, @results.name.",
+    "text": "在这个模块中，你将学习 @fields.c_n_mod 个养育技巧，每天一个。\n\n今天我们学习第一个： @results.name 。",
+    "type": "text",
+    "note": "Strings like @fields.xxx and @results.yyy should not be translated. @results.n_skills_week and results.n_skills are numbers"
+  },
+  {
+    "SourceText": "You have completed @fields.c_n_mod_compl out of @fields.c_n_mod skills in this goal. Today you will begin working on the skill @results.name.",
+    "text": "本模块共有 @fields.c_n_mod 项养育技巧，你已完成 @fields.c_n_mod_compl 项。\n\n今天我们来看看： @results.name 。",
+    "type": "text",
+    "note": "Strings like @fields.xxx and @results.yyy should not be translated. @results.n_skills_week and results.n_skills are numbers"
+  },
+  {
+    "SourceText": "fail",
+    "text": "失败",
+    "type": "text",
+    "note": ""
+  },
+  {
+    "SourceText": "Let’s get started. Press NEXT to begin.",
+    "text": "让我们开始吧！请点击“下一步”。",
+    "type": "text",
+    "note": ""
+  },
+  {
+    "SourceText": "Congratulations! You have earned yourself a badge. You are now ready to begin the course. ⭐",
+    "text": "恭喜！你已经赢得了一枚奖章。⭐ 现在可以正式开始啦。⭐",
+    "type": "text",
+    "note": ""
+  },
+  {
+    "SourceText": "Click to see your new badge",
+    "text": "点击查看新奖章",
+    "type": "text",
+    "note": ""
+  },
+  {
+    "SourceText": "NA",
+    "text": "无",
+    "type": "text",
+    "note": ""
+  },
+  {
+    "SourceText": "@(text_slice(results.message_options,3)).",
+    "text": " @(text_slice(results.message_options,3)) .",
+    "type": "text",
+    "note": "Strings like @fields.xxx and @results.yyy should not be translated."
+  },
+  {
+    "SourceText": "This course has @fields.n_goals_prog goals, which one do you want to work on first?",
+    "text": "这门课程共有 @fields.n_goals_prog 个目标模块，你想先开启哪一个？",
+    "type": "text",
+    "note": "Strings like @fields.xxx and @results.yyy should not be translated."
+  },
+  {
+    "SourceText": "Please type the corresponding number in the chat:",
+    "text": "（发送相应序号）",
+    "type": "text",
+    "note": ""
+  },
+  {
+    "SourceText": "@results.message_options",
+    "text": "@results.message_options",
+    "type": "text",
+    "note": "Strings like @fields.xxx and @results.yyy should not be translated."
+  },
+  {
+    "SourceText": "Sorry, I don't understand what you mean.",
+    "text": "抱歉，我不明白你的意思。",
+    "type": "text",
+    "note": ""
+  },
+  {
+    "SourceText": "You have seen all the goals ",
+    "text": "你已经了解了所有的目标模块",
+    "type": "text",
+    "note": ""
+  },
+  {
+    "SourceText": "You are so close to completing the course! You only have one goal left,",
+    "text": "你很快就要完成课程了！你只剩下一个尚未开启的目标模块了：",
+    "type": "text",
+    "note": ""
+  },
+  {
+    "SourceText": "It’s time to pick a new parenting goal! You have completed @fields.n_goals_completed of @fields.n_goals_prog goals. Which goal would you like to work on next?",
+    "text": "你已经完成了 @fields.n_goals_prog 个目标模块中的 @fields.n_goals_completed 个。继续加油吧！\n\n接下来你想学习哪个目标模块呢？\n",
+    "type": "text",
+    "note": "Strings like @fields.xxx and @results.yyy should not be translated."
+  },
+  {
+    "SourceText": "You only have one goal to start",
+    "text": "你只能从一个目标模块开始",
+    "type": "text",
+    "note": ""
+  },
+  {
+    "SourceText": "You have completed @fields.n_goals_completed of @fields.n_goals_prog goals. Which goal would you like to work on next?",
+    "text": "你已经完成了 @fields.n_goals_prog 个目标模块中的 @fields.n_goals_completed 个。\n\n接下来你想学习哪个目标模块呢？",
+    "type": "text",
+    "note": "Strings like @fields.xxx and @results.yyy should not be translated."
+  },
+  {
+    "SourceText": "🎉You did it! Congratulations!🎉 You have completed the course and earned yourself the Positive Parenting Trophy 🏆. Well done!",
+    "text": "🎉热烈祝贺！🎉你已学完了所有科学养育技巧，并赢得了属于你的积极育儿奖杯🏆。太棒了！",
+    "type": "text",
+    "note": ""
+  },
+  {
+    "SourceText": "You have almost completed ParentText! Only this goal remains:",
+    "text": "你马上就要完成“科育时光”的学习了！现在只剩这个目标模块了：",
+    "type": "text",
+    "note": ""
+  },
+  {
+    "SourceText": "You have seen all the goals and you have started @fields.n_goals_started goals. Which one would you like to complete?",
+    "text": "现在，你已开启了所有的目标模块。\n目前，你有以下 @fields.n_goals_started 个目标模块还没学完。\n\n你想继续学习哪一个目标模块呢？",
+    "type": "text",
+    "note": "Strings like @fields.xxx and @results.yyy should not be translated."
+  },
+  {
+    "SourceText": "There are no goals to start",
+    "text": "没有未开启的目标模块。",
+    "type": "text",
+    "note": ""
+  },
+  {
+    "SourceText": "You only have the following goal to start",
+    "text": "你只剩以下待开启的目标模块了：",
+    "type": "text",
+    "note": ""
+  },
+  {
+    "SourceText": "Would you like to begin this goal?",
+    "text": "你想开启它吗？",
+    "type": "text",
+    "note": ""
+  },
+  {
+    "SourceText": "That's okay.",
+    "text": "没关系。",
+    "type": "text",
+    "note": ""
+  },
+  {
+    "SourceText": "Which new goal would you like to start?",
+    "text": "你想开启哪个新目标模块？",
+    "type": "text",
+    "note": ""
+  },
+  {
+    "SourceText": "There are no goals started",
+    "text": "没有已开启的模块",
+    "type": "text",
+    "note": ""
+  },
+  {
+    "SourceText": "You only have the following goal started",
+    "text": "你只开始学习了以下目标",
+    "type": "text",
+    "note": ""
+  },
+  {
+    "SourceText": "Which unfinished goal would you like to complete?",
+    "text": "你想学习哪个未完成的目标？",
+    "type": "text",
+    "note": ""
+  },
+  {
+    "SourceText": "There are no goals to complete",
+    "text": "没有需要完成的目标",
+    "type": "text",
+    "note": ""
+  },
+  {
+    "SourceText": "You only have the following goal to complete",
+    "text": "你只有以下目标待完成：",
+    "type": "text",
+    "note": ""
+  },
+  {
+    "SourceText": "Great! Which unfinished goal would you like to complete?",
+    "text": "太棒了！你想学习哪个未完成的目标？",
+    "type": "text",
+    "note": ""
+  },
+  {
+    "SourceText": "You're almost finished with this goal! You only have 1 lesson remaining, ",
+    "text": "这个目标模块马上就要完成了！你只剩下这一节课： ",
+    "type": "text",
+    "note": ""
+  },
+  {
+    "SourceText": "What would you like to do?",
+    "text": "你想做点什么呢？",
+    "type": "text",
+    "note": ""
+  },
+  {
+    "SourceText": "That’s okay. You can only earn your Parenting Trophy when all badges are earned. When you are ready, you can return to complete this goal through the Progress Tracker in the Main Menu by typing {MENU}.",
+    "text": "没关系。只有得到所有奖章，你才能赢得育儿奖杯。准备好了的话，输入 {MENU} ，你可以通过主菜单中的“进度追踪”返回此目标模块，继续学习。",
+    "type": "text",
+    "note": ""
+  },
+  {
+    "SourceText": "You're almost finished with this goal! You have @fields.c_n_mod_started unfinished skills. Which skill would you like to complete?",
+    "text": "还差 @fields.c_n_mod_started 个课程，你就能完成本模块了。接下来你想开启哪个课程？",
+    "type": "text",
+    "note": "Strings like @fields.xxx and @results.yyy should not be translated. @results.n_skills_week and results.n_skills are numbers"
+  },
+  {
+    "SourceText": "@(word_count(fields.c_mod_started) +1). Leave this goal unfinished and select a new goal",
+    "text": " @(word_count(fields.c_mod_started) +1) 。\n\n暂停本目标，开启新目标。",
+    "type": "text",
+    "note": "Strings like @fields.xxx and @results.yyy should not be translated. @results.count is a number (counter for list)"
+  },
+  {
+    "SourceText": "You only have the following skill to complete:",
+    "text": "你仅剩以下尚未完成的技能：",
+    "type": "text",
+    "note": ""
+  },
+  {
+    "SourceText": "Which skill would you like to complete?",
+    "text": "你想学习哪项技能呢？",
+    "type": "text",
+    "note": ""
+  },
+  {
+    "SourceText": "You haven't started to work on a goal yet.",
+    "text": "你尚未开启任何模块",
+    "type": "text",
+    "note": ""
+  },
+  {
+    "SourceText": "You have only started the goal",
+    "text": "你刚刚开启这个目标模块",
+    "type": "text",
+    "note": ""
+  },
+  {
+    "SourceText": "Would you like support on it?",
+    "text": "你需要帮助吗？",
+    "type": "text",
+    "note": ""
+  },
+  {
+    "SourceText": "That's okay. You can access more information at any time in the Main Menu",
+    "text": "没关系。你可以随时在主菜单中访问更多信息。",
+    "type": "text",
+    "note": ""
+  },
+  {
+    "SourceText": "What are you struggling with?",
+    "text": "你遇到困难了吗？请选择需要帮助的模块。",
+    "type": "text",
+    "note": ""
+  },
+  {
+    "SourceText": "You haven't completed any skill yet.",
+    "text": "你还没有学完任何一项育儿技巧。",
+    "type": "text",
+    "note": ""
+  },
+  {
+    "SourceText": "Which goal do you want to review?",
+    "text": "你想回顾哪个目标模块？",
+    "type": "text",
+    "note": ""
+  },
+  {
+    "SourceText": "@(word_count(fields.goals_accessed) +1). Return to Main Menu",
+    "text": "@(word_count(fields.goals_accessed) +1). 回到主菜单",
+    "type": "text",
+    "note": "Strings like @fields.xxx and @results.yyy should not be translated. @results.count is a number (counter for list)"
+  },
+  {
+    "SourceText": "You haven't completed any skill in this goal yet.",
+    "text": "你还没有完成本模块中的任何一项养育技巧。",
+    "type": "text",
+    "note": ""
+  },
+  {
+    "SourceText": "You have only completed the following skill:",
+    "text": "你完成了这项养育技巧：",
+    "type": "text",
+    "note": ""
+  },
+  {
+    "SourceText": "Would you like to review it?",
+    "text": "你想回顾一下吗？",
+    "type": "text",
+    "note": ""
+  },
+  {
+    "SourceText": "That's okay. You can come back here at any time to review it.",
+    "text": "好的，你可以随时回顾这项技能。",
+    "type": "text",
+    "note": ""
+  },
+  {
+    "SourceText": "You have completed @fields.n_s_modules_compl skills within this goal. Which skill do you want to review?",
+    "text": "你已完成了本模块中的 @fields.n_s_modules_compl 个技巧。你想回顾哪项技巧呢？",
+    "type": "text",
+    "note": "Strings like @fields.xxx and @results.yyy should not be translated. @results.n_skills_week and results.n_skills are numbers"
+  },
+  {
+    "SourceText": "@(word_count(fields.s_modules_compl) +1). Return to Main Menu",
+    "text": "@(word_count(fields.s_modules_compl) +1). 回到主菜单",
+    "type": "text",
+    "note": "Strings like @fields.xxx and @results.yyy should not be translated. @results.count is a number (counter for list)"
+  },
+  {
+    "SourceText": "What would you like to do next?",
+    "text": "接下来你想做什么？",
+    "type": "text",
+    "note": ""
+  },
+  {
+    "SourceText": "Great, see you tomorrow!",
+    "text": "好的，明天见！",
+    "type": "text",
+    "note": ""
+  },
+  {
+    "SourceText": "What kind of activity do you want to try with your child?",
+    "text": "你想和孩子玩什么类型的游戏？",
+    "type": "text",
+    "note": ""
+  },
+  {
+    "SourceText": "Do you want to begin now or tomorrow?",
+    "text": "你想现在开始，还是明天再开始？",
+    "type": "text",
+    "note": ""
+  },
+  {
+    "SourceText": "ParentText has @fields.n_goals_prog goals. We will begin with the first goal, @results.name. Once you complete this goal, you can choose which goal you want to work on next. Let's get started.",
+    "text": "本次科学养育服务共有 @fields.n_goals_prog 个目标模块。我们将从第一个模块“ @results.name ”开始。\n\n完成这个模块之后，你就可以自由选择下一个模块主题。我们开始吧！",
+    "type": "text",
+    "note": "Strings like @fields.xxx and @results.yyy should not be translated."
+  },
+  {
+    "SourceText": "🎉You did it! Congratulations!🎉 You have completed the programme. Well done!",
+    "text": "🎉热烈祝贺！你已学完了所有的科学养育技巧。🎉太棒了，恭喜你！",
+    "type": "text",
+    "note": ""
+  },
+  {
+    "SourceText": "Remember, you can always return to ParentText and get extra support or review these goals. Just type {MENU}.",
+    "text": "别忘了，你可以随时输入 {MENU} ，来回顾这些知识和技巧，并获取更多支持。",
+    "type": "text",
+    "note": ""
+  },
+  {
+    "SourceText": "Click here to get your certificate",
+    "text": "点击查看证书",
+    "type": "text",
+    "note": ""
+  },
+  {
+    "SourceText": "Completing ParentText is an important achievement. Well done! New goals might be available soon. As they become available, you'll receive a notification through this channel.",
+    "text": "坚持学完所有的科学养育技能，并付诸实践，这是件非常了不起的事情，你应该为自己感到骄傲！",
+    "type": "text",
+    "note": ""
+  },
+  {
+    "SourceText": "🎉CONGRATULATIONS!🎉 You have earned a badge and completed the goal @results.name. Well done!",
+    "text": "🎉热烈祝贺！🎉你已学完了所有科学养育技巧，并赢得了属于你的积极育儿奖杯🏆。太棒了！",
+    "type": "text",
+    "note": "Strings like @fields.xxx and @results.yyy should not be translated."
+  },
+  {
+    "SourceText": "Remember, if you need support practising the skills you learned, you can get extra help in Troubleshooting, found in the Main Menu.",
+    "text": "别忘了，如果你在练习时遇到了困难，需要帮助，可以在主菜单中点击“常见问题”，获得更多支持。",
+    "type": "text",
+    "note": ""
+  },
+  {
+    "SourceText": "You have made great progress. Are you ready to select your next parenting goal?",
+    "text": "你的科学育儿知识越来越多啦！\n\n准备好开启下一个目标模块了吗？",
+    "type": "text",
+    "note": ""
+  },
+  {
+    "SourceText": "ParentText has begun. Are you ready to complete your registration?",
+    "text": "服务开始啦，您准备好开始注册基本信息了吗？",
+    "type": "text",
+    "note": ""
+  },
+  {
+    "SourceText": "You’re off track! Do you want to complete a previous skill or start a new skill?",
+    "text": "你还没学完上一个技巧哦。\n\n你想看完上一个技巧，还是直接开启下一节课？",
+    "type": "text",
+    "note": ""
+  },
+  {
+    "SourceText": "Do you want to catch up and proceed to the next skill?",
+    "text": "你想赶一赶进度，继续学习下一项技能吗？",
+    "type": "text",
+    "note": ""
+  },
+  {
+    "SourceText": "You're almost finished with this goal! You only have 1 unfinished skill. What would you like to do?",
+    "text": "这个模块马上就要完成了！目前只剩最后一个技能。接下来你想做些什么呢？",
+    "type": "text",
+    "note": ""
+  },
+  {
+    "SourceText": "That’s okay. You can only earn your Parenting Badge when all skills are completed. You can return to complete this goal through the Progress Tracker in the Main Menu by typing {MENU}.",
+    "text": "没关系。只有完成所有技能，你才能得到育儿徽章。输入 {MENU} ，你可以通过主菜单中的“进度追踪”返回此目标模块，完成学习。",
+    "type": "text",
+    "note": ""
+  },
+  {
+    "SourceText": "You're almost finished with this goal! You have @fields.c_n_mod_started unfinished skills. What would you like to do?",
+    "text": "还差 @fields.c_n_mod_started 个课程，你就能完成本模块了。接下来你想做什么？",
+    "type": "text",
+    "note": "Strings like @fields.xxx and @results.yyy should not be translated. @results.n_skills_week and results.n_skills are numbers"
+  },
+  {
+    "SourceText": "It’s time to get started on your goal, @results.name. Are you ready?",
+    "text": "现在开始向目标“ @results.name ”迈进。\n你准备好了吗？",
+    "type": "text",
+    "note": "Strings like @fields.xxx and @results.yyy should not be translated."
+  },
+  {
+    "SourceText": "These messages don’t seem to be working. When you are ready to keep going, press 1. ",
+    "text": "你好呀！已经两天没有听到你的消息了。请输入数字 1 以继续。 ",
+    "type": "text",
+    "note": ""
+  },
+  {
+    "SourceText": "Today we are taking a break from your goal, @results.name, and checking in on your progress. Press 1 on your keypad to proceed.",
+    "text": "你正在学习 @results.name 这一目标模块。\n\n今天，让我们先稍作休息，看看你的进展。点击“1”以继续。",
+    "type": "text",
+    "note": "Strings like @fields.xxx and @results.yyy should not be translated."
+  },
+  {
+    "SourceText": "*DAY @fields.curr_demo_day*",
+    "text": "*DAY @fields.curr_demo_day*",
+    "type": "text",
+    "note": "Strings like @fields.xxx and @results.yyy should not be translated."
+  },
+  {
+    "SourceText": "You completed the ParentText demo. Type RESET and then START to re-start from the beginning.",
+    "text": "你已经看完了“科育时光”的介绍。如想重新开始，请先输入“重来”，然后再输入“开始”。",
+    "type": "text",
+    "note": ""
+  },
+  {
+    "SourceText": "What would you like change?",
+    "text": "你想更改什么？",
+    "type": "text",
+    "note": ""
+  },
+  {
+    "SourceText": "Here is the link!",
+    "text": "这是链接！",
+    "type": "text",
+    "note": ""
+  },
+  {
+    "SourceText": "**************",
+    "text": "**************",
+    "type": "text",
+    "note": ""
+  },
+  {
+    "SourceText": "⬜️⬜️⬜️⬜️⬜️",
+    "text": "⬜️⬜️⬜️⬜️⬜️",
+    "type": "text",
+    "note": ""
+  },
+  {
+    "SourceText": "@fields.n_goals_completed of @fields.n_goals_prog Goals Complete",
+    "text": "共有 @fields.n_goals_prog 个目标模块，已完成 @fields.n_goals_completed 个目标模块",
+    "type": "text",
+    "note": "Strings like @fields.xxx and @results.yyy should not be translated."
+  },
+  {
+    "SourceText": "✅⬜️⬜️⬜️⬜️",
+    "text": "✅⬜️⬜️⬜️⬜️",
+    "type": "text",
+    "note": ""
+  },
+  {
+    "SourceText": "✅✅⬜️⬜️⬜️",
+    "text": "✅✅⬜️⬜️⬜️",
+    "type": "text",
+    "note": ""
+  },
+  {
+    "SourceText": "✅✅✅⬜️⬜️",
+    "text": "✅✅✅⬜️⬜️",
+    "type": "text",
+    "note": ""
+  },
+  {
+    "SourceText": "✅✅✅✅⬜️",
+    "text": "✅✅✅✅⬜️",
+    "type": "text",
+    "note": ""
+  },
+  {
+    "SourceText": "✅✅✅✅✅",
+    "text": "✅✅✅✅✅",
+    "type": "text",
+    "note": ""
+  },
+  {
+    "SourceText": "⬜️⬜️⬜️⬜️⬜️⬜️",
+    "text": "⬜️⬜️⬜️⬜️⬜️⬜️",
+    "type": "text",
+    "note": ""
+  },
+  {
+    "SourceText": "✅⬜️⬜️⬜️⬜️⬜️",
+    "text": "✅⬜️⬜️⬜️⬜️⬜️",
+    "type": "text",
+    "note": ""
+  },
+  {
+    "SourceText": "✅✅⬜️⬜️⬜️⬜️",
+    "text": "✅✅⬜️⬜️⬜️⬜️",
+    "type": "text",
+    "note": ""
+  },
+  {
+    "SourceText": "✅✅✅⬜️⬜️⬜️",
+    "text": "✅✅✅⬜️⬜️⬜️",
+    "type": "text",
+    "note": ""
+  },
+  {
+    "SourceText": "✅✅✅✅⬜️⬜️",
+    "text": "✅✅✅✅⬜️⬜️",
+    "type": "text",
+    "note": ""
+  },
+  {
+    "SourceText": "✅✅✅✅✅⬜️",
+    "text": "✅✅✅✅✅⬜️",
+    "type": "text",
+    "note": ""
+  },
+  {
+    "SourceText": "✅✅✅✅✅✅",
+    "text": "✅✅✅✅✅✅",
+    "type": "text",
+    "note": ""
+  },
+  {
+    "SourceText": "⬜️⬜️⬜️⬜️⬜️⬜️⬜️",
+    "text": "⬜️⬜️⬜️⬜️⬜️⬜️⬜️",
+    "type": "text",
+    "note": ""
+  },
+  {
+    "SourceText": "✅⬜️⬜️⬜️⬜️⬜️⬜️",
+    "text": "✅⬜️⬜️⬜️⬜️⬜️⬜️",
+    "type": "text",
+    "note": ""
+  },
+  {
+    "SourceText": "✅✅⬜️⬜️⬜️⬜️⬜️",
+    "text": "✅✅⬜️⬜️⬜️⬜️⬜️",
+    "type": "text",
+    "note": ""
+  },
+  {
+    "SourceText": "✅✅✅⬜️⬜️⬜️⬜️",
+    "text": "✅✅✅⬜️⬜️⬜️⬜️",
+    "type": "text",
+    "note": ""
+  },
+  {
+    "SourceText": "✅✅✅✅⬜️⬜️⬜️",
+    "text": "✅✅✅✅⬜️⬜️⬜️",
+    "type": "text",
+    "note": ""
+  },
+  {
+    "SourceText": "✅✅✅✅✅⬜️⬜️",
+    "text": "✅✅✅✅✅⬜️⬜️",
+    "type": "text",
+    "note": ""
+  },
+  {
+    "SourceText": "✅✅✅✅✅✅⬜️",
+    "text": "✅✅✅✅✅✅⬜️",
+    "type": "text",
+    "note": ""
+  },
+  {
+    "SourceText": "✅✅✅✅✅✅✅",
+    "text": "✅✅✅✅✅✅✅",
+    "type": "text",
+    "note": ""
+  },
+  {
+    "SourceText": "⬜️⬜️⬜️⬜️⬜️⬜️⬜️⬜️",
+    "text": "⬜️⬜️⬜️⬜️⬜️⬜️⬜️⬜️",
+    "type": "text",
+    "note": ""
+  },
+  {
+    "SourceText": "✅⬜️⬜️⬜️⬜️⬜️⬜️⬜️",
+    "text": "✅⬜️⬜️⬜️⬜️⬜️⬜️⬜️",
+    "type": "text",
+    "note": ""
+  },
+  {
+    "SourceText": "✅✅⬜️⬜️⬜️⬜️⬜️⬜️",
+    "text": "✅✅⬜️⬜️⬜️⬜️⬜️⬜️",
+    "type": "text",
+    "note": ""
+  },
+  {
+    "SourceText": "✅✅✅⬜️⬜️⬜️⬜️⬜️",
+    "text": "✅✅✅⬜️⬜️⬜️⬜️⬜️",
+    "type": "text",
+    "note": ""
+  },
+  {
+    "SourceText": "✅✅✅✅⬜️⬜️⬜️⬜️",
+    "text": "✅✅✅✅⬜️⬜️⬜️⬜️",
+    "type": "text",
+    "note": ""
+  },
+  {
+    "SourceText": "✅✅✅✅✅⬜️⬜️⬜️",
+    "text": "✅✅✅✅✅⬜️⬜️⬜️",
+    "type": "text",
+    "note": ""
+  },
+  {
+    "SourceText": "✅✅✅✅✅✅⬜️⬜️",
+    "text": "✅✅✅✅✅✅⬜️⬜️",
+    "type": "text",
+    "note": ""
+  },
+  {
+    "SourceText": "✅✅✅✅✅✅✅⬜️",
+    "text": "✅✅✅✅✅✅✅⬜️",
+    "type": "text",
+    "note": ""
+  },
+  {
+    "SourceText": "✅✅✅✅✅✅✅✅",
+    "text": "✅✅✅✅✅✅✅✅",
+    "type": "text",
+    "note": ""
+  },
+  {
+    "SourceText": "⬜️⬜️⬜️⬜️⬜️⬜️⬜️⬜️⬜️",
+    "text": "⬜️⬜️⬜️⬜️⬜️⬜️⬜️⬜️⬜️",
+    "type": "text",
+    "note": ""
+  },
+  {
+    "SourceText": "✅⬜️⬜️⬜️⬜️⬜️⬜️⬜️⬜️",
+    "text": "✅⬜️⬜️⬜️⬜️⬜️⬜️⬜️⬜️",
+    "type": "text",
+    "note": ""
+  },
+  {
+    "SourceText": "✅✅⬜️⬜️⬜️⬜️⬜️⬜️⬜️",
+    "text": "✅✅⬜️⬜️⬜️⬜️⬜️⬜️⬜️",
+    "type": "text",
+    "note": ""
+  },
+  {
+    "SourceText": "✅✅✅⬜️⬜️⬜️⬜️⬜️⬜️",
+    "text": "✅✅✅⬜️⬜️⬜️⬜️⬜️⬜️",
+    "type": "text",
+    "note": ""
+  },
+  {
+    "SourceText": "✅✅✅✅⬜️⬜️⬜️⬜️⬜️",
+    "text": "✅✅✅✅⬜️⬜️⬜️⬜️⬜️",
+    "type": "text",
+    "note": ""
+  },
+  {
+    "SourceText": "✅✅✅✅✅⬜️⬜️⬜️⬜️",
+    "text": "✅✅✅✅✅⬜️⬜️⬜️⬜️",
+    "type": "text",
+    "note": ""
+  },
+  {
+    "SourceText": "✅✅✅✅✅✅⬜️⬜️⬜️",
+    "text": "✅✅✅✅✅✅⬜️⬜️⬜️",
+    "type": "text",
+    "note": ""
+  },
+  {
+    "SourceText": "✅✅✅✅✅✅✅⬜️⬜️",
+    "text": "✅✅✅✅✅✅✅⬜️⬜️",
+    "type": "text",
+    "note": ""
+  },
+  {
+    "SourceText": "✅✅✅✅✅✅✅✅⬜️",
+    "text": "✅✅✅✅✅✅✅✅⬜️",
+    "type": "text",
+    "note": ""
+  },
+  {
+    "SourceText": "✅✅✅✅✅✅✅✅✅",
+    "text": "✅✅✅✅✅✅✅✅✅",
+    "type": "text",
+    "note": ""
+  },
+  {
+    "SourceText": "⬜️⬜️⬜️⬜️⬜️⬜️⬜️⬜️⬜️⬜️",
+    "text": "⬜️⬜️⬜️⬜️⬜️⬜️⬜️⬜️⬜️⬜️",
+    "type": "text",
+    "note": ""
+  },
+  {
+    "SourceText": "✅⬜️⬜️⬜️⬜️⬜️⬜️⬜️⬜️⬜️",
+    "text": "✅⬜️⬜️⬜️⬜️⬜️⬜️⬜️⬜️⬜️",
+    "type": "text",
+    "note": ""
+  },
+  {
+    "SourceText": "✅✅⬜️⬜️⬜️⬜️⬜️⬜️⬜️⬜️",
+    "text": "✅✅⬜️⬜️⬜️⬜️⬜️⬜️⬜️⬜️",
+    "type": "text",
+    "note": ""
+  },
+  {
+    "SourceText": "✅✅✅⬜️⬜️⬜️⬜️⬜️⬜️⬜️",
+    "text": "✅✅✅⬜️⬜️⬜️⬜️⬜️⬜️⬜️",
+    "type": "text",
+    "note": ""
+  },
+  {
+    "SourceText": "✅✅✅✅⬜️⬜️⬜️⬜️⬜️⬜️",
+    "text": "✅✅✅✅⬜️⬜️⬜️⬜️⬜️⬜️",
+    "type": "text",
+    "note": ""
+  },
+  {
+    "SourceText": "✅✅✅✅✅⬜️⬜️⬜️⬜️⬜️",
+    "text": "✅✅✅✅✅⬜️⬜️⬜️⬜️⬜️",
+    "type": "text",
+    "note": ""
+  },
+  {
+    "SourceText": "✅✅✅✅✅✅⬜️⬜️⬜️⬜️",
+    "text": "✅✅✅✅✅✅⬜️⬜️⬜️⬜️",
+    "type": "text",
+    "note": ""
+  },
+  {
+    "SourceText": "✅✅✅✅✅✅✅⬜️⬜️⬜️",
+    "text": "✅✅✅✅✅✅✅⬜️⬜️⬜️",
+    "type": "text",
+    "note": ""
+  },
+  {
+    "SourceText": "✅✅✅✅✅✅✅✅⬜️⬜️",
+    "text": "✅✅✅✅✅✅✅✅⬜️⬜️",
+    "type": "text",
+    "note": ""
+  },
+  {
+    "SourceText": "✅✅✅✅✅✅✅✅✅⬜️",
+    "text": "✅✅✅✅✅✅✅✅✅⬜️",
+    "type": "text",
+    "note": ""
+  },
+  {
+    "SourceText": "✅✅✅✅✅✅✅✅✅✅",
+    "text": "✅✅✅✅✅✅✅✅✅✅",
+    "type": "text",
+    "note": ""
+  },
+  {
+    "SourceText": "You are currently working on the goal @results.name.",
+    "text": "你正在学习 @results.name 这一目标模块。",
+    "type": "text",
+    "note": "Strings like @fields.xxx and @results.yyy should not be translated."
+  },
+  {
+    "SourceText": "You have not selected which goal to work on next.",
+    "text": "你还没选择接下来学哪个目标模块。",
+    "type": "text",
+    "note": ""
+  },
+  {
+    "SourceText": "You have not completed any goal yet.",
+    "text": "你还没有完成任何目标模块。",
+    "type": "text",
+    "note": ""
+  },
+  {
+    "SourceText": "You have completed the following goal:",
+    "text": "你完成了以下目标模块：",
+    "type": "text",
+    "note": ""
+  },
+  {
+    "SourceText": "@(text_slice(results.message_options,3))",
+    "text": " @(text_slice(results.message_options,3)) 。",
+    "type": "text",
+    "note": "Strings like @fields.xxx and @results.yyy should not be translated."
+  },
+  {
+    "SourceText": "You have completed the following goals:",
+    "text": "你完成以下目标模块：",
+    "type": "text",
+    "note": ""
+  },
+  {
+    "SourceText": "There are no other goals to complete.",
+    "text": "没有其他已开启但未完成的目标模块。",
+    "type": "text",
+    "note": ""
+  },
+  {
+    "SourceText": "You have the following outstanding goal to complete:",
+    "text": "你已开启以下目标模块，但尚未完成内设的所有课程：\n",
+    "type": "text",
+    "note": ""
+  },
+  {
+    "SourceText": "You are off track to complete this course! You have the following outstanding goals:",
+    "text": "你还有些许未完成的模块哦。\n\n你已开启下列目标模块，但未完成内设的所有课程：",
+    "type": "text",
+    "note": ""
+  },
+  {
+    "SourceText": "You are on track to complete this course! There are no new goals to start!",
+    "text": "你已经开启了所有的模块🎉没有未开启的目标模块了",
+    "type": "text",
+    "note": ""
+  },
+  {
+    "SourceText": "You have the following goal to start:",
+    "text": "你有以下目标模块待开启：",
+    "type": "text",
+    "note": ""
+  },
+  {
+    "SourceText": "You have the following goals to start:",
+    "text": "你有以下目标模块待开启：",
+    "type": "text",
+    "note": ""
+  },
+  {
+    "SourceText": "Your current media setting is Text, Images, and Videos.",
+    "text": "你当前选择的是 视频。",
+    "type": "text",
+    "note": ""
+  },
+  {
+    "SourceText": "Your current media setting is Text and Images Only.",
+    "text": "你当前选择的是 文本。",
+    "type": "text",
+    "note": ""
+  },
+  {
+    "SourceText": "Your current media setting is",
+    "text": "你当前选择的是",
+    "type": "text",
+    "note": ""
+  },
+  {
+    "SourceText": "You didn't provide this info.",
+    "text": "你没有提供此信息。",
+    "type": "text",
+    "note": ""
+  },
+  {
+    "SourceText": "Would you like to change it?",
+    "text": "你想更改吗？",
+    "type": "text",
+    "note": ""
+  },
+  {
+    "SourceText": "You didn't tell us what's your relationship status.",
+    "text": "你暂未选择所在乡镇。",
+    "type": "text",
+    "note": ""
+  },
+  {
+    "SourceText": "You told us that you are Single (not in a relationship).",
+    "text": "你之前说你住在郭城驿镇。",
+    "type": "text",
+    "note": ""
+  },
+  {
+    "SourceText": "You told us that you are Married.",
+    "text": "你之前说你住在其他乡镇（不在郭城驿镇或河畔镇）",
+    "type": "text",
+    "note": ""
+  },
+  {
+    "SourceText": "You told us that you are Partnered but not married.",
+    "text": "你之前说你住在河畔镇。",
+    "type": "text",
+    "note": ""
+  },
+  {
+    "SourceText": "You told us that you are",
+    "text": "你之前说，你住在",
+    "type": "text",
+    "note": ""
+  },
+  {
+    "SourceText": "Would you like to change your relationship status?",
+    "text": "你想要更改居住地吗？",
+    "type": "text",
+    "note": ""
+  },
+  {
+    "SourceText": "You didn't tell us if you are a woman or a man. ",
+    "text": "你暂未告知你的性别。",
+    "type": "text",
+    "note": ""
+  },
+  {
+    "SourceText": "You told us that you are a Woman.",
+    "text": "你之前说你是女性。",
+    "type": "text",
+    "note": ""
+  },
+  {
+    "SourceText": "You told us that you are a Man.",
+    "text": "你之前说你是男性。",
+    "type": "text",
+    "note": ""
+  },
+  {
+    "SourceText": "You told us that you are a",
+    "text": "你之前说你是",
+    "type": "text",
+    "note": ""
+  },
+  {
+    "SourceText": "Would you like to update your gender?",
+    "text": "你要更新你的性别吗？",
+    "type": "text",
+    "note": ""
+  },
+  {
+    "SourceText": "You told us that @fields.child_nickname is @fields.child_age year old and was born on @(date(fields.child_dob)).",
+    "text": "你之前说， @fields.child_nickname 现在 @fields.child_age 岁了，是 @(date(fields.child_dob)) 出生的。",
+    "type": "text",
+    "note": "Strings like @fields.xxx and @results.yyy should not be translated."
+  },
+  {
+    "SourceText": "You told us that your child is @fields.child_age year old and was born on @(date(fields.child_dob)).",
+    "text": "你之前说，孩子现在 @fields.child_age 岁了，是 @(date(fields.child_dob)) 出生的。",
+    "type": "text",
+    "note": "Strings like @fields.xxx and @results.yyy should not be translated."
+  },
+  {
+    "SourceText": "Would you like to update the date of birth of @fields.child_nickname?",
+    "text": "你想要更改 @fields.child_nickname 的出生日期吗？",
+    "type": "text",
+    "note": "Strings like @fields.xxx and @results.yyy should not be translated."
+  },
+  {
+    "SourceText": "Would you like to update the date of birth of your child?",
+    "text": "你想要更改孩子的出生日期吗？",
+    "type": "text",
+    "note": ""
+  },
+  {
+    "SourceText": "Your child's nickname is @fields.child_nickname.",
+    "text": "你孩子的昵称是 @fields.child_nickname 。",
+    "type": "text",
+    "note": "Strings like @fields.xxx and @results.yyy should not be translated."
+  },
+  {
+    "SourceText": "You didn't provide a nickname for your child.",
+    "text": "你还没有给孩子起昵称。",
+    "type": "text",
+    "note": ""
+  },
+  {
+    "SourceText": "Would you like to update it?",
+    "text": "你要更新吗？",
+    "type": "text",
+    "note": ""
+  },
+  {
+    "SourceText": "@fields.child_nickname's gender has been updated.",
+    "text": " 已更新 @fields.child_nickname 的性别。",
+    "type": "text",
+    "note": "Strings like @fields.xxx and @results.yyy should not be translated."
+  },
+  {
+    "SourceText": "Your child's gender has been updated.",
+    "text": "已更新孩子性别。",
+    "type": "text",
+    "note": ""
+  },
+  {
+    "SourceText": "You didn't tell us the gender of @fields.child_nickname.",
+    "text": "你暂未告知 @fields.child_nickname 的性别。",
+    "type": "text",
+    "note": "Strings like @fields.xxx and @results.yyy should not be translated."
+  },
+  {
+    "SourceText": "You didn't tell us the gender of your child.",
+    "text": "你暂未告知孩子的性别。",
+    "type": "text",
+    "note": ""
+  },
+  {
+    "SourceText": "You told us that @fields.child_nickname is a Girl.",
+    "text": "你之前说 @fields.child_nickname 是女孩。",
+    "type": "text",
+    "note": "Strings like @fields.xxx and @results.yyy should not be translated."
+  },
+  {
+    "SourceText": "You told us that your child is a Girl.",
+    "text": "你之前说孩子是女生。",
+    "type": "text",
+    "note": ""
+  },
+  {
+    "SourceText": "You told us that @fields.child_nickname is a Boy.",
+    "text": "你之前说 @fields.child_nickname 是男孩。",
+    "type": "text",
+    "note": "Strings like @fields.xxx and @results.yyy should not be translated."
+  },
+  {
+    "SourceText": "You told us that your child is a Boy.",
+    "text": "你之前说孩子是男生。",
+    "type": "text",
+    "note": ""
+  },
+  {
+    "SourceText": "You told us that @fields.child_nickname is a",
+    "text": "你之前说 @fields.child_nickname 是",
+    "type": "text",
+    "note": "Strings like @fields.xxx and @results.yyy should not be translated."
+  },
+  {
+    "SourceText": "You told us that your child is a",
+    "text": "你之前说孩子是",
+    "type": "text",
+    "note": ""
+  },
+  {
+    "SourceText": "You are currently receiving messages in English.",
+    "text": "你目前正在接收英文消息。",
+    "type": "text",
+    "note": ""
+  },
+  {
+    "SourceText": "You are currently receiving messages in Chinese.",
+    "text": "你目前正在接收中文消息。",
+    "type": "text",
+    "note": ""
+  },
+  {
+    "SourceText": "You are currently receiving messages in",
+    "text": "你目前正在接收",
+    "type": "text",
+    "note": ""
+  },
+  {
+    "SourceText": "Would you like to change your language?",
+    "text": "你想要更改语言吗？",
+    "type": "text",
+    "note": ""
+  },
+  {
+    "SourceText": "What do you want to do next?",
+    "text": "接下来你想做什么？",
+    "type": "text",
+    "note": ""
+  },
+  {
+    "SourceText": "That's okay. You can access more information at any time in the Main Menu.",
+    "text": "没关系。你可以随时在主菜单中访问更多信息。",
+    "type": "text",
+    "note": ""
+  },
+  {
+    "SourceText": "We hope this was helpful! You can access the Main Menu at any time by typing {MENU}.",
+    "text": "希望你找到了想要的信息。\n你可以随时输入 {MENU} ，来访问主菜单。",
+    "type": "text",
+    "note": ""
+  },
+  {
+    "SourceText": "Staying in ParentText helps you and your child. Are you sure you want to exit the programme?",
+    "text": "懂得科学养育，对于您和您的孩子来说，都非常重要。\n\n您确定要退出这项服务吗？",
+    "type": "text",
+    "note": ""
+  },
+  {
+    "SourceText": "If you do not want to receive any more messages, please type \"EXIT\".",
+    "text": "如您不想再收到任何消息，请输入“退出”。",
+    "type": "text",
+    "note": ""
+  },
+  {
+    "SourceText": "If you made a mistake, please type \"BACK\" and choose another option.",
+    "text": "如您误选了，请输入“返回”，并选择其他选项。",
+    "type": "text",
+    "note": ""
+  },
+  {
+    "SourceText": "Thank you for participating. If you want to return to the programme, type {START}. ",
+    "text": "谢谢参与。如果您想回来，请随时输入 {START} 。",
+    "type": "text",
+    "note": ""
+  },
+  {
+    "SourceText": "We hope to see you again soon!",
+    "text": "希望很快能再见到您！",
+    "type": "text",
+    "note": ""
+  },
+  {
+    "SourceText": "Sorry I don't understand what you mean.",
+    "text": "抱歉，我不明白你的意思。",
+    "type": "text",
+    "note": ""
+  },
+  {
+    "SourceText": "Thank you for updating your relationship status. You've unlocked a new learning goal: @results.name. ",
+    "text": "谢谢你更新你的伴侣状态。你已经解锁了一个新的学习目标： @results.name 。",
+    "type": "text",
+    "note": "Strings like @fields.xxx and @results.yyy should not be translated."
+  },
+  {
+    "SourceText": "You have reached the end of this skill! 🎉 ",
+    "text": "你已经学完这个技能了！🎉 ",
+    "type": "text",
+    "note": ""
+  },
+  {
+    "SourceText": "Click to view all goals and modules",
+    "text": "点击查看课程概览",
+    "type": "text",
+    "note": ""
+  },
+  {
+    "SourceText": "NEXT",
+    "text": "下一步",
+    "type": "quick_replies",
+    "note": "This is a quick reply and its translation should be uniquely identified by the corresponding argument"
+  },
+  {
+    "SourceText": "Yes",
+    "text": "是",
+    "type": "quick_replies",
+    "note": "This is a quick reply and its translation should be uniquely identified by the corresponding argument"
+  },
+  {
+    "SourceText": "No",
+    "text": "否",
+    "type": "quick_replies",
+    "note": "This is a quick reply and its translation should be uniquely identified by the corresponding argument"
+  },
+  {
+    "SourceText": "Finish this skill and complete my goal",
+    "text": "学完这项技能，完成我的目标",
+    "type": "quick_replies",
+    "note": "This is a quick reply and its translation should be uniquely identified by the corresponding argument"
+  },
+  {
+    "SourceText": "Leave this goal unfinished and select a new goal",
+    "text": "暂停当前目标模块，选择新的目标模块",
+    "type": "quick_replies",
+    "note": "This is a quick reply and its translation should be uniquely identified by the corresponding argument"
+  },
+  {
+    "SourceText": "Give me an idea for 1-on-1 time with my child",
+    "text": "看看有什么亲子游戏",
+    "type": "quick_replies",
+    "note": "This is a quick reply and its translation should be uniquely identified by the corresponding argument"
+  },
+  {
+    "SourceText": "I’m done for today",
+    "text": "今天先学到这吧",
+    "type": "quick_replies",
+    "note": "This is a quick reply and its translation should be uniquely identified by the corresponding argument"
+  },
+  {
+    "SourceText": "View another activity idea",
+    "text": "查看下一个建议",
+    "type": "quick_replies",
+    "note": "This is a quick reply and its translation should be uniquely identified by the corresponding argument"
+  },
+  {
+    "SourceText": "Go to Main Menu",
+    "text": "转到主菜单",
+    "type": "quick_replies",
+    "note": "This is a quick reply and its translation should be uniquely identified by the corresponding argument"
+  },
+  {
+    "SourceText": "Continue my progress tomorrow",
+    "text": "明天继续",
+    "type": "quick_replies",
+    "note": "This is a quick reply and its translation should be uniquely identified by the corresponding argument"
+  },
+  {
+    "SourceText": "Exit",
+    "text": "退出",
+    "type": "quick_replies",
+    "note": "This is a quick reply and its translation should be uniquely identified by the corresponding argument"
+  },
+  {
+    "SourceText": "Something Quick",
+    "text": "简短的活动",
+    "type": "quick_replies",
+    "note": "This is a quick reply and its translation should be uniquely identified by the corresponding argument"
+  },
+  {
+    "SourceText": "Something Active",
+    "text": "动起来的活动",
+    "type": "quick_replies",
+    "note": "This is a quick reply and its translation should be uniquely identified by the corresponding argument"
+  },
+  {
+    "SourceText": "Something Calm",
+    "text": "安静的活动",
+    "type": "quick_replies",
+    "note": "This is a quick reply and its translation should be uniquely identified by the corresponding argument"
+  },
+  {
+    "SourceText": "Something for the whole family",
+    "text": "全家都能参与的活动",
+    "type": "quick_replies",
+    "note": "This is a quick reply and its translation should be uniquely identified by the corresponding argument"
+  },
+  {
+    "SourceText": "Now",
+    "text": "现在",
+    "type": "quick_replies",
+    "note": "This is a quick reply and its translation should be uniquely identified by the corresponding argument"
+  },
+  {
+    "SourceText": "Tomorrow",
+    "text": "明天",
+    "type": "quick_replies",
+    "note": "This is a quick reply and its translation should be uniquely identified by the corresponding argument"
+  },
+  {
+    "SourceText": "Remind me Later",
+    "text": "稍后提醒我",
+    "type": "quick_replies",
+    "note": "This is a quick reply and its translation should be uniquely identified by the corresponding argument"
+  },
+  {
+    "SourceText": "Complete",
+    "text": "学习未完成的技能",
+    "type": "quick_replies",
+    "note": "This is a quick reply and its translation should be uniquely identified by the corresponding argument"
+  },
+  {
+    "SourceText": "Start new",
+    "text": "开始学习新技能",
+    "type": "quick_replies",
+    "note": "This is a quick reply and its translation should be uniquely identified by the corresponding argument"
+  },
+  {
+    "SourceText": "Remind me tomorrow",
+    "text": "明天提醒我",
+    "type": "quick_replies",
+    "note": "This is a quick reply and its translation should be uniquely identified by the corresponding argument"
+  },
+  {
+    "SourceText": "Finish this skill and earn my badge",
+    "text": "学完此技能，获得徽章",
+    "type": "quick_replies",
+    "note": "This is a quick reply and its translation should be uniquely identified by the corresponding argument"
+  },
+  {
+    "SourceText": "Complete unfinished skills to earn my badge",
+    "text": "继续学习未完成的技能，获得奖章",
+    "type": "quick_replies",
+    "note": "This is a quick reply and its translation should be uniquely identified by the corresponding argument"
+  },
+  {
+    "SourceText": "Yes!",
+    "text": "是!",
+    "type": "quick_replies",
+    "note": "This is a quick reply and its translation should be uniquely identified by the corresponding argument"
+  },
+  {
+    "SourceText": "1",
+    "text": "1",
+    "type": "quick_replies",
+    "note": "This is a quick reply and its translation should be uniquely identified by the corresponding argument"
+  },
+  {
+    "SourceText": "Change your profile",
+    "text": "更改个人设置",
+    "type": "quick_replies",
+    "note": "This is a quick reply and its translation should be uniquely identified by the corresponding argument"
+  },
+  {
+    "SourceText": "Stop receiving the messages",
+    "text": "停止接收消息",
+    "type": "quick_replies",
+    "note": "This is a quick reply and its translation should be uniquely identified by the corresponding argument"
+  },
+  {
+    "SourceText": "Return to Main Menu",
+    "text": "返回主菜单",
+    "type": "quick_replies",
+    "note": "This is a quick reply and its translation should be uniquely identified by the corresponding argument"
+  },
+  {
+    "SourceText": "Your Media Settings",
+    "text": "视频或文本选项",
+    "type": "quick_replies",
+    "note": "This is a quick reply and its translation should be uniquely identified by the corresponding argument"
+  },
+  {
+    "SourceText": "Your Gender",
+    "text": "你的性别",
+    "type": "quick_replies",
+    "note": "This is a quick reply and its translation should be uniquely identified by the corresponding argument"
+  },
+  {
+    "SourceText": "Your Relationship Status",
+    "text": "所在乡镇",
+    "type": "quick_replies",
+    "note": "This is a quick reply and its translation should be uniquely identified by the corresponding argument"
+  },
+  {
+    "SourceText": "Your Child's Date of Birth",
+    "text": "你孩子的出生日期",
+    "type": "quick_replies",
+    "note": "This is a quick reply and its translation should be uniquely identified by the corresponding argument"
+  },
+  {
+    "SourceText": "Your Child's Nickname",
+    "text": "你孩子的昵称",
+    "type": "quick_replies",
+    "note": "This is a quick reply and its translation should be uniquely identified by the corresponding argument"
+  },
+  {
+    "SourceText": "Your Child's Gender",
+    "text": "你孩子的性别",
+    "type": "quick_replies",
+    "note": "This is a quick reply and its translation should be uniquely identified by the corresponding argument"
+  },
+  {
+    "SourceText": "Track My Progress",
+    "text": "查看进度",
+    "type": "quick_replies",
+    "note": "This is a quick reply and its translation should be uniquely identified by the corresponding argument"
+  },
+  {
+    "SourceText": "Emergencies",
+    "text": "紧急情况",
+    "type": "quick_replies",
+    "note": "This is a quick reply and its translation should be uniquely identified by the corresponding argument"
+  },
+  {
+    "SourceText": "Settings",
+    "text": "更改设置",
+    "type": "quick_replies",
+    "note": "This is a quick reply and its translation should be uniquely identified by the corresponding argument"
+  },
+  {
+    "SourceText": "Activities",
+    "text": "亲子游戏",
+    "type": "quick_replies",
+    "note": "This is a quick reply and its translation should be uniquely identified by the corresponding argument"
+  },
+  {
+    "SourceText": "How to Use ParentText",
+    "text": "查看使用方法",
+    "type": "quick_replies",
+    "note": "This is a quick reply and its translation should be uniquely identified by the corresponding argument"
+  },
+  {
+    "SourceText": "View all goals and modules",
+    "text": "课程概览",
+    "type": "quick_replies",
+    "note": "This is a quick reply and its translation should be uniquely identified by the corresponding argument"
+  },
+  {
+    "SourceText": "Troubleshooting",
+    "text": "常见问题",
+    "type": "quick_replies",
+    "note": "This is a quick reply and its translation should be uniquely identified by the corresponding argument"
+  },
+  {
+    "SourceText": "Review Completed Skills",
+    "text": "回顾已学技能",
+    "type": "quick_replies",
+    "note": "This is a quick reply and its translation should be uniquely identified by the corresponding argument"
+  },
+  {
+    "SourceText": "Exit Menu",
+    "text": "退出菜单",
+    "type": "quick_replies",
+    "note": "This is a quick reply and its translation should be uniquely identified by the corresponding argument"
+  },
+  {
+    "SourceText": "View Goals Achieved",
+    "text": "查看已完成的目标模块",
+    "type": "quick_replies",
+    "note": "This is a quick reply and its translation should be uniquely identified by the corresponding argument"
+  },
+  {
+    "SourceText": "View Incomplete Goals",
+    "text": "查看已开启但未完成的目标模块",
+    "type": "quick_replies",
+    "note": "This is a quick reply and its translation should be uniquely identified by the corresponding argument"
+  },
+  {
+    "SourceText": "View Goals to Start",
+    "text": "选择新目标模块开始学习",
+    "type": "quick_replies",
+    "note": "This is a quick reply and its translation should be uniquely identified by the corresponding argument"
+  },
+  {
+    "SourceText": "Complete this outstanding goal and leave my current goal incomplete",
+    "text": "暂停学习当前目标模块，继续学习之前未完成的目标模块",
+    "type": "quick_replies",
+    "note": "This is a quick reply and its translation should be uniquely identified by the corresponding argument"
+  },
+  {
+    "SourceText": "Complete another outstanding goal and leave my current goal incomplete",
+    "text": "暂停学习当前目标模块，选择之前已开启但未完成的目标模块",
+    "type": "quick_replies",
+    "note": "This is a quick reply and its translation should be uniquely identified by the corresponding argument"
+  },
+  {
+    "SourceText": "Start the new goal and leave my current goal incomplete",
+    "text": "暂停当前目标模块，开始学习新的目标模块",
+    "type": "quick_replies",
+    "note": "This is a quick reply and its translation should be uniquely identified by the corresponding argument"
+  },
+  {
+    "SourceText": "Start a new goal and leave my current goal incomplete",
+    "text": "暂停当前目标模块，开始学习新的目标模块",
+    "type": "quick_replies",
+    "note": "This is a quick reply and its translation should be uniquely identified by the corresponding argument"
+  },
+  {
+    "SourceText": "Change other profile info",
+    "text": "更改其他设置",
+    "type": "quick_replies",
+    "note": "This is a quick reply and its translation should be uniquely identified by the corresponding argument"
+  },
+  {
+    "SourceText": "Get more help with this goal",
+    "text": "练习遇到困难，获取更多帮助",
+    "type": "quick_replies",
+    "note": "This is a quick reply and its translation should be uniquely identified by the corresponding argument"
+  },
+  {
+    "SourceText": "Get help with a different challenge",
+    "text": "获取其他帮助",
+    "type": "quick_replies",
+    "note": "This is a quick reply and its translation should be uniquely identified by the corresponding argument"
+  },
+  {
+    "SourceText": "Return to the Main Menu",
+    "text": "返回主菜单",
+    "type": "quick_replies",
+    "note": "This is a quick reply and its translation should be uniquely identified by the corresponding argument"
+  },
+  {
+    "SourceText": "BACK",
+    "text": "返回",
+    "type": "quick_replies",
+    "note": "This is a quick reply and its translation should be uniquely identified by the corresponding argument"
+  },
+  {
+    "SourceText": "Review a skill from a different goal",
+    "text": "回顾另一个模块",
+    "type": "quick_replies",
+    "note": "This is a quick reply and its translation should be uniquely identified by the corresponding argument"
+  },
+  {
+    "SourceText": "Return to Menu",
+    "text": "返回菜单",
+    "type": "quick_replies",
+    "note": "This is a quick reply and its translation should be uniquely identified by the corresponding argument"
+  },
+  {
+    "SourceText": "Review another skill from this goal",
+    "text": "回顾本模块中的另一课",
+    "type": "quick_replies",
+    "note": "This is a quick reply and its translation should be uniquely identified by the corresponding argument"
+  },
+  {
+    "SourceText": "@results.name",
+    "text": " @results.name ",
+    "type": "variables",
+    "note": ""
+  },
+  {
+    "SourceText": "no",
+    "text": "否",
+    "type": "arguments",
+    "note": "This is an argument and it may be used to identify a corresponding quick reply"
+  },
+  {
+    "SourceText": "yes",
+    "text": "是",
+    "type": "arguments",
+    "note": "This is an argument and it may be used to identify a corresponding quick reply"
+  },
+  {
+    "SourceText": "leave this goal unfinished and select a new goal",
+    "text": "暂停当前目标模块，选择新的目标模块",
+    "type": "arguments",
+    "note": "This is an argument and it may be used to identify a corresponding quick reply"
+  },
+  {
+    "SourceText": "finish this skill and complete my goal",
+    "text": "学完这项技能，完成当前目标模块",
+    "type": "arguments",
+    "note": "This is an argument and it may be used to identify a corresponding quick reply"
+  },
+  {
+    "SourceText": "i’m done for today",
+    "text": "今天先学到这吧",
+    "type": "arguments",
+    "note": "This is an argument and it may be used to identify a corresponding quick reply"
+  },
+  {
+    "SourceText": "give me an idea for 1-on-1 time with my child",
+    "text": "看看有什么亲子游戏",
+    "type": "arguments",
+    "note": "This is an argument and it may be used to identify a corresponding quick reply"
+  },
+  {
+    "SourceText": "view another activity idea",
+    "text": "查看下一个建议",
+    "type": "arguments",
+    "note": "This is an argument and it may be used to identify a corresponding quick reply"
+  },
+  {
+    "SourceText": "go to main menu",
+    "text": "转到主菜单",
+    "type": "arguments",
+    "note": "This is an argument and it may be used to identify a corresponding quick reply"
+  },
+  {
+    "SourceText": "continue my progress tomorrow",
+    "text": "明天继续",
+    "type": "arguments",
+    "note": "This is an argument and it may be used to identify a corresponding quick reply"
+  },
+  {
+    "SourceText": "exit",
+    "text": "退出",
+    "type": "arguments",
+    "note": "This is an argument and it may be used to identify a corresponding quick reply"
+  },
+  {
+    "SourceText": "something quick",
+    "text": "简短的活动",
+    "type": "arguments",
+    "note": "This is an argument and it may be used to identify a corresponding quick reply"
+  },
+  {
+    "SourceText": "something active",
+    "text": "活跃的活动",
+    "type": "arguments",
+    "note": "This is an argument and it may be used to identify a corresponding quick reply"
+  },
+  {
+    "SourceText": "something calm",
+    "text": "安静的活动",
+    "type": "arguments",
+    "note": "This is an argument and it may be used to identify a corresponding quick reply"
+  },
+  {
+    "SourceText": "something for the whole family",
+    "text": "全家都能参与的活动",
+    "type": "arguments",
+    "note": "This is an argument and it may be used to identify a corresponding quick reply"
+  },
+  {
+    "SourceText": "now",
+    "text": "现在",
+    "type": "arguments",
+    "note": "This is an argument and it may be used to identify a corresponding quick reply"
+  },
+  {
+    "SourceText": "tomorrow",
+    "text": "明天",
+    "type": "arguments",
+    "note": "This is an argument and it may be used to identify a corresponding quick reply"
+  },
+  {
+    "SourceText": "remind me later",
+    "text": "稍后提醒我",
+    "type": "arguments",
+    "note": "This is an argument and it may be used to identify a corresponding quick reply"
+  },
+  {
+    "SourceText": "complete",
+    "text": "学习未完成的技能",
+    "type": "arguments",
+    "note": "This is an argument and it may be used to identify a corresponding quick reply"
+  },
+  {
+    "SourceText": "start new",
+    "text": "开始学习新技能",
+    "type": "arguments",
+    "note": "This is an argument and it may be used to identify a corresponding quick reply"
+  },
+  {
+    "SourceText": "remind me tomorrow",
+    "text": "明天提醒我",
+    "type": "arguments",
+    "note": "This is an argument and it may be used to identify a corresponding quick reply"
+  },
+  {
+    "SourceText": "finish this skill and earn my badge",
+    "text": "学完此技能，获得徽章",
+    "type": "arguments",
+    "note": "This is an argument and it may be used to identify a corresponding quick reply"
+  },
+  {
+    "SourceText": "complete unfinished skills to earn my badge",
+    "text": "继续学习未完成的技能，获得奖章",
+    "type": "arguments",
+    "note": "This is an argument and it may be used to identify a corresponding quick reply"
+  },
+  {
+    "SourceText": "yes!",
+    "text": "有!",
+    "type": "arguments",
+    "note": "This is an argument and it may be used to identify a corresponding quick reply"
+  },
+  {
+    "SourceText": "change your profile",
+    "text": "更改个人设置",
+    "type": "arguments",
+    "note": "This is an argument and it may be used to identify a corresponding quick reply"
+  },
+  {
+    "SourceText": "stop receiving the messages",
+    "text": "停止接收消息",
+    "type": "arguments",
+    "note": "This is an argument and it may be used to identify a corresponding quick reply"
+  },
+  {
+    "SourceText": "return to main menu",
+    "text": "返回主菜单",
+    "type": "arguments",
+    "note": "This is an argument and it may be used to identify a corresponding quick reply"
+  },
+  {
+    "SourceText": "your media settings",
+    "text": "视频或文本选项",
+    "type": "arguments",
+    "note": "This is an argument and it may be used to identify a corresponding quick reply"
+  },
+  {
+    "SourceText": "your gender",
+    "text": "你的性别",
+    "type": "arguments",
+    "note": "This is an argument and it may be used to identify a corresponding quick reply"
+  },
+  {
+    "SourceText": "your relationship status",
+    "text": "所在乡镇",
+    "type": "arguments",
+    "note": "This is an argument and it may be used to identify a corresponding quick reply"
+  },
+  {
+    "SourceText": "your child's date of birth",
+    "text": "你孩子的出生日期",
+    "type": "arguments",
+    "note": "This is an argument and it may be used to identify a corresponding quick reply"
+  },
+  {
+    "SourceText": "your child's nickname",
+    "text": "你孩子的昵称",
+    "type": "arguments",
+    "note": "This is an argument and it may be used to identify a corresponding quick reply"
+  },
+  {
+    "SourceText": "your child's gender",
+    "text": "你孩子的性别",
+    "type": "arguments",
+    "note": "This is an argument and it may be used to identify a corresponding quick reply"
+  },
+  {
+    "SourceText": "track my progress",
+    "text": "查看进度",
+    "type": "arguments",
+    "note": "This is an argument and it may be used to identify a corresponding quick reply"
+  },
+  {
+    "SourceText": "emergencies",
+    "text": "紧急情况",
+    "type": "arguments",
+    "note": "This is an argument and it may be used to identify a corresponding quick reply"
+  },
+  {
+    "SourceText": "settings",
+    "text": "更改设置",
+    "type": "arguments",
+    "note": "This is an argument and it may be used to identify a corresponding quick reply"
+  },
+  {
+    "SourceText": "activities",
+    "text": "亲子游戏",
+    "type": "arguments",
+    "note": "This is an argument and it may be used to identify a corresponding quick reply"
+  },
+  {
+    "SourceText": "how to use parenttext",
+    "text": "查看使用方法",
+    "type": "arguments",
+    "note": "This is an argument and it may be used to identify a corresponding quick reply"
+  },
+  {
+    "SourceText": "view all goals and modules",
+    "text": "课程概览",
+    "type": "arguments",
+    "note": "This is an argument and it may be used to identify a corresponding quick reply"
+  },
+  {
+    "SourceText": "troubleshooting",
+    "text": "常见问题",
+    "type": "arguments",
+    "note": "This is an argument and it may be used to identify a corresponding quick reply"
+  },
+  {
+    "SourceText": "review completed skills",
+    "text": "回顾已学技能",
+    "type": "arguments",
+    "note": "This is an argument and it may be used to identify a corresponding quick reply"
+  },
+  {
+    "SourceText": "exit menu",
+    "text": "退出菜单",
+    "type": "arguments",
+    "note": "This is an argument and it may be used to identify a corresponding quick reply"
+  },
+  {
+    "SourceText": "view goals achieved",
+    "text": "查看已完成的目标模块",
+    "type": "arguments",
+    "note": "This is an argument and it may be used to identify a corresponding quick reply"
+  },
+  {
+    "SourceText": "view incomplete goals",
+    "text": "查看已开启但未完成的目标模块",
+    "type": "arguments",
+    "note": "This is an argument and it may be used to identify a corresponding quick reply"
+  },
+  {
+    "SourceText": "view goals to start",
+    "text": "选择新目标模块开始学习",
+    "type": "arguments",
+    "note": "This is an argument and it may be used to identify a corresponding quick reply"
+  },
+  {
+    "SourceText": "complete this outstanding goal and leave my current goal incomplete",
+    "text": "暂停学习当前目标模块，继续学习之前未完成的目标模块",
+    "type": "arguments",
+    "note": "This is an argument and it may be used to identify a corresponding quick reply"
+  },
+  {
+    "SourceText": "complete another outstanding goal and leave my current goal incomplete",
+    "text": "暂停学习当前目标模块，选择之前已开启但未完成的目标模块",
+    "type": "arguments",
+    "note": "This is an argument and it may be used to identify a corresponding quick reply"
+  },
+  {
+    "SourceText": "start the new goal and leave my current goal incomplete",
+    "text": "暂停当前目标模块，开始学习新的目标模块",
+    "type": "arguments",
+    "note": "This is an argument and it may be used to identify a corresponding quick reply"
+  },
+  {
+    "SourceText": "start a new goal and leave my current goal incomplete",
+    "text": "暂停当前目标模块，开始学习新的目标模块",
+    "type": "arguments",
+    "note": "This is an argument and it may be used to identify a corresponding quick reply"
+  },
+  {
+    "SourceText": "yes y yeah yep ok",
+    "text": "是",
+    "type": "arguments",
+    "note": "This is an argument and it may be used to identify a corresponding quick reply"
+  },
+  {
+    "SourceText": "no n nope",
+    "text": "否",
+    "type": "arguments",
+    "note": "This is an argument and it may be used to identify a corresponding quick reply"
+  },
+  {
+    "SourceText": "change other profile info",
+    "text": "更改其他设置",
+    "type": "arguments",
+    "note": "This is an argument and it may be used to identify a corresponding quick reply"
+  },
+  {
+    "SourceText": "get more help with this goal",
+    "text": "练习遇到困难，获取更多帮助",
+    "type": "arguments",
+    "note": "This is an argument and it may be used to identify a corresponding quick reply"
+  },
+  {
+    "SourceText": "get help with a different challenge",
+    "text": "获取其他帮助",
+    "type": "arguments",
+    "note": "This is an argument and it may be used to identify a corresponding quick reply"
+  },
+  {
+    "SourceText": "return to the main menu",
+    "text": "返回主菜单",
+    "type": "arguments",
+    "note": "This is an argument and it may be used to identify a corresponding quick reply"
+  },
+  {
+    "SourceText": "back",
+    "text": "返回",
+    "type": "arguments",
+    "note": "This is an argument and it may be used to identify a corresponding quick reply"
+  },
+  {
+    "SourceText": "return to menu",
+    "text": "返回菜单",
+    "type": "arguments",
+    "note": "This is an argument and it may be used to identify a corresponding quick reply"
+  },
+  {
+    "SourceText": "review a skill from a different goal",
+    "text": "回顾另一个目标模块下的技巧",
+    "type": "arguments",
+    "note": "This is an argument and it may be used to identify a corresponding quick reply"
+  },
+  {
+    "SourceText": "review another skill from this goal",
+    "text": "回顾这个目标下的另一个技能",
+    "type": "arguments",
+    "note": "This is an argument and it may be used to identify a corresponding quick reply"
+  }
+]

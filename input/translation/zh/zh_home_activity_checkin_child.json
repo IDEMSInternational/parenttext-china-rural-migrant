@@ -1,0 +1,836 @@
+[
+  {
+    "SourceText": "You’re doing great towards your goal, @results.name.",
+    "text": "你正在朝着 @results.name 这一目标大步前进。\n",
+    "type": "text",
+    "note": "Strings like @fields.xxx and @results.yyy should not be translated."
+  },
+  {
+    "SourceText": "Were you able to spend 5 minutes of one-on-one time with your child?",
+    "text": "上节课后，你有和孩子共度5分钟的一对一亲子时光吗？",
+    "type": "text",
+    "note": ""
+  },
+  {
+    "SourceText": "Amazing! Well done for making this commitment.",
+    "text": "太棒了，花时间和孩子一起玩耍非常好！",
+    "type": "text",
+    "note": ""
+  },
+  {
+    "SourceText": "That’s okay! Try and set aside some time in the coming days.",
+    "text": "没关系！接下来的几天，尝试留出一些时间，和孩子一对一玩耍。",
+    "type": "text",
+    "note": ""
+  },
+  {
+    "SourceText": "Sorry, I don't understand what you mean.",
+    "text": "抱歉，我不明白你的意思。",
+    "type": "text",
+    "note": ""
+  },
+  {
+    "SourceText": "Were you able to practise taking a pause today?",
+    "text": "上节课后，你有试着休息一下，用心体会自己的优点吗？",
+    "type": "text",
+    "note": ""
+  },
+  {
+    "SourceText": "Well done for taking the time to care for yourself!",
+    "text": "你能够抽出时间来照顾自己，真是太棒了！",
+    "type": "text",
+    "note": ""
+  },
+  {
+    "SourceText": "That’s okay! Try and find some time today to slow down",
+    "text": "没关系！今天抽空来试一试放慢节奏，关照自己吧。",
+    "type": "text",
+    "note": ""
+  },
+  {
+    "SourceText": "Were you able to use the four steps of praise: see it, say it, repeat it, and keep it positive?",
+    "text": "上节课后，你有没有用到这4个步骤——看到优点，多多赞美，形成习惯，保持积极——来表扬孩子呢？？",
+    "type": "text",
+    "note": ""
+  },
+  {
+    "SourceText": "Well done for remembering to praise your child and other family members!",
+    "text": "做得非常好！",
+    "type": "text",
+    "note": ""
+  },
+  {
+    "SourceText": "That’s okay! Try to praise @fields.child_nickname today, even if it’s something small.",
+    "text": "没关系！今天可以试着玩投篮游戏，并表扬@fields.child_nickname，哪怕是一些小事。",
+    "type": "text",
+    "note": "Strings like @fields.xxx and @results.yyy should not be translated."
+  },
+  {
+    "SourceText": "That’s okay! Try to praise your child today, even if it’s something small.",
+    "text": "没关系！今天可以试着玩投篮游戏，并表扬你的孩子，哪怕是一些小事。",
+    "type": "text",
+    "note": ""
+  },
+  {
+    "SourceText": "Were you able to talk about feelings with your child at least 3 different times today?",
+    "text": "上节课后，你有通过读绘本的方式，和孩子一起谈论感受吗？",
+    "type": "text",
+    "note": ""
+  },
+  {
+    "SourceText": "Well done! This will help your child manage difficult emotions when they happen.",
+    "text": "太棒了！这有助于孩子更好地理解和管理自己的情绪。",
+    "type": "text",
+    "note": ""
+  },
+  {
+    "SourceText": "That’s okay! Try and find some time today to talk to your child about emotions.",
+    "text": "没关系！今天找时间和孩子一起读绘本，聊聊情绪和感受吧。",
+    "type": "text",
+    "note": ""
+  },
+  {
+    "SourceText": "Were you able to spend some time today with your spouse or another caregiver of your child to identify the most important value you wish to instil in your child?",
+    "text": "上节课后，你有没有和家人一起，讨论你们最希望孩子拥有的价值观呢？",
+    "type": "text",
+    "note": ""
+  },
+  {
+    "SourceText": "Well done for taking the first step to instilling values!",
+    "text": "做得很好，你迈出了引导孩子价值观的第一步！",
+    "type": "text",
+    "note": ""
+  },
+  {
+    "SourceText": "That’s okay! Try and find some time today to identify the most important value for you and your children.",
+    "text": "没关系！今天试着找时间和家人商量，你们想要给孩子传递哪些重要的价值观。",
+    "type": "text",
+    "note": ""
+  },
+  {
+    "SourceText": "Were you able to use words and gestures to describe your activities when spending time with your child?",
+    "text": "上节课后，你有和孩子一起玩望远镜游戏,并描述用“望远镜”看到的东西吗？",
+    "type": "text",
+    "note": ""
+  },
+  {
+    "SourceText": "Well done for helping @fields.child_nickname learn!",
+    "text": "做得很好，你正在促进 @fields.child_nickname 的语言发展！",
+    "type": "text",
+    "note": "Strings like @fields.xxx and @results.yyy should not be translated."
+  },
+  {
+    "SourceText": "Well done for helping your child learn!",
+    "text": "做得很好，你正在促进孩子的语言发展！",
+    "type": "text",
+    "note": ""
+  },
+  {
+    "SourceText": "That’s okay! Try to find some time to use words to describe the world around @fields.child_nickname. It will help them learn!",
+    "text": "没关系！找时间通过望远镜游戏，用言语描述 @fields.child_nickname 看到的事物。这可以促进孩子的语言发展！",
+    "type": "text",
+    "note": "Strings like @fields.xxx and @results.yyy should not be translated."
+  },
+  {
+    "SourceText": "That’s okay! Try to find some time to use words to describe the world around your child. It will help them learn!",
+    "text": "没关系！找时间通过望远镜游戏，用言语描述 孩子看到的事物。这可以促进孩子的语言发展！",
+    "type": "text",
+    "note": ""
+  },
+  {
+    "SourceText": "Were you able to read with your child today?",
+    "text": "上节课后，你有没有和孩子一起读绘本，并问一些简单的问题？",
+    "type": "text",
+    "note": ""
+  },
+  {
+    "SourceText": "Well done for helping your child with reading.",
+    "text": "做得很好，你正在帮助孩子培养阅读能力！",
+    "type": "text",
+    "note": ""
+  },
+  {
+    "SourceText": "That’s okay! Try to find some time today to read with your child.",
+    "text": "没关系！试着今天找些时间和孩子一起读图画书吧。即使只看图片，也能帮孩子提高阅读能力！",
+    "type": "text",
+    "note": ""
+  },
+  {
+    "SourceText": "Were you able to draw or write with your child today?",
+    "text": "上节课后，你有没有和孩子一起画形状，或写名字呢？",
+    "type": "text",
+    "note": ""
+  },
+  {
+    "SourceText": "Amazing! You did great in helping your child read.",
+    "text": "太棒了！你在帮孩子培养阅读能力。",
+    "type": "text",
+    "note": ""
+  },
+  {
+    "SourceText": "That’s okay! Try to find some time today to do a drawing or writing activity with them.",
+    "text": "没关系！试着今天找时间和孩子一起画形状或写名字吧。",
+    "type": "text",
+    "note": ""
+  },
+  {
+    "SourceText": "Were you able to involve your child in an activity with numbers?",
+    "text": "上节课后，你有和孩子一起玩穿珠子游戏吗？",
+    "type": "text",
+    "note": ""
+  },
+  {
+    "SourceText": "Excellent! You are doing great in helping your child learn.",
+    "text": "太好了，你正在帮助孩子提升数学能力！",
+    "type": "text",
+    "note": ""
+  },
+  {
+    "SourceText": "That’s okay! Try to find some time today to involve your child in a counting or other number activity. It will help them learn!",
+    "text": "没关系！今天试着找些时间来和孩子一起玩穿珠子游戏。这将提升他们的学习能力。",
+    "type": "text",
+    "note": ""
+  },
+  {
+    "SourceText": "Were you able to do an activity with adding and subtracting with your child?",
+    "text": "上节课后，你有和孩子一起玩分类蔬菜、数土豆、数石子游戏吗？",
+    "type": "text",
+    "note": ""
+  },
+  {
+    "SourceText": "Well done for helping your child’s learning.",
+    "text": "做得很好，你正在帮助孩子培养数学能力！",
+    "type": "text",
+    "note": ""
+  },
+  {
+    "SourceText": "That’s okay! Try to find some time to engage in addition and subtraction activities with your child.",
+    "text": "没关系！下次试着找些时间和孩子一起做数学游戏。",
+    "type": "text",
+    "note": ""
+  },
+  {
+    "SourceText": "Were you able to talk to your child about what they are doing at school at the moment?",
+    "text": "上节课后，你有跟孩子聊聊他们目前在学校都做了些什么、过得怎么样吗？",
+    "type": "text",
+    "note": ""
+  },
+  {
+    "SourceText": "Fantastic! You are connecting with your child’s learning.",
+    "text": "太棒了！你更了解孩子在学校的情况了。",
+    "type": "text",
+    "note": ""
+  },
+  {
+    "SourceText": "That’s okay! Try to find some time today to talk with your child about their time at school, even if it is for a few minutes.",
+    "text": "没关系！今天找时间和孩子聊一聊他们在学校的情况，即使几分钟也可以。",
+    "type": "text",
+    "note": ""
+  },
+  {
+    "SourceText": "That’s okay! Try to find some time today to read with your child. Even looking at pictures will make a difference!",
+    "text": "没关系！试着今天找些时间和你的孩子一起阅读。即使看看图片也会有所帮助！",
+    "type": "text",
+    "note": ""
+  },
+  {
+    "SourceText": "Were you able to do some counting with your child today?",
+    "text": "上节课后，你有和孩子一起玩穿珠子游戏吗？",
+    "type": "text",
+    "note": ""
+  },
+  {
+    "SourceText": "That’s okay! Try to find some time today to do a counting activity with your child.",
+    "text": "没关系！试着今天找些时间和孩子玩穿珠子游戏。",
+    "type": "text",
+    "note": ""
+  },
+  {
+    "SourceText": "Were you able to play with your child today?",
+    "text": "上节课后，你有和孩子一起玩保龄球游戏吗？",
+    "type": "text",
+    "note": ""
+  },
+  {
+    "SourceText": "Well done for supporting your child to find joy in learning.",
+    "text": "太棒了，这样有利于帮孩子发现学习的乐趣。",
+    "type": "text",
+    "note": ""
+  },
+  {
+    "SourceText": "That’s okay! Try to find a way to play with your child during your one-on-one time.",
+    "text": "没关系！试着今天和孩子玩玩保龄球游戏吧。",
+    "type": "text",
+    "note": ""
+  },
+  {
+    "SourceText": "Were you able to share a story with your child about a time you learned from a mistake?",
+    "text": "上节课后，你有和孩子分享从错误中吸取教训的故事吗？",
+    "type": "text",
+    "note": ""
+  },
+  {
+    "SourceText": "Being open is not always easy, well done for doing it anyways!",
+    "text": "敞开心扉并不容易，但你做到了，太棒了!",
+    "type": "text",
+    "note": ""
+  },
+  {
+    "SourceText": "That’s okay! Being open can be difficult, but it’s important. Try and find time to share with your child.",
+    "text": "没关系！敞开心扉可能很难，但很重要。找个时间和孩子分享你从错误中吸取教训的故事吧。",
+    "type": "text",
+    "note": ""
+  },
+  {
+    "SourceText": "Were you able to complete the development assessment?",
+    "text": "上节课后，你完成孩子的发展评估了吗？",
+    "type": "text",
+    "note": ""
+  },
+  {
+    "SourceText": "Great!",
+    "text": "很好！",
+    "type": "text",
+    "note": ""
+  },
+  {
+    "SourceText": "That’s okay! Try to complete the assessment. You can type {GROW} at any time to begin.",
+    "text": "没关系！有空试着做一下发展评估。可以随时输入 {GROW} 开始测试。",
+    "type": "text",
+    "note": ""
+  },
+  {
+    "SourceText": "Were you able to write down a list of activities that you can do for yourself that bring you joy?",
+    "text": "上节课后，你有没有列一份让你开心的活动清单呢？",
+    "type": "text",
+    "note": ""
+  },
+  {
+    "SourceText": "Well done! This is one goal you can be proud of! It will make it more likely for you to do one of these activities now that you have a list!",
+    "text": "你真棒！这份清单可以使你找到快乐的事情，并鼓励你快快行动，缓解压力。",
+    "type": "text",
+    "note": ""
+  },
+  {
+    "SourceText": "That’s okay! Try and take a few minutes to make a list of activities that bring you joy. It will make it easier to do one!",
+    "text": "没关系！试着花几分钟列出让你感到快乐的事，这能鼓励你快快行动起来，缓解压力。",
+    "type": "text",
+    "note": ""
+  },
+  {
+    "SourceText": "Were you able to give specific, realistic, and positive instructions to your child?",
+    "text": "上节课后，你有没有试着给孩子发出具体、可行和积极的指令？",
+    "type": "text",
+    "note": ""
+  },
+  {
+    "SourceText": "Amazing! Remember to praise your child when they follow your instructions.",
+    "text": "太棒了！当孩子遵循指令时，记得表扬他们。",
+    "type": "text",
+    "note": ""
+  },
+  {
+    "SourceText": "That’s okay! This is a difficult skill to learn. Start with short instructions that are easy for your child to follow.",
+    "text": "没关系！\n\n可以先从一些简短的指令开始，这样孩子也更容易遵循。",
+    "type": "text",
+    "note": ""
+  },
+  {
+    "SourceText": "Were you able to set a routine with your child?",
+    "text": "上节课后，你有没有和孩子一起制定睡觉时间呢？",
+    "type": "text",
+    "note": ""
+  },
+  {
+    "SourceText": "Amazing! Setting routines with your child will help provide structure in their lives.",
+    "text": "太棒了！和孩子制定日常作息，能帮他们建立起良好的生活规律。",
+    "type": "text",
+    "note": ""
+  },
+  {
+    "SourceText": "That’s okay! Try and find time to set a routine with your child. It's a great way for your child to feel secure and safe.",
+    "text": "没关系！试着找些时间和孩子一起制定日常作息，这也能让孩子更有安全感。",
+    "type": "text",
+    "note": ""
+  },
+  {
+    "SourceText": "Were you able to create at least one family rule with your child?",
+    "text": "上节课后，你有没有和孩子共同制定至少一条家规，比如规定每天能看多久的电视呢？",
+    "type": "text",
+    "note": ""
+  },
+  {
+    "SourceText": "Well done! Involving your child in creating family rules will make it more likely that they follow them in the future.",
+    "text": "太棒了！让孩子参与制定家规，能让他们更好地遵守这些规则。",
+    "type": "text",
+    "note": ""
+  },
+  {
+    "SourceText": "That’s okay! Try and set up a rule with your child in the next few days. It will make it more likely that they will follow them in the future!",
+    "text": "没关系！试着找时间和孩子一起制定家规，这能让他们更好地遵守这些规则！",
+    "type": "text",
+    "note": ""
+  },
+  {
+    "SourceText": "Were you able to talk to your child about one of their interests or something they love doing and show them you love and support them for their passion?",
+    "text": "上节课后，你有没有和孩子聊聊他们的喜好，并表示支持和肯定呢？",
+    "type": "text",
+    "note": ""
+  },
+  {
+    "SourceText": "Great! It is so important that your child feels that they are a valued member of the home.",
+    "text": "太棒了！让孩子感到需求和兴趣受到尊重，他们会更乐意承担家庭责任。",
+    "type": "text",
+    "note": ""
+  },
+  {
+    "SourceText": "That’s okay! Try and find time to talk with your child. It's a great way for your child to feel that they are a valued member of the home.",
+    "text": "没关系！找时间和孩子聊一聊，让孩子知道他们很被重视。",
+    "type": "text",
+    "note": ""
+  },
+  {
+    "SourceText": "Were you able to share the four steps of be calm, quick, clear and positive with one of your family member?",
+    "text": "上节课后，你有没有和家人分享转移孩子注意的4个要点——\"保持冷静、迅速转移、明确指令、保持积极\"呢？",
+    "type": "text",
+    "note": ""
+  },
+  {
+    "SourceText": "Great! Redirecting behaviour is one of the most useful parenting skills you can learn to keep your child behaving well!",
+    "text": "太棒了！转移注意是改善孩子行为问题最有用的技巧之一。",
+    "type": "text",
+    "note": ""
+  },
+  {
+    "SourceText": "That’s okay! Redirecting your child from negative to positive behaviours is really important. It is not an easy skill to learn but worth giving it a try! ",
+    "text": "没关系！将孩子的注意力从消极行为转到积极行为虽然不容易，但非常值得一试！",
+    "type": "text",
+    "note": ""
+  },
+  {
+    "SourceText": "Were you able to find one positive thing your child did and praise them for it?",
+    "text": "上节课后，你有没有表扬孩子做的好的地方呢？",
+    "type": "text",
+    "note": ""
+  },
+  {
+    "SourceText": "Amazing! Praising tells our children what behaviours are positive and helpful.",
+    "text": "太棒了！表扬可以让孩子知道什么行为是积极、有益的。",
+    "type": "text",
+    "note": ""
+  },
+  {
+    "SourceText": "That’s okay! Try to praise your child today - even something small can make a difference.",
+    "text": "没关系！今天找个机会表扬孩子，再小的表扬都能起到正面作用哦。",
+    "type": "text",
+    "note": ""
+  },
+  {
+    "SourceText": "Were you able to breathe in and out slowly 5 times if you started feeling angry?",
+    "text": "上节课后，当你生气的时候，有试着深呼吸5次吗？",
+    "type": "text",
+    "note": ""
+  },
+  {
+    "SourceText": "Well done! You are learning how to manage your anger.",
+    "text": "很棒！你正在逐渐学会控制愤怒情绪。",
+    "type": "text",
+    "note": ""
+  },
+  {
+    "SourceText": "That’s okay! Try to find some time today to practise this skill.",
+    "text": "没关系！今天试着找时间练习一下这个技巧吧。",
+    "type": "text",
+    "note": ""
+  },
+  {
+    "SourceText": "Were you able to praise your child for something you'd like them to continue doing? If your child refused to follow instructions, were you able to employ a fair consequence?",
+    "text": "上节课后，遇到孩子不听话，你有没有设定合理的“后果”呢？当孩子表现好时，你有没有表扬他们呢？",
+    "type": "text",
+    "note": ""
+  },
+  {
+    "SourceText": "Good for you! Setting fair consequences will make it more likely that they follow family rules. Remember to give them a choice to follow the instruction first before giving them the consequence in a calm way.",
+    "text": "🌟 设定合理的“后果”，可以帮孩子更好地遵守家规。\n👂 让孩子承担“后果”之前，请再给他们一个机会决定是否听话。\n😌 整个过程中，请尽量保持冷静。",
+    "type": "text",
+    "note": ""
+  },
+  {
+    "SourceText": "That’s okay! Try to find time to think of fair consequences that you could use next time your child forgets a household rule or refuses to follow instructions. Remember to give them a choice to follow the instruction first before giving them the consequence in a calm way.",
+    "text": "没关系，找个时间设置合理的“后果”。下次孩子不遵守家规或不听话时，就可以执行这些“后果”。\n\n别忘了，在执行“后果”之前，先给他们一个听话的机会。同时记得全程保持心平气和。",
+    "type": "text",
+    "note": ""
+  },
+  {
+    "SourceText": "Were you able to share the four steps to problem solving with your child?",
+    "text": "上节课后，你有没有和孩子分享解决问题的4个步骤——“了解原因、解决问题、尝试执行、检验效果”？",
+    "type": "text",
+    "note": ""
+  },
+  {
+    "SourceText": "Great! Teaching your Child how to solve problems will set them up for success in life!",
+    "text": "太棒了！教孩子如何解决问题很重要，能为他们今后克服困难打下基础。",
+    "type": "text",
+    "note": ""
+  },
+  {
+    "SourceText": "That’s okay! Try and find time today to talk to your Child about the four steps to problem solving: know it, solve it, try it, and test it. This is an important life skill!",
+    "text": "没关系！今天找个时间和孩子分享一起解决问题的4个步骤吧：了解原因、解决问题、尝试执行、检验效果。\n\n孩子将受益一生！",
+    "type": "text",
+    "note": ""
+  },
+  {
+    "SourceText": "Were you able to have a conversation with your child about safe and unsafe touch?",
+    "text": "上节课后，你有没有和孩子聊一聊安全触碰和非安全触碰呢？",
+    "type": "text",
+    "note": ""
+  },
+  {
+    "SourceText": "Good for you. This is not easy for parents to do, but it is so important if we want to keep children safe from harm.Well done for making the commitment.",
+    "text": "太棒了！\n\n我们平时可能不好意思说这些。但想要🔔保护孩子、让他们免受伤害🔔，就必须和他们说清楚。\n\n你做得非常好！",
+    "type": "text",
+    "note": ""
+  },
+  {
+    "SourceText": "That’s okay! Try to find some time to talk to your child about safe and unsafe touch. This is not an easy thing for parents to do but can make a big difference in keeping your child safe from harm.",
+    "text": "没关系！试着找个时间和孩子聊聊安全触碰和非安全触碰。\n\n我们平时可能不好意思说这些。但想要🔔保护孩子、让他们免受伤害🔔，就必须和他们说清楚。",
+    "type": "text",
+    "note": ""
+  },
+  {
+    "SourceText": "Were you able to have a conversation with your child about saying no to unwanted or unsafe touch?",
+    "text": "上节课后，你有没有做以下练习呢？\n- 教孩子安全触碰和非安全触碰。\n- 帮孩子练习对非安全触碰说“不”。\n- 告诉孩子有情况一定要告诉大人。",
+    "type": "text",
+    "note": ""
+  },
+  {
+    "SourceText": "Were you able to have a conversation with your child about safe and unsafe places in areas where you live and often go?",
+    "text": "上节课后，你有没有通过小汽车游戏，和孩子讨论哪些地方是安全的，哪些是不安全的？",
+    "type": "text",
+    "note": ""
+  },
+  {
+    "SourceText": "Well done! Remember to revisit the safety map with your child every now and then to see if things have changed.",
+    "text": "非常好！记得时不时地和孩子一起重温安全地图，看看情况是否有变化。",
+    "type": "text",
+    "note": ""
+  },
+  {
+    "SourceText": "That’s okay! Try and find time to create a safety map with your child, this is a great tool to keep them safe in areas where you live and often go.",
+    "text": "没关系！找时间和孩子通过游戏的方式一起画安全地图，这将大大保障孩子的安全。",
+    "type": "text",
+    "note": ""
+  },
+  {
+    "SourceText": "Were you able to talk with your child about possible crises that may happen and what to do?",
+    "text": "上节课后，你有没有和孩子回顾安全地图，聊聊应该如何避免或应对危险？",
+    "type": "text",
+    "note": ""
+  },
+  {
+    "SourceText": "Well done! This will help you and @fields.child_nickname be prepared if a crisis ever happens. Good work!",
+    "text": "太棒了！这样的话，就算危机真的发生了，你和 @fields.child_nickname 也能有所准备、更好地应对它。非常好！",
+    "type": "text",
+    "note": "Strings like @fields.xxx and @results.yyy should not be translated."
+  },
+  {
+    "SourceText": "Well done! This will help you and your child be prepared if a crisis ever happens. Good work!",
+    "text": "太棒了！这样的话，就算危机真的发生了，你和孩子也能有所准备、更好地应对它。非常好！",
+    "type": "text",
+    "note": ""
+  },
+  {
+    "SourceText": "That’s okay! Try and find time today. As a reminder, for this home activity you should:",
+    "text": "没关系！今天可以找点时间，试一试以下四个小步骤：",
+    "type": "text",
+    "note": ""
+  },
+  {
+    "SourceText": "1️⃣Find a calm time to talk with @fields.child_nickname about possible crises that may happen.",
+    "text": "1️⃣ 和 @fields.child_nickname 说一说可能发生的危机。",
+    "type": "text",
+    "note": "Strings like @fields.xxx and @results.yyy should not be translated."
+  },
+  {
+    "SourceText": "2️⃣Discuss possible actions that you can take with your child if they happen.",
+    "text": "2️⃣ 一起讨论一下，危急之时，你们应做些什么。",
+    "type": "text",
+    "note": ""
+  },
+  {
+    "SourceText": "3️⃣Revisit the Mapping Activity to identify other sources of support.",
+    "text": "3️⃣ 再看一看你们画的安全地图，想想除了家人，有没有其他人能提供支持。",
+    "type": "text",
+    "note": ""
+  },
+  {
+    "SourceText": "4️⃣Thank your child for taking the time to chat about this.",
+    "text": "4️⃣ 表扬孩子认真和你谈论安全问题。",
+    "type": "text",
+    "note": ""
+  },
+  {
+    "SourceText": "1️⃣Find a calm time to talk with your child about possible crises that may happen.",
+    "text": "1️⃣ 和孩子说一说可能发生的危机。",
+    "type": "text",
+    "note": ""
+  },
+  {
+    "SourceText": "Were you able to talk with your child about the importance of eating healthy food?",
+    "text": "上节课后，你有没有和孩子聊聊吃健康食物的好处，并和他们一起列健康食物清单呢？",
+    "type": "text",
+    "note": ""
+  },
+  {
+    "SourceText": "Great! You are doing amazing in helping your child grow.",
+    "text": "太好了！这有助于促进孩子健康成长。",
+    "type": "text",
+    "note": ""
+  },
+  {
+    "SourceText": "That’s okay! Try to find some time to talk with your child about eating healthy food. It will help their body AND brain grow.",
+    "text": "没关系！试着找时间和孩子聊聊健康饮食，这对儿童身体和大脑发育都很重要！",
+    "type": "text",
+    "note": ""
+  },
+  {
+    "SourceText": "Were you able to ask your child what they do to stay safe online?",
+    "text": "上节课后，你有没有和孩子聊聊安全上网的事，并表扬孩子为安全上网所做的努力？",
+    "type": "text",
+    "note": ""
+  },
+  {
+    "SourceText": "Great! It is so important that we are able to protect our children online.",
+    "text": "太棒了！引导孩子安全上网是非常重要的。",
+    "type": "text",
+    "note": ""
+  },
+  {
+    "SourceText": "That’s okay! Online safety is really important so try and find some time to chat to your child about staying safe online.",
+    "text": "网络世界充满风险，请找个时间和孩子聊聊安全上网的事情吧。",
+    "type": "text",
+    "note": ""
+  },
+  {
+    "SourceText": "Were you able to talk to your child about habits to stay safe online?",
+    "text": "上节课后，你有没有和孩子聊一聊，如何养成安全、健康的上网习惯呢？",
+    "type": "text",
+    "note": ""
+  },
+  {
+    "SourceText": "Well done! You are helping your child learn how to be safe online!",
+    "text": "非常好！这有利于保护孩子免受网络伤害。",
+    "type": "text",
+    "note": ""
+  },
+  {
+    "SourceText": "That’s okay! Remember, some steps you can take to keep your child safe online today:",
+    "text": "没关系！今天找点时间，试试以下三个步骤：",
+    "type": "text",
+    "note": ""
+  },
+  {
+    "SourceText": " 📝 Have a conversation with your child about how they can use the internet and devices in a safe way. ",
+    "text": "📝 和孩子设定家规，规定每日看电视、看手机时间不超过1小时。",
+    "type": "text",
+    "note": ""
+  },
+  {
+    "SourceText": "🔴 Talk about which sites or apps might be unsafe. Why?",
+    "text": "🔴 讨论上网的时候如何保障自己的安全和隐私。",
+    "type": "text",
+    "note": ""
+  },
+  {
+    "SourceText": "😃 Praise your child for how good they are at using the web!",
+    "text": "😃 找到孩子做得好的地方，表扬他！",
+    "type": "text",
+    "note": ""
+  },
+  {
+    "SourceText": "Were you able to discuss your wants and needs with your family?",
+    "text": "上节课后，你有没有和家人讨论，哪些是育儿必需品和非必需品？",
+    "type": "text",
+    "note": ""
+  },
+  {
+    "SourceText": "Great! You’re ready for today’s lesson.",
+    "text": "太棒了！那我们可以开始今天的课程了。",
+    "type": "text",
+    "note": ""
+  },
+  {
+    "SourceText": "That’s okay! Try and talk to your family about needs and wants, it’s the first step to building a family budget.",
+    "text": "没关系！抽时间和家人讨论一下育儿必需品和非必需品，这是规划育儿预算储蓄的第一步哦！",
+    "type": "text",
+    "note": ""
+  },
+  {
+    "SourceText": "Were you able to add up your monthly expenses?",
+    "text": "上节课后，你有没有计算家里的月度育儿开销是多少？",
+    "type": "text",
+    "note": ""
+  },
+  {
+    "SourceText": "Amazing! You are making great progress on your family budget!",
+    "text": "太好了，你在规划育儿预算储蓄上取得了很大的进展！",
+    "type": "text",
+    "note": ""
+  },
+  {
+    "SourceText": "That’s okay! Talking about your monthly expenses is an important step to family budgeting. Try to complete this step with your family.",
+    "text": "没关系！计算月度育儿总开支是规划育儿预算储蓄的关键一步，试着找时间和家人一起算算吧。",
+    "type": "text",
+    "note": ""
+  },
+  {
+    "SourceText": "Were you able to make a monthly budget with your family?",
+    "text": "上节课后，你有没有和家人一起制定本月的育儿预算？",
+    "type": "text",
+    "note": ""
+  },
+  {
+    "SourceText": "Well done! Making a monthly budget will set your family up for success!",
+    "text": "太好了！制定月度预算能帮家庭平衡开支。",
+    "type": "text",
+    "note": ""
+  },
+  {
+    "SourceText": "That’s okay! Completing a monthly budget will set your family up for success. Try to find time to complete this activity.",
+    "text": "没关系！制定月度预算能帮家庭平衡开支，请抽点时间完成这项家庭练习。",
+    "type": "text",
+    "note": ""
+  },
+  {
+    "SourceText": "Were you able to create a saving plan with your family?",
+    "text": "上节课后，你有没有制定育儿储蓄计划呢？",
+    "type": "text",
+    "note": ""
+  },
+  {
+    "SourceText": "Amazing! You have completed all the steps for creating a family budget.",
+    "text": "太棒了，你已经学会规划育儿预算储蓄的全部4个步骤了！",
+    "type": "text",
+    "note": ""
+  },
+  {
+    "SourceText": "That’s okay! Try and find time to make a saving plan with your family.",
+    "text": "没关系！试着找个时间和家人一起制定育儿储蓄计划吧。",
+    "type": "text",
+    "note": ""
+  },
+  {
+    "SourceText": "Were you able to involve your partner in a decision you made yesterday?",
+    "text": "上节课后，你有没有和家人一起，共同商量决定一件家庭事务？",
+    "type": "text",
+    "note": ""
+  },
+  {
+    "SourceText": "Well done for making the effort to do this!!",
+    "text": "做得很好！与家人共同商量并做决定，将使家庭更和睦！",
+    "type": "text",
+    "note": ""
+  },
+  {
+    "SourceText": "That’s okay! Try and involve your partner in a decision you make today! It’s a great feeling to be valued!",
+    "text": "没关系！今天试着和家人共同商量一件家庭事务吧，这也会让家人感到被需要。",
+    "type": "text",
+    "note": ""
+  },
+  {
+    "SourceText": "Were you able to do childcare or housework with your partner?",
+    "text": "上节课后，你有没有试着与家人一起照顾孩子或做家务呢？",
+    "type": "text",
+    "note": ""
+  },
+  {
+    "SourceText": "Amazing! Sharing childcare or housework is a great way to support each other.",
+    "text": "做得很好！这样做能让家人感到彼此是互相支持和依靠的。",
+    "type": "text",
+    "note": ""
+  },
+  {
+    "SourceText": "That’s okay! Try and share your childcare or housecare with your partner. It's a great way to support each other.",
+    "text": "没关系！今天试着一起照顾孩子或做家务吧。哪怕是生活中的小事，也能让家人感到自己不是孤军奋战！",
+    "type": "text",
+    "note": ""
+  },
+  {
+    "SourceText": "Were you able to invite your partner to discuss how you can share family responsibilities?",
+    "text": "上节课后，你有没有和家人讨论如何更好地分担家庭责任呢？",
+    "type": "text",
+    "note": ""
+  },
+  {
+    "SourceText": "Well done for taking the time to discuss sharing responsibilities with your partner!",
+    "text": "做得很好！共担家庭责任，能增进彼此间的信赖和支持，有助于全家的平等相待。",
+    "type": "text",
+    "note": ""
+  },
+  {
+    "SourceText": "That’s okay! Try and find time to share responsibilities with your partner. Sharing responsibilities is an important part of a healthy relationship.",
+    "text": "没关系！今天试着和家人聊聊如何共分家庭责任吧，这对建立健康家庭关系来说非常重要！",
+    "type": "text",
+    "note": ""
+  },
+  {
+    "SourceText": "Were you able to practice taking a pause?",
+    "text": "上节课后，当你感到生气、沮丧等负面情绪时，有试着放慢节奏吗？",
+    "type": "text",
+    "note": ""
+  },
+  {
+    "SourceText": "Well done! Taking a pause is a great skill to use whenever you are stressed!",
+    "text": "做得很好！无论何时，只要你感到压力大，就可以试着放慢节奏！",
+    "type": "text",
+    "note": ""
+  },
+  {
+    "SourceText": "That’s okay! Try and find time today to take a pause, the more you practise the more it will help.",
+    "text": "没关系！试着练习放慢节奏吧，这样即使与家人发生冲突，你也能做到心平气和！",
+    "type": "text",
+    "note": ""
+  },
+  {
+    "SourceText": "Were you able to set aside time to talk to your partner about your feelings?",
+    "text": "上节课后，你有没有和家人谈谈你的感受或面临的困难呢？",
+    "type": "text",
+    "note": ""
+  },
+  {
+    "SourceText": "Well done! Talking to your partner about how you are feeling can be difficult, but it is very important for a healthy relationship.",
+    "text": "太棒了！谈论自己的感受并不容易，但坦诚沟通，有助于增进彼此的理解和支持。",
+    "type": "text",
+    "note": ""
+  },
+  {
+    "SourceText": "That’s okay! Talking about your feelings can seem scary, but being open and communicating is an important part of a healthy relationship.",
+    "text": "没关系！和家人谈论自己的感受并不容易，但坦诚沟通，有助于增进彼此的理解和支持。",
+    "type": "text",
+    "note": ""
+  },
+  {
+    "SourceText": "Yes",
+    "text": "是",
+    "type": "quick_replies",
+    "note": "This is a quick reply and its translation should be uniquely identified by the corresponding argument"
+  },
+  {
+    "SourceText": "Not yet",
+    "text": "否",
+    "type": "quick_replies",
+    "note": "This is a quick reply and its translation should be uniquely identified by the corresponding argument"
+  },
+  {
+    "SourceText": "yes",
+    "text": "是",
+    "type": "arguments",
+    "note": "This is an argument and it may be used to identify a corresponding quick reply"
+  },
+  {
+    "SourceText": "not yet",
+    "text": "否",
+    "type": "arguments",
+    "note": "This is an argument and it may be used to identify a corresponding quick reply"
+  }
+]

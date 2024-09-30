@@ -1,0 +1,524 @@
+[
+  {
+    "SourceText": "Each child grows and learns in their own way. This tool can help you learn what activities your child can do.",
+    "text": "每个儿童都有自己独特的成长和学习进程，以下问题能帮你了解孩子目前的情况。",
+    "type": "text",
+    "note": ""
+  },
+  {
+    "SourceText": "Does your child have difficulty seeing or hearing sounds like peoples’ voices or music, even with glasses or hearing aids?",
+    "text": "（即使戴眼镜或使用助听器时）你的孩子看东西或听声音，比如听其他人说话或听音乐，是否有困难？",
+    "type": "text",
+    "note": ""
+  },
+  {
+    "SourceText": "It seems like you're worried about your child's eyesight or hearing, and you might need to seek advice from an expert.",
+    "text": "看起来你有点担心孩子的视力或听力，请及时寻求专家（如村医、医院医生、卫生站医生）的意见。",
+    "type": "text",
+    "note": ""
+  },
+  {
+    "SourceText": "Here are some resources that might help",
+    "text": "这里有些资源，也许对你有帮助：",
+    "type": "text",
+    "note": ""
+  },
+  {
+    "SourceText": "{development resources 1}",
+    "text": " {development resources 1} ",
+    "type": "text",
+    "note": ""
+  },
+  {
+    "SourceText": "Sorry, I dont' understand what you mean.",
+    "text": "抱歉，我没有理解你的意思。",
+    "type": "text",
+    "note": ""
+  },
+  {
+    "SourceText": "Compared with children of the same age, does your child have difficulty walking?",
+    "text": "与同龄儿童相比，你的孩子正常行走是否有困难？",
+    "type": "text",
+    "note": ""
+  },
+  {
+    "SourceText": "It seems like you're worried about your child's ability to move around, and you might need to seek advice from an expert.",
+    "text": "看起来你有点担心孩子的行走能力，也许可以听听专家的意见。",
+    "type": "text",
+    "note": ""
+  },
+  {
+    "SourceText": "Does your child have difficulty with self-care such as feeding or dressing him/herself?",
+    "text": "你的孩子在吃饭或穿衣等生活自理方面是否有困难？",
+    "type": "text",
+    "note": ""
+  },
+  {
+    "SourceText": "It seems like you are concerned about your child's ability to take care of themselves, and you might need to seek advice from an expert.",
+    "text": "看起来你有点担心孩子的生活自理能力，请及时寻求专家（如村医、医院医生、卫生站医生）的意见。",
+    "type": "text",
+    "note": ""
+  },
+  {
+    "SourceText": "Does your child have difficulty being understood by others?",
+    "text": "你孩子说的话，其他人理解起来是否有困难？",
+    "type": "text",
+    "note": ""
+  },
+  {
+    "SourceText": "It seems like you're worried about how your child communicates, and you might need to seek advice from an expert.",
+    "text": "看起来你有点担心孩子的沟通能力，请及时寻求专家（如村医、医院医生、卫生站医生）的意见。",
+    "type": "text",
+    "note": ""
+  },
+  {
+    "SourceText": "Does your child have difficulty learning or remembering things, focusing on an activity that he or she enjoys doing, or accepting changes in his or her routine?",
+    "text": "你孩子在学习新事物、记住事物、集中注意力去做自己喜欢的事情，或接受日常生活习惯的变化等方面，是否有困难？",
+    "type": "text",
+    "note": ""
+  },
+  {
+    "SourceText": "It seems like you're worried about how your child is able to think or understand things, and you might need to seek advice from an expert.",
+    "text": "看起来你有点担心孩子的认知能力，请及时寻求专家（如村医、医院医生、卫生站医生）的意见。",
+    "type": "text",
+    "note": ""
+  },
+  {
+    "SourceText": "Compared with children of the same age, does your child have difficulty controlling their behaviour, such as fighting, screaming, or breaking rules?",
+    "text": "与同龄儿童相比，你的孩子在控制自己行为方面是否有困难，比如打架、尖叫或破坏规则？",
+    "type": "text",
+    "note": ""
+  },
+  {
+    "SourceText": "It seems like you are concerned about your child's behaviour, and you might need to seek advice from an expert.",
+    "text": "看起来你有点担心孩子的行为问题，请及时寻求专家（如村医、医院医生、卫生站医生）的意见。",
+    "type": "text",
+    "note": ""
+  },
+  {
+    "SourceText": "Does your child have difficulty making friends?",
+    "text": "你的孩子与人交朋友是否有困难？",
+    "type": "text",
+    "note": ""
+  },
+  {
+    "SourceText": "It seems that you're worried about your child's ability to interact with others, and you might need to seek advice from an expert.",
+    "text": "看起来你有点担心孩子的社会交往能力，请及时寻求专家（如村医、医院医生、卫生站医生）的意见。",
+    "type": "text",
+    "note": ""
+  },
+  {
+    "SourceText": "How often does your child seem very anxious, nervous, worried, sad, or depressed?",
+    "text": "你的孩子多久会出现看上去非常焦虑、紧张、忧虑、沮丧或抑郁的情况？",
+    "type": "text",
+    "note": ""
+  },
+  {
+    "SourceText": "It seems like you're worried about how your child is feeling, and you might need to seek advice from an expert.",
+    "text": "看起来你有点担心孩子的情绪状态，也许可以听听专家的意见。",
+    "type": "text",
+    "note": ""
+  },
+  {
+    "SourceText": "Thank you for taking the child ability test. If you have any concerns, make sure you seek opinion from an expert, e.g. a doctor.",
+    "text": "感谢你参与测试。如果你有任何疑虑，请及时寻求专家（如村医、医院医生、卫生站医生）的意见。",
+    "type": "text",
+    "note": ""
+  },
+  {
+    "SourceText": "It looks like your child is developing well. That's great!",
+    "text": "太好了，你的孩子正在健康成长！",
+    "type": "text",
+    "note": ""
+  },
+  {
+    "SourceText": "Remember, if you ever need support type {HELP}.",
+    "text": "如果你需要任何支持，请输入 {HELP} ",
+    "type": "text",
+    "note": ""
+  },
+  {
+    "SourceText": "Every child grows and learns differently. This tool can help find areas where your child might need assistance. To make it work, you need to answer all 10 questions.",
+    "text": "每个儿童都有自己独特的成长和学习进程，以下问题能帮助了解孩子目前的情况。请确保回答所有的问题（共10题）。",
+    "type": "text",
+    "note": ""
+  },
+  {
+    "SourceText": "How much is your child doing each of these things?",
+    "text": "你的孩子做以下事情的频率如何？",
+    "type": "text",
+    "note": ""
+  },
+  {
+    "SourceText": "Names at least 5 body parts - like nose, hand, or tummy",
+    "text": "说出至少5个身体部位，如鼻子、手或肚子",
+    "type": "text",
+    "note": ""
+  },
+  {
+    "SourceText": "Climbs up a ladder at a playground",
+    "text": "能爬上梯子（如游乐场滑梯上的梯子）",
+    "type": "text",
+    "note": ""
+  },
+  {
+    "SourceText": "Uses words like \"me\" or \"mine\"",
+    "text": "使用如“我”或“我的”等此类的词语",
+    "type": "text",
+    "note": ""
+  },
+  {
+    "SourceText": "Jumps off the ground with two feet",
+    "text": "双脚跳离地面",
+    "type": "text",
+    "note": ""
+  },
+  {
+    "SourceText": "Puts 2 or more words together - like \"more water\" or \"go outside\"",
+    "text": "把两个或更多的词拼在一起，如“喝水”或“去外面”",
+    "type": "text",
+    "note": ""
+  },
+  {
+    "SourceText": "Uses words to ask for help",
+    "text": "使用词语求助（会用词语表达希望成人帮助取到东西等）",
+    "type": "text",
+    "note": ""
+  },
+  {
+    "SourceText": "Names at least one colour",
+    "text": "说出至少一种颜色",
+    "type": "text",
+    "note": ""
+  },
+  {
+    "SourceText": "Tries to get you to watch by saying \"Look at me\"",
+    "text": "说“看我”来尝试让你看向他/她",
+    "type": "text",
+    "note": ""
+  },
+  {
+    "SourceText": "Says his or her first name when asked",
+    "text": "当被问到时，他/她会说出自己的名字",
+    "type": "text",
+    "note": ""
+  },
+  {
+    "SourceText": "Draws lines",
+    "text": "画线",
+    "type": "text",
+    "note": ""
+  },
+  {
+    "SourceText": "Your child is growing and learning well. It is okay if they can't do everything mentioned in the questions. Most children can't do all of those things!",
+    "text": "感谢你参与测试。你的孩子成长得很好。即使孩子不能做到以上所有事情，你也不用担心。对这个年龄段孩子来说，这是正常的。",
+    "type": "text",
+    "note": ""
+  },
+  {
+    "SourceText": "If you ever need help, just type {HELP}.",
+    "text": "如果你需要任何帮助，请输入 {HELP}。",
+    "type": "text",
+    "note": ""
+  },
+  {
+    "SourceText": "It seems that you could benefit from expert opinion, for example, from a doctor. Make sure to check with one to see if your child is growing and learning well.",
+    "text": "感谢你参与测试。孩子目前得分较低，请你及时寻求专家的意见，比如村医、医院医生、卫生站医生，从而更准确地了解孩子的发展情况。",
+    "type": "text",
+    "note": ""
+  },
+  {
+    "SourceText": "Talks so other people can understand him or her most of the time",
+    "text": "大部分时间里，别人都能明白他/她说的话",
+    "type": "text",
+    "note": ""
+  },
+  {
+    "SourceText": "Washes and dries hands without help (an adult can help turn on the water)",
+    "text": "在没有他人帮助的情况下，自己洗手并擦干（成人可以帮忙拧开水龙头）",
+    "type": "text",
+    "note": ""
+  },
+  {
+    "SourceText": "Asks questions beginning with \"why\" or \"how\" - like \"Why no cookie?\"",
+    "text": "用“为什么”或“怎么样”提问，如“为什么没有饼干？”",
+    "type": "text",
+    "note": ""
+  },
+  {
+    "SourceText": "Explains the reasons for things, like needing a sweater when it's cold",
+    "text": "解释需要某样东西的原因，如天气冷的时候需要棉袄",
+    "type": "text",
+    "note": ""
+  },
+  {
+    "SourceText": "Compares things - using words like \"bigger\" or \"shorter\"",
+    "text": "使用如“更大”或“更短”等此类词语来比较物体",
+    "type": "text",
+    "note": ""
+  },
+  {
+    "SourceText": "Answers questions like \"What do you do when you are cold?\" or \"…when you are sleepy?\"",
+    "text": "回答如“你冷的时候会做什么？”或“你困的时候会做什么？”等此类的问题",
+    "type": "text",
+    "note": ""
+  },
+  {
+    "SourceText": "Answers questions like \"What do you do when you are cold?\" or \"…when you are sleepy?",
+    "text": "回答如“你冷的时候会做什么？”或“你困的时候会做什么？”等此类的问题",
+    "type": "text",
+    "note": ""
+  },
+  {
+    "SourceText": "Tells you a story from a book or TV",
+    "text": "告诉你一个书上或电视上的故事",
+    "type": "text",
+    "note": ""
+  },
+  {
+    "SourceText": "Draws simple shapes - like a circle or a square",
+    "text": "画简单的图形，如圆形或正方形",
+    "type": "text",
+    "note": ""
+  },
+  {
+    "SourceText": "Says words like \"feet\" for more than one foot and \"men\" for more than one man",
+    "text": "会说如“双手”和“小朋友们”等此类词语来表示复数",
+    "type": "text",
+    "note": ""
+  },
+  {
+    "SourceText": "Uses words like \"yesterday\" and \"tomorrow\" correctly",
+    "text": "正确使用如“昨天”和“明天”等此类词语",
+    "type": "text",
+    "note": ""
+  },
+  {
+    "SourceText": "Stays dry all night",
+    "text": "整晚都不尿床",
+    "type": "text",
+    "note": ""
+  },
+  {
+    "SourceText": "Follows simple rules when playing a board game or card game",
+    "text": "玩棋盘或纸牌游戏时，遵循简单的规则",
+    "type": "text",
+    "note": ""
+  },
+  {
+    "SourceText": "Prints his or her name",
+    "text": "会工整地写自己的姓名",
+    "type": "text",
+    "note": ""
+  },
+  {
+    "SourceText": "Draws pictures you recognise",
+    "text": "你能看出来他/她画的东西是什么",
+    "type": "text",
+    "note": ""
+  },
+  {
+    "SourceText": "No Difficulty",
+    "text": "没有困难",
+    "type": "quick_replies",
+    "note": "This is a quick reply and its translation should be uniquely identified by the corresponding argument"
+  },
+  {
+    "SourceText": "Some Difficulty",
+    "text": "有些困难",
+    "type": "quick_replies",
+    "note": "This is a quick reply and its translation should be uniquely identified by the corresponding argument"
+  },
+  {
+    "SourceText": "A Lot of Difficulty",
+    "text": "非常困难",
+    "type": "quick_replies",
+    "note": "This is a quick reply and its translation should be uniquely identified by the corresponding argument"
+  },
+  {
+    "SourceText": "He or She Cannot See and/or Hear",
+    "text": "他/她完全看不见，（或）听不见",
+    "type": "quick_replies",
+    "note": "This is a quick reply and its translation should be uniquely identified by the corresponding argument"
+  },
+  {
+    "SourceText": "He or She Cannot Walk",
+    "text": "他/她完全无法做到",
+    "type": "quick_replies",
+    "note": "This is a quick reply and its translation should be uniquely identified by the corresponding argument"
+  },
+  {
+    "SourceText": "He or She Cannot Take Care of Themselves",
+    "text": "他/她完全无法自理",
+    "type": "quick_replies",
+    "note": "This is a quick reply and its translation should be uniquely identified by the corresponding argument"
+  },
+  {
+    "SourceText": "He or She Cannot Be Understood by Others",
+    "text": "别人完全无法理解他/她",
+    "type": "quick_replies",
+    "note": "This is a quick reply and its translation should be uniquely identified by the corresponding argument"
+  },
+  {
+    "SourceText": "He or She Cannot Learn, Remember or Focus",
+    "text": "他/她完全无法学习新事物、记住事物或集中注意力",
+    "type": "quick_replies",
+    "note": "This is a quick reply and its translation should be uniquely identified by the corresponding argument"
+  },
+  {
+    "SourceText": "He or She Cannot Control Their Behaviour",
+    "text": "他/她完全无法控制",
+    "type": "quick_replies",
+    "note": "This is a quick reply and its translation should be uniquely identified by the corresponding argument"
+  },
+  {
+    "SourceText": "He or She Cannot Make Friends",
+    "text": "他/她完全无法与人交朋友",
+    "type": "quick_replies",
+    "note": "This is a quick reply and its translation should be uniquely identified by the corresponding argument"
+  },
+  {
+    "SourceText": "Every Day",
+    "text": "每天",
+    "type": "quick_replies",
+    "note": "This is a quick reply and its translation should be uniquely identified by the corresponding argument"
+  },
+  {
+    "SourceText": "Once A Week",
+    "text": "每周一次",
+    "type": "quick_replies",
+    "note": "This is a quick reply and its translation should be uniquely identified by the corresponding argument"
+  },
+  {
+    "SourceText": "About Once a Month",
+    "text": "大约每月一次",
+    "type": "quick_replies",
+    "note": "This is a quick reply and its translation should be uniquely identified by the corresponding argument"
+  },
+  {
+    "SourceText": "A Few Times Each Year",
+    "text": "每年几次",
+    "type": "quick_replies",
+    "note": "This is a quick reply and its translation should be uniquely identified by the corresponding argument"
+  },
+  {
+    "SourceText": "Never",
+    "text": "从不",
+    "type": "quick_replies",
+    "note": "This is a quick reply and its translation should be uniquely identified by the corresponding argument"
+  },
+  {
+    "SourceText": "Somewhat",
+    "text": "有时",
+    "type": "quick_replies",
+    "note": "This is a quick reply and its translation should be uniquely identified by the corresponding argument"
+  },
+  {
+    "SourceText": "Very Much",
+    "text": "经常",
+    "type": "quick_replies",
+    "note": "This is a quick reply and its translation should be uniquely identified by the corresponding argument"
+  },
+  {
+    "SourceText": "no difficulty",
+    "text": "没有困难",
+    "type": "arguments",
+    "note": "This is an argument and it may be used to identify a corresponding quick reply"
+  },
+  {
+    "SourceText": "some difficulty",
+    "text": "有些困难",
+    "type": "arguments",
+    "note": "This is an argument and it may be used to identify a corresponding quick reply"
+  },
+  {
+    "SourceText": "a lot of difficulty",
+    "text": "非常困难",
+    "type": "arguments",
+    "note": "This is an argument and it may be used to identify a corresponding quick reply"
+  },
+  {
+    "SourceText": "he or she cannot see and/or hear",
+    "text": "他/她完全不看见、（或）听不见",
+    "type": "arguments",
+    "note": "This is an argument and it may be used to identify a corresponding quick reply"
+  },
+  {
+    "SourceText": "he or she cannot walk",
+    "text": "他/她完全无法做到",
+    "type": "arguments",
+    "note": "This is an argument and it may be used to identify a corresponding quick reply"
+  },
+  {
+    "SourceText": "he or she cannot take care of themselves",
+    "text": "他/她完全无法自理",
+    "type": "arguments",
+    "note": "This is an argument and it may be used to identify a corresponding quick reply"
+  },
+  {
+    "SourceText": "he or she cannot be understood by others",
+    "text": "别人完全无法理解他/她",
+    "type": "arguments",
+    "note": "This is an argument and it may be used to identify a corresponding quick reply"
+  },
+  {
+    "SourceText": "he or she cannot learn, remember or focus",
+    "text": "他/她完全无法学习新事物、记住事物或集中注意力",
+    "type": "arguments",
+    "note": "This is an argument and it may be used to identify a corresponding quick reply"
+  },
+  {
+    "SourceText": "he or she cannot control their behaviour",
+    "text": "他/她完全无法控制",
+    "type": "arguments",
+    "note": "This is an argument and it may be used to identify a corresponding quick reply"
+  },
+  {
+    "SourceText": "he or she cannot make friends",
+    "text": "他/她完全无法与人交朋友",
+    "type": "arguments",
+    "note": "This is an argument and it may be used to identify a corresponding quick reply"
+  },
+  {
+    "SourceText": "every day",
+    "text": "每天",
+    "type": "arguments",
+    "note": "This is an argument and it may be used to identify a corresponding quick reply"
+  },
+  {
+    "SourceText": "once a week",
+    "text": "每周一次",
+    "type": "arguments",
+    "note": "This is an argument and it may be used to identify a corresponding quick reply"
+  },
+  {
+    "SourceText": "about once a month",
+    "text": "大约每月一次",
+    "type": "arguments",
+    "note": "This is an argument and it may be used to identify a corresponding quick reply"
+  },
+  {
+    "SourceText": "a few times each year",
+    "text": "每年几次",
+    "type": "arguments",
+    "note": "This is an argument and it may be used to identify a corresponding quick reply"
+  },
+  {
+    "SourceText": "never",
+    "text": "从不",
+    "type": "arguments",
+    "note": "This is an argument and it may be used to identify a corresponding quick reply"
+  },
+  {
+    "SourceText": "somewhat",
+    "text": "有时",
+    "type": "arguments",
+    "note": "This is an argument and it may be used to identify a corresponding quick reply"
+  },
+  {
+    "SourceText": "very much",
+    "text": "经常",
+    "type": "arguments",
+    "note": "This is an argument and it may be used to identify a corresponding quick reply"
+  }
+]

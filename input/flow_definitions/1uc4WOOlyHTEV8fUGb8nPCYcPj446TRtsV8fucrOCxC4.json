@@ -1,0 +1,341 @@
+{
+  "meta": {
+    "version": "0.1.0"
+  },
+  "sheets": {
+    "content_index": [
+      {
+        "type": "data_sheet",
+        "sheet_name": "goal_names",
+        "data_sheet": "",
+        "data_row_id": "",
+        "new_name": "",
+        "data_model": "DictionaryModel",
+        "template_arguments": "",
+        "status": "",
+        "tags.1": "",
+        "tags.2": "global"
+      },
+      {
+        "type": "data_sheet",
+        "sheet_name": "comic_names",
+        "data_sheet": "",
+        "data_row_id": "",
+        "new_name": "",
+        "data_model": "DictionaryModel",
+        "template_arguments": "",
+        "status": "",
+        "tags.1": "",
+        "tags.2": "global"
+      },
+      {
+        "type": "data_sheet",
+        "sheet_name": "module_names",
+        "data_sheet": "",
+        "data_row_id": "",
+        "new_name": "",
+        "data_model": "DictionaryModel",
+        "template_arguments": "",
+        "status": "",
+        "tags.1": "",
+        "tags.2": "global"
+      }
+    ],
+    "module_names": [
+      {
+        "ID": "code",
+        "languages.1": "eng"
+      },
+      {
+        "ID": "take_a_pause",
+        "languages.1": "Take a Pause"
+      },
+      {
+        "ID": "one_on_one_teen",
+        "languages.1": "Spend 1-on-1 Time with My Teen"
+      },
+      {
+        "ID": "praise_teen",
+        "languages.1": "Give Praise"
+      },
+      {
+        "ID": "talk_feelings_teen",
+        "languages.1": "Talk about Feelings"
+      },
+      {
+        "ID": "care_myself_teen",
+        "languages.1": "Care for Myself"
+      },
+      {
+        "ID": "mental_changes_teen",
+        "languages.1": "Mental Changes in the Teen Years"
+      },
+      {
+        "ID": "social_changes_teen",
+        "languages.1": "Social Changes in the Teen Years"
+      },
+      {
+        "ID": "physical_changes_teen",
+        "languages.1": "Physical Changes in the Teen Years"
+      },
+      {
+        "ID": "fun_learning_teen",
+        "languages.1": "Have Fun while Learning"
+      },
+      {
+        "ID": "help_teen_learn_teen",
+        "languages.1": "Help Your Teen Learn"
+      },
+      {
+        "ID": "positive_learning_teen",
+        "languages.1": "Create a Positive Learning Space for Your Teen"
+      },
+      {
+        "ID": "learning_mistakes_teen",
+        "languages.1": "Learning from Mistakes"
+      },
+      {
+        "ID": "learning_with_people_teen",
+        "languages.1": "Learning How to Work with Other People"
+      },
+      {
+        "ID": "routines_teen",
+        "languages.1": "Create Routines with My Teen"
+      },
+      {
+        "ID": "rules_teen",
+        "languages.1": "Set Family Rules"
+      },
+      {
+        "ID": "online_safety_teen",
+        "languages.1": "Know Online Safety Basics"
+      },
+      {
+        "ID": "habits_online_teen",
+        "languages.1": "Build Habits and Trust Online"
+      },
+      {
+        "ID": "budget_needs_teen",
+        "languages.1": "Understand Needs and Wants"
+      },
+      {
+        "ID": "budget_expenses_teen",
+        "languages.1": "Talk about Monthly Expenses"
+      },
+      {
+        "ID": "budget_monthly_teen",
+        "languages.1": "Make a Monthly Budget"
+      },
+      {
+        "ID": "budget_savings_teen",
+        "languages.1": "Make a Savings Plan"
+      },
+      {
+        "ID": "kind_to_myself_teen",
+        "languages.1": "Be Kind to Myself"
+      },
+      {
+        "ID": "stress_teen",
+        "languages.1": "Help My Teen with Stress"
+      },
+      {
+        "ID": "show_kindness_teen",
+        "languages.1": "Show my Teen Kindness"
+      },
+      {
+        "ID": "stress_signs_teen",
+        "languages.1": "Know the Warning Signs"
+      },
+      {
+        "ID": "manage_stress_teen",
+        "languages.1": "Manage My Stress"
+      },
+      {
+        "ID": "misbehave_teen",
+        "languages.1": "Manage Teen Misbehaviour"
+      },
+      {
+        "ID": "solve_problems_teen",
+        "languages.1": "Solve Problems with My Teen"
+      },
+      {
+        "ID": "consequences_teen",
+        "languages.1": "Teach my Teen Consequences"
+      },
+      {
+        "ID": "community_safety_teen",
+        "languages.1": "Build Community Safety"
+      },
+      {
+        "ID": "self_defence_teen",
+        "languages.1": "Teach Self Defence"
+      },
+      {
+        "ID": "sex_violence_teen",
+        "languages.1": "Prevent Sexual Violence"
+      },
+      {
+        "ID": "crises_teen",
+        "languages.1": "Respond to Crises"
+      },
+      {
+        "ID": "ipv_equals",
+        "languages.1": "Treating Each Other as Equals"
+      },
+      {
+        "ID": "ipv_supportive",
+        "languages.1": "Being a Supportive Partner and Parent"
+      },
+      {
+        "ID": "ipv_sharing",
+        "languages.1": "Sharing Family Responsibilities"
+      },
+      {
+        "ID": "ipv_conflicts",
+        "languages.1": "Resolving Conflicts Peacefully"
+      },
+      {
+        "ID": "ipv_listen",
+        "languages.1": "Listening and Talking to Each Other"
+      }
+    ],
+    "comic_names_male": [
+      {
+        "ID": "code",
+        "languages.1": "eng",
+        "languages.2": ""
+      }
+    ],
+    "comic_names": [
+      {
+        "ID": "code",
+        "languages.1": "eng"
+      },
+      {
+        "ID": "F1_MOTHER",
+        "languages.1": "Klara"
+      },
+      {
+        "ID": "F1_FATHER",
+        "languages.1": "Mike"
+      },
+      {
+        "ID": "F1_SON_18",
+        "languages.1": "Joshua"
+      },
+      {
+        "ID": "F1_DAUGHTER_16",
+        "languages.1": "Laila"
+      },
+      {
+        "ID": "F1_DAUGHTER_13",
+        "languages.1": "Kate"
+      },
+      {
+        "ID": "F2_GRANDMOTHER",
+        "languages.1": "Susan"
+      },
+      {
+        "ID": "F2_DAUGHTER_19",
+        "languages.1": "Abi"
+      },
+      {
+        "ID": "F2_SON_15",
+        "languages.1": "John"
+      },
+      {
+        "ID": "FRIEND_FEMALE_1",
+        "languages.1": "Jennifer"
+      },
+      {
+        "ID": "FRIEND_FEMALE_2",
+        "languages.1": "Martha"
+      },
+      {
+        "ID": "BOYFRIEND",
+        "languages.1": "Eric"
+      },
+      {
+        "ID": "GIRLFRIEND",
+        "languages.1": "Christine"
+      }
+    ],
+    "comic_names_female": [
+      {
+        "ID": "code",
+        "languages.1": "eng",
+        "languages.2": ""
+      }
+    ],
+    "goal_names": [
+      {
+        "ID": "code",
+        "languages.1": "eng"
+      },
+      {
+        "ID": "relation_t",
+        "languages.1": "Improve My Relationship with My Teen"
+      },
+      {
+        "ID": "relation_c",
+        "languages.1": "Improve My Relationship with My Child"
+      },
+      {
+        "ID": "develop_t",
+        "languages.1": "Understand Teen Development"
+      },
+      {
+        "ID": "develop_c",
+        "languages.1": "Support My Child's Development"
+      },
+      {
+        "ID": "learning_t",
+        "languages.1": "Support My Teen's Education"
+      },
+      {
+        "ID": "learning_c",
+        "languages.1": "Prepare My Child for Success in School"
+      },
+      {
+        "ID": "structure_t",
+        "languages.1": "Create Structure for My Teen"
+      },
+      {
+        "ID": "structure_c",
+        "languages.1": "Give My Child Structure"
+      },
+      {
+        "ID": "behave_t",
+        "languages.1": "Manage My Teen's Behaviour"
+      },
+      {
+        "ID": "behave_c",
+        "languages.1": "Manage My Child's Behaviour"
+      },
+      {
+        "ID": "wellbeing_t",
+        "languages.1": "Care for My Teen's Wellbeing"
+      },
+      {
+        "ID": "safety_t",
+        "languages.1": "Keep My Teen Safe"
+      },
+      {
+        "ID": "safety_c",
+        "languages.1": "Keep My Child Safe & Healthy"
+      },
+      {
+        "ID": "ipv",
+        "languages.1": "Have a Healthy Relationship with My Partner"
+      },
+      {
+        "ID": "budget",
+        "languages.1": "Family Budgeting & Ways to Save Money"
+      },
+      {
+        "ID": "take_a_pause",
+        "languages.1": "Take a Pause"
+      }
+    ]
+  }
+}
