@@ -32,20 +32,11 @@ These steps need to be followed if you want to run the pipeline from the command
 1. Make sure you have a correct `credentials.json` file in the same directory as the cloned repo.
 
 ## Run
-
-There are two main scripts.
-
 ```
-python process_safeguarding_words.py (work in progress)
+python -m parenttext_pipeline.cli pull_data compile_flows 
 ```
 
-This process takes Excel files with safeguarding words received from local teams and converts to JSON format that can be digested by the main pipeline. For an example of required Excel input files, see the folder "excel_files" in this repo.
-
-```
-python -m parenttext_pipeline.cli
-```
-
-The main script that contains the full process to produce RapidPro flows from the relevant Google Sheets. It reads configuration settings from the 'config.py' file, so any adjustments should be made in that file. That file contains information on what the various inputs mean. There is also an authoritative explanation of the [available pipeline configuration settings][1] in the repository for the general ParentText Pipeline.
+The main script that contains the full process to produce RapidPro flows from the relevant Google Sheets. It reads configuration settings from the 'config.py' file, so any adjustments should be made in that file. That file contains information on what the various inputs mean. The relevant spreadsheets are downloaded in json format (pull data) and then compiled to produce the RapidPro json. There is also an authoritative explanation of the [available pipeline configuration settings][1] in the repository for the general ParentText Pipeline.
 
 
 [1]: https://github.com/IDEMSInternational/parenttext-pipeline/blob/main/docs/configuration.md
