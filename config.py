@@ -1,6 +1,7 @@
 # Data sources, IDs of Google Sheets where the core date is stored.
 # Specific for china.
 localised_sheets = "1CoYl7lpd6w2xdZzE-Crt-pZT9M5dTHYFm9sWEcX5QAs"
+localised_sheets_rural = "1UjmKaHUwhjOPf1aMZQEiSJIaqyUku8xnYOgYsAad5y8"
 
 # Shared with all deployments.
 # Multiple content index for different types of content.
@@ -54,14 +55,15 @@ sources = [
             T_content_ID,
             C_dev_asess_tool_ID,
             safeguarding,
-            localised_sheets
+            localised_sheets,
+            localised_sheets_rural
         ],
         # "archive": "parenttext_all.zip",
         # "archive": "https://drive.usercontent.google.com/download?id=1V9fQZ9ZrzwRkQWBtlHJ1it0Fe3hdtHs2&export=download&authuser=0&confirm=t&uuid=f9d65ff1-b210-4b61-a030-cd4a231c22ca&at=APZUnTVzz2FLSi1riCmRjCFI5vCx:1696348063599",  # noqa: E501
         "crowdin_name": "delivery_menu",
-        "tags": [1,"delivery",1,"menu", 2,"china", 3, "child"],
-        #"tags": [1,"campaign",1,"safeguarding",3, "child"],
-        "split_no": 2
+       # "tags": [1,"delivery",1,"menu", 2,"china", 3, "child"],
+        "tags": [2,"china",3, "child"],
+        "split_no": 1
     },
 ]
 
@@ -131,7 +133,7 @@ localisation_sheet_ID = "1c0FRY-1BeAjoiVrN-mf-BGzmNx4mGPxPqCGpCHd5l5I"
 # Same for all deployments.
 eng_edits_sheet_ID = "1Ab8H_s26EuOiS4nZ6HGADjD4CZw55586LL66fl8tEWI"
 # China specific. To be updated for China
-transl_edits_sheet_ID = "1UkGtEMuIQNwpquMieiOGNjMIm2O8WcZFUiM0BoHZv34"
+transl_edits_sheet_ID = "1qYfagAAbRuN7XLWUJUJviLt6FH3qRWnOmNuS9KeQbVM"
 
 # Data used in safeguarding script. To be updated for China
 #SG_flow_ID = "b83315a6-b25c-413a-9aa0-953bf60f223c"
