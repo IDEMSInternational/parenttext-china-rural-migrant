@@ -61,8 +61,8 @@ sources = [
         # "archive": "parenttext_all.zip",
         # "archive": "https://drive.usercontent.google.com/download?id=1V9fQZ9ZrzwRkQWBtlHJ1it0Fe3hdtHs2&export=download&authuser=0&confirm=t&uuid=f9d65ff1-b210-4b61-a030-cd4a231c22ca&at=APZUnTVzz2FLSi1riCmRjCFI5vCx:1696348063599",  # noqa: E501
         "crowdin_name": "delivery_menu",
-       # "tags": [1,"delivery",1,"menu", 2,"china", 3, "child"],
-        "tags": [2,"china",3, "child"],
+       "tags": [2,"china", 3, "child"],
+       # "tags": [1,"onboarding",1,"safeguarding",1,"trigger",1,"delivery", 2,"china",3, "child"],
         "split_no": 1
     },
 ]
@@ -172,6 +172,12 @@ def create_config():
         #"sg_flow_name": SG_flow_name,
         "sg_path": SG_path,
         "sources": sources,
+         "sg_sources": [
+            {
+               "key": "zho",
+               "path": "excel_files/safeguarding chinese.xlsx",
+            }
+        ],
         "special_expiration": special_expiration,
         "special_words": special_words,
         "translation_repo": translation_repo,
