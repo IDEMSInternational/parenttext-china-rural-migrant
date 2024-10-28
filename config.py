@@ -94,7 +94,7 @@ folder_within_repo = "translations/parent_text_v2_china_rural"
 # 3 - We may want to use the quick replies within WeChat in which case we use a special 
 #     html format - for this use reference code "wechat"
 # 4 - We may not want to do anything, for this use reference code "none"
-qr_treatment = "wechat"
+qr_treatment = "reformat_china"
 
 # This is the default phrase we want to add in if the quick replies are being moved to
 # message text.
@@ -116,8 +116,8 @@ special_words = "./edits/special_words.json"
 # the node will not be changed.
 # In places where the QR are too long. We will make the changes to make the QRs
 # numbers and add the number references to the message text as example 1.
-count_threshold = "3"
-length_threshold = "18"
+count_threshold = "1"
+length_threshold = "1"
 
 # 'qr_limit' expects an integer input, it is a limit on the number of quick replies 
 # you want to add back in as numerical. It is relevant in scenarios 1 and 2 above
